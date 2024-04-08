@@ -1,0 +1,83 @@
+﻿namespace = vsf_坠毁
+
+vsf_坠毁.1 ={
+	type = country_event
+	placement = root
+	title = "异星工厂·飞船坠毁"
+	desc = 天空中出现了第二轮太阳不对动的有点快白昼客星
+	flavor = "稳定度-1（并没有"
+
+	duration = 3
+
+	event_image = {
+		video = "unspecific_fire"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/icon_vsf_异星工厂logo.dds"
+
+	trigger = {
+		is_player = yes
+
+		not = {
+			has_variable = 异星工厂飞船坠毁
+		}
+	}
+
+	immediate = {
+		set_variable = {
+			name = 异星工厂飞船坠毁
+		}
+
+		remove_modifier = modifier_vsf_飞船飞啊飞啊飞
+	}
+
+	option = {
+		name = "等等，你先别掉下来。"
+		default_option = yes
+
+		custom_tooltip = {
+			text = "它现在在你的首都上方绕圈圈！人民觉得这是一个“奇迹”！"
+		}
+
+		custom_tooltip = {
+			text = "顺带一提，旅游的收入也增加了。"
+		}
+
+		custom_tooltip = {
+			text = "（可在“决议”中再次触发此事件）"
+		}
+
+		add_modifier = {
+			name = modifier_vsf_飞船飞啊飞啊飞
+		}
+	}
+	option = { 
+		# HACK 需要高手
+		# 这里需要给首都添加“add_devastation = 1”，但是scope不会写。
+		name = "落在市区……坠落地点捡到一个被裹在橙色壳子里的怪人。"
+
+		custom_tooltip = {
+			text = "这项技术……要小心别人偷学过去啊！"
+		}
+
+		custom_tooltip = {
+			text = "在飞船坠落的废墟之上，我们建立了一座纪念馆。"
+		}
+
+		custom_tooltip = {
+			text = "（正常开局）"
+		}
+
+		add_modifier = {
+			name = modifier_vsf_坠毁纪念馆
+		}
+
+		add_technology_researched = tech_vsf_机自科技包
+
+		add_journal_entry = {
+			type = je_vsf_世界融合
+		}
+	}
+}

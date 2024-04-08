@@ -1,0 +1,37 @@
+﻿je_vsf_世界融合 = {
+	icon = "gfx/interface/icons/event_icons/icon_vsf_异星工厂logo.dds"
+	
+	group = je_group_vsf_vsf主线日志组
+
+
+	possible = {
+		always = yes
+	}
+
+	complete = {
+		always = no
+	}
+
+	on_complete = {
+
+	}
+
+	fail = {
+		always = no
+	}
+
+	on_fail = {
+
+	}
+
+
+	timeout = 720
+
+	on_timeout = {
+		add_modifier = {
+			name = modifier_vsf_Factorio世界融合完成
+		}
+	}
+
+	should_be_pinned_by_default = yes
+}

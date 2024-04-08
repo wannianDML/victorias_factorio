@@ -1,0 +1,52 @@
+﻿bg_vsf_全VSF工厂 = {
+
+    always_possible =  yes
+    is_government_funded =  yes
+    lens =  heavy_industry
+
+}
+
+bg_vsf_基础工厂 = {
+    parent_group = bg_vsf_全VSF工厂
+    category = urban
+
+    economy_of_scale =  yes
+
+    cash_reserves_max = 50000.0
+    urbanization = 20
+    infrastructure_usage_per_level = 3
+
+}
+
+bg_vsf_进阶工厂 = {
+    parent_group = bg_vsf_基础工厂
+
+    urbanization = 35
+    infrastructure_usage_per_level = 6
+
+}
+
+bg_vsf_黑盒 = {
+    parent_group = bg_vsf_基础工厂
+
+    urbanization = 50
+    infrastructure_usage_per_level = 12
+
+}
+
+bg_vsf_基础工厂_使用土地 = {
+    parent_group = bg_vsf_基础工厂
+    category = rural
+
+    land_usage =  rural
+
+}
+
+bg_vsf_进阶工厂_使用土地 = {
+    parent_group = bg_vsf_进阶工厂
+    category = rural
+
+    land_usage =  rural
+
+}
+

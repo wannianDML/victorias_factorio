@@ -1,0 +1,272 @@
+﻿goods_input_goods_vsf_机自科技包_add = {
+    bad = yes
+    percent = no
+}
+goods_output_goods_vsf_机自科技包_add = {
+    good = yes
+    percent = no
+}
+goods_input_goods_vsf_机自科技包_mult = {
+    bad = yes
+    percent = yes
+}
+goods_output_goods_vsf_机自科技包_mult = {
+    good = yes
+    percent = yes
+}
+
+goods_input_goods_vsf_物流科技包_add = {
+    bad = yes
+    percent = no
+}
+goods_output_goods_vsf_物流科技包_add = {
+    good = yes
+    percent = no
+}
+goods_input_goods_vsf_物流科技包_mult = {
+    bad = yes
+    percent = yes
+}
+goods_output_goods_vsf_物流科技包_mult = {
+    good = yes
+    percent = yes
+}
+
+goods_input_goods_vsf_化工科技包_add = {
+    bad = yes
+    percent = no
+}
+goods_output_goods_vsf_化工科技包_add = {
+    good = yes
+    percent = no
+}
+goods_input_goods_vsf_化工科技包_mult = {
+    bad = yes
+    percent = yes
+}
+goods_output_goods_vsf_化工科技包_mult = {
+    good = yes
+    percent = yes
+}
+
+goods_input_goods_vsf_生产科技包_add = {
+    bad = yes
+    percent = no
+}
+goods_output_goods_vsf_生产科技包_add = {
+    good = yes
+    percent = no
+}
+goods_input_goods_vsf_生产科技包_mult = {
+    bad = yes
+    percent = yes
+}
+goods_output_goods_vsf_生产科技包_mult = {
+    good = yes
+    percent = yes
+}
+
+goods_input_goods_vsf_效能科技包_add = {
+    bad = yes
+    percent = no
+}
+goods_output_goods_vsf_效能科技包_add = {
+    good = yes
+    percent = no
+}
+goods_input_goods_vsf_效能科技包_mult = {
+    bad = yes
+    percent = yes
+}
+goods_output_goods_vsf_效能科技包_mult = {
+    good = yes
+    percent = yes
+}
+
+goods_input_goods_vsf_基础物流包_add = {
+    bad = yes
+    percent = no
+}
+goods_output_goods_vsf_基础物流包_add = {
+    good = yes
+    percent = no
+}
+goods_input_goods_vsf_基础物流包_mult = {
+    bad = yes
+    percent = yes
+}
+goods_output_goods_vsf_基础物流包_mult = {
+    good = yes
+    percent = yes
+}
+
+goods_input_goods_vsf_高速物流包_add = {
+    bad = yes
+    percent = no
+}
+goods_output_goods_vsf_高速物流包_add = {
+    good = yes
+    percent = no
+}
+goods_input_goods_vsf_高速物流包_mult = {
+    bad = yes
+    percent = yes
+}
+goods_output_goods_vsf_高速物流包_mult = {
+    good = yes
+    percent = yes
+}
+
+goods_input_goods_vsf_极速物流包_add = {
+    bad = yes
+    percent = no
+}
+goods_output_goods_vsf_极速物流包_add = {
+    good = yes
+    percent = no
+}
+goods_input_goods_vsf_极速物流包_mult = {
+    bad = yes
+    percent = yes
+}
+goods_output_goods_vsf_极速物流包_mult = {
+    good = yes
+    percent = yes
+}
+
+goods_input_goods_vsf_一型生产包_add = {
+    bad = yes
+    percent = no
+}
+goods_output_goods_vsf_一型生产包_add = {
+    good = yes
+    percent = no
+}
+goods_input_goods_vsf_一型生产包_mult = {
+    bad = yes
+    percent = yes
+}
+goods_output_goods_vsf_一型生产包_mult = {
+    good = yes
+    percent = yes
+}
+
+goods_input_goods_vsf_二型生产包_add = {
+    bad = yes
+    percent = no
+}
+goods_output_goods_vsf_二型生产包_add = {
+    good = yes
+    percent = no
+}
+goods_input_goods_vsf_二型生产包_mult = {
+    bad = yes
+    percent = yes
+}
+goods_output_goods_vsf_二型生产包_mult = {
+    good = yes
+    percent = yes
+}
+
+goods_input_goods_vsf_三型生产包_add = {
+    bad = yes
+    percent = no
+}
+goods_output_goods_vsf_三型生产包_add = {
+    good = yes
+    percent = no
+}
+goods_input_goods_vsf_三型生产包_mult = {
+    bad = yes
+    percent = yes
+}
+goods_output_goods_vsf_三型生产包_mult = {
+    good = yes
+    percent = yes
+}
+
+goods_input_goods_vsf_蒸汽发电包_add = {
+    bad = yes
+    percent = no
+}
+goods_output_goods_vsf_蒸汽发电包_add = {
+    good = yes
+    percent = no
+}
+goods_input_goods_vsf_蒸汽发电包_mult = {
+    bad = yes
+    percent = yes
+}
+goods_output_goods_vsf_蒸汽发电包_mult = {
+    good = yes
+    percent = yes
+}
+
+goods_input_goods_vsf_太阳发电包_add = {
+    bad = yes
+    percent = no
+}
+goods_output_goods_vsf_太阳发电包_add = {
+    good = yes
+    percent = no
+}
+goods_input_goods_vsf_太阳发电包_mult = {
+    bad = yes
+    percent = yes
+}
+goods_output_goods_vsf_太阳发电包_mult = {
+    good = yes
+    percent = yes
+}
+
+goods_input_goods_vsf_炼油包_add = {
+    bad = yes
+    percent = no
+}
+goods_output_goods_vsf_炼油包_add = {
+    good = yes
+    percent = no
+}
+goods_input_goods_vsf_炼油包_mult = {
+    bad = yes
+    percent = yes
+}
+goods_output_goods_vsf_炼油包_mult = {
+    good = yes
+    percent = yes
+}
+
+goods_input_goods_vsf_采矿包_add = {
+    bad = yes
+    percent = no
+}
+goods_output_goods_vsf_采矿包_add = {
+    good = yes
+    percent = no
+}
+goods_input_goods_vsf_采矿包_mult = {
+    bad = yes
+    percent = yes
+}
+goods_output_goods_vsf_采矿包_mult = {
+    good = yes
+    percent = yes
+}
+
+goods_input_goods_vsf_机器人包_add = {
+    bad = yes
+    percent = no
+}
+goods_output_goods_vsf_机器人包_add = {
+    good = yes
+    percent = no
+}
+goods_input_goods_vsf_机器人包_mult = {
+    bad = yes
+    percent = yes
+}
+goods_output_goods_vsf_机器人包_mult = {
+    good = yes
+    percent = yes
+}
+

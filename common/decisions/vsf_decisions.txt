@@ -1,0 +1,70 @@
+﻿decisions_vsf_首都上空的第二轮太阳 = {
+	is_shown = {
+		has_modifier = modifier_vsf_飞船飞啊飞啊飞
+	}
+	possible = {
+		is_player = yes
+	}
+	when_taken = {
+		remove_variable = 异星工厂飞船坠毁
+		trigger_event = vsf_坠毁.1
+	}
+}
+
+# BUG 为什么这个决议会导致全部代码的崩溃？？？？？？？？？
+# decisions_vsf_技术传播 = { 
+# #TODO 细化
+# #- 根据被窃取技术的国家的法律（警察、边境、国内安全等）和激进人群之类的影响概率，以及其他的影响。
+# #- 对于ai使用纯粹的概率，对于player使用事件链来确保“概率可控”。
+# 	is_shown = {
+# 		not = {
+# 			has_technology_researched = tech_vsf_机自科技包
+# 		}
+# 		has_strategic_adjacency = {
+# 			every_scope_country = {
+# 				limit = { has_technology_researched = tech_vsf_机自科技包 }
+# 			}
+# 		}
+# 	}
+# 	possible = {
+# 		not = {
+# 			has_modifier = modifier_vsf_调查资金筹集中
+# 		}
+# 	}
+# 	when_taken = {
+# 		random_list = {
+# 			80 = {
+# 				add_modifier = {
+# 					name = modifier_vsf_调查资金筹集中
+# 					months = 3
+# 				}
+# 			}
+
+# 			20 = {
+# 				add_technology_researched = tech_vsf_机自科技包
+# 			}
+# 		}
+# 	}
+# 	ai_chance = {
+# 		base = 0
+# 		modifier = {
+# 			trigger = {
+# 				weekly_net_fixed_income > 500
+# 				gold_reserves > 0
+# 			}
+# 			add = 2
+# 		}
+# 		modifier = {
+# 			trigger = {
+# 				weekly_net_fixed_income > 1500
+# 			}
+# 			add = 8
+# 		}
+# 		modifier = {
+# 			trigger = {
+# 				gold_reserves > 12000
+# 			}
+# 			add = 8
+# 		}
+# 	}
+# }

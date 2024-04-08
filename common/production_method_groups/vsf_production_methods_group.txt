@@ -1,0 +1,264 @@
+﻿pmg_vsf_所有权 = {
+    production_methods = {
+pm_vsf_政府运营
+}
+    texture = "gfx/interface/icons/generic_icons/pmg_vsf_所有权.dds"
+}
+
+pmg_vsf_红瓶生产组 = {
+    production_methods = {
+pm_vsf_红瓶一型
+pm_vsf_红瓶二型
+pm_vsf_红瓶三型
+pm_vsf_停止运行
+}
+    texture = "gfx/interface/icons/generic_icons/pmg_vsf_红瓶生产组.dds"
+}
+
+pmg_vsf_绿瓶生产组 = {
+    production_methods = {
+pm_vsf_绿瓶一型
+pm_vsf_绿瓶二型
+pm_vsf_绿瓶三型
+pm_vsf_停止运行
+}
+    texture = "gfx/interface/icons/generic_icons/pmg_vsf_绿瓶生产组.dds"
+}
+
+pmg_vsf_蓝瓶生产组 = {
+    production_methods = {
+pm_vsf_蓝瓶一型
+pm_vsf_蓝瓶二型
+pm_vsf_蓝瓶三型
+pm_vsf_停止运行
+}
+    texture = "gfx/interface/icons/generic_icons/pmg_vsf_蓝瓶生产组.dds"
+}
+
+pmg_vsf_紫瓶生产组 = {
+    production_methods = {
+pm_vsf_紫瓶一型
+pm_vsf_紫瓶二型
+pm_vsf_紫瓶三型
+pm_vsf_停止运行
+}
+    texture = "gfx/interface/icons/generic_icons/pmg_vsf_紫瓶生产组.dds"
+}
+
+pmg_vsf_金瓶生产组 = {
+    production_methods = {
+pm_vsf_金瓶一型
+pm_vsf_金瓶二型
+pm_vsf_金瓶三型
+pm_vsf_停止运行
+}
+    texture = "gfx/interface/icons/generic_icons/pmg_vsf_金瓶生产组.dds"
+}
+
+pmg_vsf_物流总线结构 = {
+    production_methods = {
+pm_vsf_基础物流总线
+pm_vsf_高速物流总线
+pm_vsf_极速物流总线
+pm_vsf_停止运行
+}
+    texture = "gfx/interface/icons/generic_icons/pmg_vsf_物流总线结构.dds"
+}
+
+pmg_vsf_物流总线层数 = {
+    production_methods = {
+pm_vsf_一层物流总线
+pm_vsf_二层物流总线
+pm_vsf_三层物流总线
+pm_vsf_四层物流总线
+pm_vsf_五层物流总线
+}
+    texture = "gfx/interface/icons/generic_icons/pmg_vsf_物流总线层数.dds"
+}
+
+pmg_vsf_科研阵列 = {
+    production_methods = {
+pm_vsf_红瓶科研
+pm_vsf_绿瓶科研
+pm_vsf_蓝瓶科研
+pm_vsf_紫瓶科研
+pm_vsf_金瓶科研
+pm_vsf_停止运行
+}
+    texture = "gfx/interface/icons/generic_icons/pmg_vsf_科研阵列.dds"
+}
+
+pmg_vsf_物流包生产配方 = {
+    production_methods = {
+pm_vsf_物流包一型
+pm_vsf_物流包二型
+pm_vsf_物流包三型
+pm_vsf_停止运行
+}
+    texture = "gfx/interface/icons/generic_icons/pmg_vsf_物流包生产配方.dds"
+}
+
+pmg_vsf_物流包机器选择 = {
+    production_methods = {
+pm_vsf_物流包一型组装机一型
+pm_vsf_物流包一型组装机二型
+pm_vsf_物流包一型组装机三型
+pm_vsf_物流包二型组装机一型
+pm_vsf_物流包二型组装机二型
+pm_vsf_物流包二型组装机三型
+pm_vsf_物流包三型组装机一型
+pm_vsf_物流包三型组装机二型
+pm_vsf_物流包三型组装机三型
+pm_vsf_不使用机器
+}
+    texture = "gfx/interface/icons/generic_icons/pmg_vsf_物流包机器选择.dds"
+}
+
+pmg_vsf_生产包生产配方 = {
+    production_methods = {
+pm_vsf_生产包一型
+pm_vsf_生产包二型
+pm_vsf_生产包三型
+pm_vsf_停止运行
+}
+    texture = "gfx/interface/icons/generic_icons/pmg_vsf_生产包生产配方.dds"
+}
+
+pmg_vsf_生产包机器选择 = {
+    production_methods = {
+pm_vsf_生产包一型组装机一型
+pm_vsf_生产包二型组装机一型
+pm_vsf_生产包三型组装机一型
+pm_vsf_生产包一型组装机二型
+pm_vsf_生产包二型组装机二型
+pm_vsf_生产包三型组装机二型
+pm_vsf_生产包一型组装机三型
+pm_vsf_生产包二型组装机三型
+pm_vsf_生产包三型组装机三型
+pm_vsf_不使用机器
+}
+    texture = "gfx/interface/icons/generic_icons/pmg_vsf_生产包机器选择.dds"
+}
+
+pmg_vsf_机器人包生产组 = {
+    production_methods = {
+pm_机器人包一型
+pm_机器人包二型
+pm_机器人包三型
+pm_vsf_停止运行
+}
+    texture = "gfx/interface/icons/generic_icons/pmg_vsf_机器人包生产组.dds"
+}
+
+pmg_vsf_物流机器人部署 = {
+    production_methods = {
+pm_部署物流机器人
+pm_vsf_停止运行
+}
+    texture = "gfx/interface/icons/generic_icons/pmg_vsf_物流机器人部署.dds"
+}
+
+pmg_vsf_建设机器人部署 = {
+    production_methods = {
+pm_部署建设机器人
+pm_vsf_停止运行
+}
+    texture = "gfx/interface/icons/generic_icons/pmg_vsf_建设机器人部署.dds"
+}
+
+pmg_vsf_物流总线运力分配 = {
+    production_methods = {
+pm_无服务
+pm_传送带客运服务
+}
+    texture = "gfx/interface/icons/generic_icons/pmg_vsf_物流总线运力分配.dds"
+}
+
+pmg_vsf_采矿包生产组 = {
+    production_methods = {
+pm_采矿包一型
+pm_采矿包二型
+pm_采矿包三型
+pm_vsf_停止运行
+}
+    texture = "gfx/interface/icons/generic_icons/pmg_vsf_采矿包生产组.dds"
+}
+
+pmg_vsf_炼油包生产组 = {
+    production_methods = {
+pm_炼油包一型
+pm_炼油包二型
+pm_炼油包三型
+pm_vsf_停止运行
+}
+    texture = "gfx/interface/icons/generic_icons/pmg_vsf_炼油包生产组.dds"
+}
+
+pmg_vsf_蒸汽发电包生产组 = {
+    production_methods = {
+pm_蒸汽发电包一型
+pm_蒸汽发电包二型
+pm_蒸汽发电包三型
+pm_vsf_停止运行
+}
+    texture = "gfx/interface/icons/generic_icons/pmg_vsf_蒸汽发电包生产组.dds"
+}
+
+pmg_vsf_太阳发电包生产组 = {
+    production_methods = {
+pm_太阳发电包一型
+pm_太阳发电包二型
+pm_太阳发电包三型
+pm_vsf_停止运行
+}
+    texture = "gfx/interface/icons/generic_icons/pmg_vsf_太阳发电包生产组.dds"
+}
+
+pmg_vsf_铁矿自动化 = {
+    production_methods = {
+pm_自动化铁矿采掘
+pm_vsf_停止运行
+}
+    texture = "gfx/interface/icons/generic_icons/pmg_vsf_铁矿自动化.dds"
+}
+
+pmg_vsf_煤矿自动化 = {
+    production_methods = {
+pm_自动化煤矿采掘
+pm_vsf_停止运行
+}
+    texture = "gfx/interface/icons/generic_icons/pmg_vsf_煤矿自动化.dds"
+}
+
+pmg_vsf_硫矿自动化 = {
+    production_methods = {
+pm_自动化硫矿采掘
+pm_vsf_停止运行
+}
+    texture = "gfx/interface/icons/generic_icons/pmg_vsf_硫矿自动化.dds"
+}
+
+pmg_vsf_炼油自动化 = {
+    production_methods = {
+pm_自动化炼油
+pm_vsf_停止运行
+}
+    texture = "gfx/interface/icons/generic_icons/pmg_vsf_炼油自动化.dds"
+}
+
+pmg_vsf_蒸汽发电阵列 = {
+    production_methods = {
+pm_蒸汽发电
+pm_vsf_停止运行
+}
+    texture = "gfx/interface/icons/generic_icons/pmg_vsf_蒸汽发电阵列.dds"
+}
+
+pmg_vsf_太阳发电阵列 = {
+    production_methods = {
+pm_太阳发电
+pm_vsf_停止运行
+}
+    texture = "gfx/interface/icons/generic_icons/pmg_vsf_太阳发电阵列.dds"
+}
+

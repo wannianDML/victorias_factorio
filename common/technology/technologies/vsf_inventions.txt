@@ -1,0 +1,475 @@
+﻿tech_vsf_机自科技包 = {
+    era = era_1
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_机自科技包.dds"
+    category = production
+    can_research = no
+
+    modifier = {
+building_throughput_add = 0.05
+}
+
+}
+
+tech_vsf_立体的世界 = {
+    era = era_1
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_立体的世界.dds"
+    category = production
+
+    unlocking_technologies = {
+tech_vsf_机自科技包
+}
+
+}
+
+tech_vsf_基础物流学 = {
+    era = era_1
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_基础物流学.dds"
+    category = production
+
+    unlocking_technologies = {
+tech_vsf_机自科技包
+}
+
+}
+
+tech_vsf_规模效应 = {
+    era = era_1
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_规模效应.dds"
+    category = production
+
+    modifier = {
+building_economy_of_scale_level_cap_add = 10
+}
+
+    unlocking_technologies = {
+tech_vsf_机自科技包
+}
+
+}
+
+tech_vsf_物流科技包 = {
+    era = era_2
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_物流科技包.dds"
+    category = production
+
+    modifier = {
+building_throughput_add = 0.05
+}
+
+    unlocking_technologies = {
+tech_vsf_机自科技包
+}
+
+}
+
+tech_vsf_高速物流学 = {
+    era = era_2
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_高速物流学.dds"
+    category = production
+
+    unlocking_technologies = {
+tech_vsf_物流科技包
+tech_vsf_基础物流学
+}
+
+}
+
+tech_vsf_堆叠的传送带和垂直物流 = {
+    era = era_2
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_堆叠的传送带和垂直物流.dds"
+    category = production
+
+    unlocking_technologies = {
+tech_vsf_机自科技包
+tech_vsf_立体的世界
+}
+
+}
+
+tech_vsf_易维护改装 = {
+    era = era_2
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_易维护改装.dds"
+    category = production
+
+    modifier = {
+goods_input_goods_vsf_基础物流包_mult = -0.05
+goods_input_goods_vsf_高速物流包_mult = -0.05
+goods_input_goods_vsf_极速物流包_mult = -0.05
+goods_input_goods_vsf_一型生产包_mult = -0.05
+goods_input_goods_vsf_二型生产包_mult = -0.05
+goods_input_goods_vsf_三型生产包_mult = -0.05
+goods_input_goods_vsf_蒸汽发电包_mult = -0.05
+goods_input_goods_vsf_太阳发电包_mult = -0.05
+goods_input_goods_vsf_炼油包_mult = -0.05
+goods_input_goods_vsf_采矿包_mult = -0.05
+goods_input_goods_vsf_机器人包_mult = -0.05
+}
+
+    unlocking_technologies = {
+tech_vsf_物流科技包
+}
+
+}
+
+tech_vsf_化工科技包 = {
+    era = era_3
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_化工科技包.dds"
+    category = production
+
+    modifier = {
+building_throughput_add = 0.05
+}
+
+    unlocking_technologies = {
+tech_vsf_物流科技包
+}
+
+}
+
+tech_vsf_生产科技包 = {
+    era = era_4
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_生产科技包.dds"
+    category = production
+
+    modifier = {
+building_throughput_add = 0.05
+}
+
+    unlocking_technologies = {
+tech_vsf_化工科技包
+}
+
+}
+
+tech_vsf_急速物流学 = {
+    era = era_4
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_急速物流学.dds"
+    category = production
+
+    unlocking_technologies = {
+tech_vsf_生产科技包
+tech_vsf_高速物流学
+}
+
+}
+
+tech_vsf_效能科技包 = {
+    era = era_5
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_效能科技包.dds"
+    category = production
+
+    modifier = {
+building_throughput_add = 0.05
+}
+
+    unlocking_technologies = {
+tech_vsf_生产科技包
+}
+
+}
+
+tech_vsf_一型自动化 = {
+    era = era_1
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_一型自动化.dds"
+    category = production
+
+    unlocking_technologies = {
+tech_vsf_基础物流学
+}
+
+}
+
+tech_vsf_二型自动化 = {
+    era = era_2
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_二型自动化.dds"
+    category = production
+
+    unlocking_technologies = {
+tech_vsf_高速物流学
+tech_vsf_一型自动化
+}
+
+}
+
+tech_vsf_三型自动化 = {
+    era = era_4
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_三型自动化.dds"
+    category = production
+
+    unlocking_technologies = {
+tech_vsf_急速物流学
+tech_vsf_二型自动化
+}
+
+}
+
+tech_vsf_高速机械臂 = {
+    era = era_1
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_高速机械臂.dds"
+    category = production
+
+    modifier = {
+goods_output_goods_vsf_基础物流包_mult = 0.05
+goods_output_goods_vsf_高速物流包_mult = 0.05
+goods_output_goods_vsf_极速物流包_mult = 0.05
+}
+
+    unlocking_technologies = {
+tech_vsf_机自科技包
+}
+
+}
+
+tech_vsf_集装机械臂 = {
+    era = era_2
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_集装机械臂.dds"
+    category = production
+
+    modifier = {
+goods_output_goods_vsf_基础物流包_mult = 0.05
+goods_output_goods_vsf_高速物流包_mult = 0.05
+goods_output_goods_vsf_极速物流包_mult = 0.05
+}
+
+    unlocking_technologies = {
+tech_vsf_物流科技包
+tech_vsf_高速机械臂
+}
+
+}
+
+tech_vsf_机械臂搬运量加成一 = {
+    era = era_2
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_机械臂搬运量加成一.dds"
+    category = production
+
+    modifier = {
+goods_output_goods_vsf_基础物流包_mult = 0.05
+goods_output_goods_vsf_高速物流包_mult = 0.05
+goods_output_goods_vsf_极速物流包_mult = 0.05
+}
+
+    unlocking_technologies = {
+tech_vsf_集装机械臂
+}
+
+}
+
+tech_vsf_机器人技术 = {
+    era = era_3
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_机器人技术.dds"
+    category = production
+
+    modifier = {
+state_building_vsf_物流机器人平台_max_level_add = 1
+state_building_vsf_建设机器人平台_max_level_add = 1
+}
+
+    unlocking_technologies = {
+tech_vsf_化工科技包
+}
+
+}
+
+tech_vsf_物流机器人 = {
+    era = era_3
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_物流机器人.dds"
+    category = production
+
+    modifier = {
+state_building_vsf_物流机器人平台_max_level_add = 4
+}
+
+    unlocking_technologies = {
+tech_vsf_机器人技术
+}
+
+}
+
+tech_vsf_建设机器人 = {
+    era = era_3
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_建设机器人.dds"
+    category = production
+
+    modifier = {
+state_building_vsf_建设机器人平台_max_level_add = 9
+}
+
+    unlocking_technologies = {
+tech_vsf_机器人技术
+}
+
+}
+
+tech_vsf_作业机器人搬运量一 = {
+    era = era_3
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_作业机器人搬运量一.dds"
+    category = production
+
+    modifier = {
+goods_input_goods_vsf_基础物流包_mult = -0.05
+goods_input_goods_vsf_高速物流包_mult = -0.05
+goods_input_goods_vsf_极速物流包_mult = -0.05
+goods_input_goods_vsf_机器人包_mult = -0.05
+}
+
+    unlocking_technologies = {
+tech_vsf_机器人技术
+}
+
+}
+
+tech_vsf_作业机器人移动速度一 = {
+    era = era_3
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_作业机器人移动速度一.dds"
+    category = production
+
+    modifier = {
+goods_input_goods_vsf_基础物流包_mult = -0.05
+goods_input_goods_vsf_高速物流包_mult = -0.05
+goods_input_goods_vsf_极速物流包_mult = -0.05
+goods_input_goods_vsf_机器人包_mult = -0.05
+}
+
+    unlocking_technologies = {
+tech_vsf_机器人技术
+}
+
+}
+
+tech_vsf_机器人物流系统 = {
+    era = era_5
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_机器人物流系统.dds"
+    category = production
+
+    modifier = {
+state_building_vsf_物流机器人平台_max_level_add = 4
+goods_input_goods_vsf_机器人包_mult = -0.05
+}
+
+    unlocking_technologies = {
+tech_vsf_生产科技包
+tech_vsf_机器人技术
+}
+
+}
+
+tech_vsf_传送带载客改装 = {
+    era = era_2
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_传送带载客改装.dds"
+    category = production
+
+    unlocking_technologies = {
+tech_vsf_物流科技包
+tech_vsf_基础物流学
+}
+
+}
+
+tech_vsf_新手教程 = {
+    era = era_1
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_新手教程.dds"
+    category = production
+
+    modifier = {
+state_education_access_wealth_add = 0.005
+}
+
+    unlocking_technologies = {
+tech_vsf_机自科技包
+}
+
+}
+
+tech_vsf_维姬百科 = {
+    era = era_2
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_维姬百科.dds"
+    category = production
+
+    modifier = {
+state_education_access_wealth_add = 0.005
+}
+
+    unlocking_technologies = {
+tech_vsf_新手教程
+}
+
+}
+
+tech_vsf_蓝图 = {
+    era = era_3
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_蓝图.dds"
+    category = production
+
+    modifier = {
+country_max_weekly_construction_progress_add = 25
+}
+
+    unlocking_technologies = {
+tech_vsf_化工科技包
+}
+
+}
+
+tech_vsf_自动化采矿 = {
+    era = era_1
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_自动化采矿.dds"
+    category = production
+
+    unlocking_technologies = {
+tech_vsf_机自科技包
+}
+
+}
+
+tech_vsf_基础原油处理 = {
+    era = era_2
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_基础原油处理.dds"
+    category = production
+
+    unlocking_technologies = {
+tech_vsf_物流科技包
+tech_vsf_自动化采矿
+}
+
+}
+
+tech_vsf_高等原油处理 = {
+    era = era_3
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_高等原油处理.dds"
+    category = production
+
+    modifier = {
+goods_output_oil_mult = 0.15
+}
+
+    unlocking_technologies = {
+tech_vsf_化工科技包
+tech_vsf_基础原油处理
+}
+
+}
+
+tech_vsf_蒸汽发电 = {
+    era = era_1
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_蒸汽发电.dds"
+    category = production
+
+    unlocking_technologies = {
+tech_vsf_机自科技包
+}
+
+}
+
+tech_vsf_太阳能与蓄电池 = {
+    era = era_2
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_太阳能与蓄电池.dds"
+    category = production
+
+    unlocking_technologies = {
+tech_vsf_物流科技包
+tech_vsf_蒸汽发电
+}
+
+}
+

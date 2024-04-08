@@ -1,0 +1,176 @@
+﻿goods_vsf_机自科技包 = {
+    texture = "gfx/interface/icons/goods_icons/goods_vsf_机自科技包.dds"
+    cost = 1.26
+    category = industrial
+
+    prestige_factor = 2
+    traded_quantity = 3000
+    convoy_cost_multiplier = 0.1
+
+}
+
+goods_vsf_物流科技包 = {
+    texture = "gfx/interface/icons/goods_icons/goods_vsf_物流科技包.dds"
+    cost = 2.89
+    category = industrial
+
+    prestige_factor = 4
+    traded_quantity = 3000
+    convoy_cost_multiplier = 0.1
+
+}
+
+goods_vsf_化工科技包 = {
+    texture = "gfx/interface/icons/goods_icons/goods_vsf_化工科技包.dds"
+    cost = 8.93
+    category = industrial
+
+    prestige_factor = 8
+    traded_quantity = 3000
+    convoy_cost_multiplier = 0.1
+
+}
+
+goods_vsf_生产科技包 = {
+    texture = "gfx/interface/icons/goods_icons/goods_vsf_生产科技包.dds"
+    cost = 25.32
+    category = industrial
+
+    prestige_factor = 16
+    traded_quantity = 3000
+    convoy_cost_multiplier = 0.1
+
+}
+
+goods_vsf_效能科技包 = {
+    texture = "gfx/interface/icons/goods_icons/goods_vsf_效能科技包.dds"
+    cost = 37.26
+    category = industrial
+
+    prestige_factor = 32
+    traded_quantity = 3000
+    convoy_cost_multiplier = 0.1
+
+}
+
+goods_vsf_基础物流包 = {
+    texture = "gfx/interface/icons/goods_icons/goods_vsf_基础物流包.dds"
+    cost = 27
+    category = industrial
+
+    prestige_factor = 4
+    traded_quantity = 50
+    convoy_cost_multiplier = 1
+
+}
+
+goods_vsf_高速物流包 = {
+    texture = "gfx/interface/icons/goods_icons/goods_vsf_高速物流包.dds"
+    cost = 123.4
+    category = industrial
+
+    prestige_factor = 8
+    traded_quantity = 50
+    convoy_cost_multiplier = 1
+
+}
+
+goods_vsf_极速物流包 = {
+    texture = "gfx/interface/icons/goods_icons/goods_vsf_极速物流包.dds"
+    cost = 431.76
+    category = industrial
+
+    prestige_factor = 16
+    traded_quantity = 50
+    convoy_cost_multiplier = 1
+
+}
+
+goods_vsf_一型生产包 = {
+    texture = "gfx/interface/icons/goods_icons/goods_vsf_一型生产包.dds"
+    cost = 20.95
+    category = industrial
+
+    prestige_factor = 4
+    traded_quantity = 50
+    convoy_cost_multiplier = 2
+
+}
+
+goods_vsf_二型生产包 = {
+    texture = "gfx/interface/icons/goods_icons/goods_vsf_二型生产包.dds"
+    cost = 61.7
+    category = industrial
+
+    prestige_factor = 8
+    traded_quantity = 50
+    convoy_cost_multiplier = 2
+
+}
+
+goods_vsf_三型生产包 = {
+    texture = "gfx/interface/icons/goods_icons/goods_vsf_三型生产包.dds"
+    cost = 250.73
+    category = industrial
+
+    prestige_factor = 16
+    traded_quantity = 50
+    convoy_cost_multiplier = 2
+
+}
+
+goods_vsf_蒸汽发电包 = {
+    texture = "gfx/interface/icons/goods_icons/goods_vsf_蒸汽发电包.dds"
+    cost = 28.57
+    category = industrial
+
+    prestige_factor = 4
+    traded_quantity = 50
+    convoy_cost_multiplier = 1
+
+}
+
+goods_vsf_太阳发电包 = {
+    texture = "gfx/interface/icons/goods_icons/goods_vsf_太阳发电包.dds"
+    cost = 724.34
+    category = industrial
+
+    prestige_factor = 16
+    traded_quantity = 50
+    convoy_cost_multiplier = 2
+
+}
+
+goods_vsf_炼油包 = {
+    texture = "gfx/interface/icons/goods_icons/goods_vsf_炼油包.dds"
+    cost = 49.53
+    category = industrial
+
+    prestige_factor = 8
+    traded_quantity = 50
+    convoy_cost_multiplier = 1
+
+}
+
+goods_vsf_采矿包 = {
+    texture = "gfx/interface/icons/goods_icons/goods_vsf_采矿包.dds"
+    cost = 22.17
+    category = industrial
+
+    prestige_factor = 8
+    traded_quantity = 50
+    convoy_cost_multiplier = 1
+
+}
+
+goods_vsf_机器人包 = {
+    texture = "gfx/interface/icons/goods_icons/goods_vsf_机器人包.dds"
+    cost = 2347.3
+    category = industrial
+
+    prestige_factor = 24
+    traded_quantity = 50
+    convoy_cost_multiplier = 2
+
+}
+

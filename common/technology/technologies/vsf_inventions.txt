@@ -473,3 +473,43 @@ tech_vsf_蒸汽发电
 
 }
 
+tech_vsf_钢斧镐 = {
+    era = era_1
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_钢斧镐.dds"
+    category = production
+
+    modifier = {
+country_max_weekly_construction_progress_add = 10
+}
+
+    unlocking_technologies = {
+tech_vsf_机自科技包
+}
+
+}
+
+tech_vsf_信号网络 = {
+    era = era_2
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_信号网络.dds"
+    category = production
+
+    modifier = {
+goods_input_goods_vsf_基础物流包_mult = -0.05
+goods_input_goods_vsf_高速物流包_mult = -0.05
+goods_input_goods_vsf_极速物流包_mult = -0.05
+goods_input_goods_vsf_一型生产包_mult = -0.05
+goods_input_goods_vsf_二型生产包_mult = -0.05
+goods_input_goods_vsf_三型生产包_mult = -0.05
+goods_input_goods_vsf_蒸汽发电包_mult = -0.05
+goods_input_goods_vsf_太阳发电包_mult = -0.05
+goods_input_goods_vsf_炼油包_mult = -0.05
+goods_input_goods_vsf_采矿包_mult = -0.05
+goods_input_goods_vsf_机器人包_mult = -0.05
+}
+
+    unlocking_technologies = {
+tech_vsf_物流科技包
+}
+
+}
+

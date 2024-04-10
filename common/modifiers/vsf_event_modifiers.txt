@@ -21,6 +21,7 @@ modifier_vsf_坠毁纪念馆 = {
 modifier_vsf_Factorio世界融合完成 = {
 	icon = gfx/interface/icons/event_icons/icon_vsf_异星工厂logo.dds
 	
+	country_max_weekly_construction_progress_add = 20
 	goods_input_goods_vsf_基础物流包_mult = -0.1
 	goods_input_goods_vsf_高速物流包_mult = -0.1
 	goods_input_goods_vsf_极速物流包_mult = -0.1

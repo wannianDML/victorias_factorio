@@ -240,7 +240,7 @@ tech_vsf_高速机械臂
 
 tech_vsf_机械臂搬运量加成一 = {
     era = era_2
-    texture = "gfx/interface/icons/invention_icons/tech_vsf_机械臂搬运量加成一.dds"
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_机械臂搬运量加成.dds"
     category = production
 
     modifier = {
@@ -303,7 +303,7 @@ tech_vsf_机器人技术
 
 tech_vsf_作业机器人搬运量一 = {
     era = era_3
-    texture = "gfx/interface/icons/invention_icons/tech_vsf_作业机器人搬运量一.dds"
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_作业机器人搬运量.dds"
     category = production
 
     modifier = {
@@ -321,7 +321,7 @@ tech_vsf_机器人技术
 
 tech_vsf_作业机器人移动速度一 = {
     era = era_3
-    texture = "gfx/interface/icons/invention_icons/tech_vsf_作业机器人移动速度一.dds"
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_作业机器人移动速度.dds"
     category = production
 
     modifier = {
@@ -479,6 +479,13 @@ tech_vsf_钢斧镐 = {
     category = production
 
     modifier = {
+goods_output_wood_mult = 0.05
+goods_output_sulfur_mult = 0.05
+goods_output_coal_mult = 0.05
+goods_output_iron_mult = 0.05
+goods_output_lead_mult = 0.05
+goods_output_hardwood_mult = 0.05
+goods_output_gold_mult = 0.05
 country_max_weekly_construction_progress_add = 10
 }
 
@@ -505,6 +512,91 @@ goods_input_goods_vsf_太阳发电包_mult = -0.05
 goods_input_goods_vsf_炼油包_mult = -0.05
 goods_input_goods_vsf_采矿包_mult = -0.05
 goods_input_goods_vsf_机器人包_mult = -0.05
+building_throughput_add = 0.05
+}
+
+    unlocking_technologies = {
+tech_vsf_物流科技包
+}
+
+}
+
+tech_vsf_采矿产能一 = {
+    era = era_2
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_采矿产能.dds"
+    category = production
+
+    modifier = {
+goods_output_wood_mult = 0.05
+goods_output_sulfur_mult = 0.05
+goods_output_coal_mult = 0.05
+goods_output_iron_mult = 0.05
+goods_output_lead_mult = 0.05
+goods_output_hardwood_mult = 0.05
+goods_output_oil_mult = 0.05
+goods_output_gold_mult = 0.05
+}
+
+    unlocking_technologies = {
+tech_vsf_基础原油处理
+}
+
+}
+
+tech_vsf_采矿产能二 = {
+    era = era_3
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_采矿产能.dds"
+    category = production
+
+    modifier = {
+goods_output_wood_mult = 0.05
+goods_output_sulfur_mult = 0.05
+goods_output_coal_mult = 0.05
+goods_output_iron_mult = 0.05
+goods_output_lead_mult = 0.05
+goods_output_hardwood_mult = 0.05
+goods_output_oil_mult = 0.05
+goods_output_gold_mult = 0.05
+}
+
+    unlocking_technologies = {
+tech_vsf_化工科技包
+tech_vsf_采矿产能一
+}
+
+}
+
+tech_vsf_采矿产能三 = {
+    era = era_5
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_采矿产能.dds"
+    category = production
+
+    modifier = {
+goods_output_wood_mult = 0.05
+goods_output_sulfur_mult = 0.05
+goods_output_coal_mult = 0.05
+goods_output_iron_mult = 0.05
+goods_output_lead_mult = 0.05
+goods_output_hardwood_mult = 0.05
+goods_output_oil_mult = 0.05
+goods_output_gold_mult = 0.05
+}
+
+    unlocking_technologies = {
+tech_vsf_效能科技包
+tech_vsf_采矿产能二
+}
+
+}
+
+tech_vsf_高等冶炼技术 = {
+    era = era_2
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_高等冶炼技术.dds"
+    category = production
+
+    modifier = {
+goods_output_iron_mult = 0.1
+goods_output_steel_mult = 0.1
 }
 
     unlocking_technologies = {

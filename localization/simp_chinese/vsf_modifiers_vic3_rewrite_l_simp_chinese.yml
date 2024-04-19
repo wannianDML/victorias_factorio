@@ -1,0 +1,13 @@
+﻿l_simp_chinese:
+ modifier_goods_output_wood_mult: "@wood!木材产出"
+ modifier_goods_output_wood_mult_desc: "对建筑产出的@wood!木材数量的增益或惩罚"
+ modifier_goods_output_sulfur_mult: "@sulfur!硫磺产出"
+ modifier_goods_output_sulfur_mult_desc: "对建筑产出的@sulfur!硫磺数量的增益或惩罚"
+ modifier_goods_output_iron_mult: "@iron!铁产出"
+ modifier_goods_output_iron_mult_desc: "对建筑产出的@iron!铁数量的增益或惩罚"
+ modifier_goods_output_coal_mult: "@coal!煤炭产出"
+ modifier_goods_output_coal_mult_desc: "对建筑产出的@coal!煤炭数量的增益或惩罚"
+ modifier_goods_output_lead_mult: "@lead!铅产出"
+ modifier_goods_output_lead_mult_desc: "对建筑产出的@lead!铅数量的增益或惩罚"
+ modifier_goods_output_gold_mult: "@gold!黄金产出"
+ modifier_goods_output_gold_mult_desc: "对建筑产出的@gold!黄金数量的增益或惩罚"

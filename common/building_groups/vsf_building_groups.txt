@@ -1,7 +1,6 @@
 ﻿bg_vsf_全VSF工厂 = {
 
     always_possible =  yes
-    is_government_funded =  yes
     lens =  heavy_industry
 
 }

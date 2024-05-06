@@ -8,3 +8,6 @@
  modifier_state_building_vsf_建设机器人平台_max_level_add_desc:0 "对$building_vsf_建设机器人平台$建筑最大等级的增益或惩罚。"
  modifier_state_building_vsf_物流机器人平台_max_level_add:0 "$building_vsf_物流机器人平台$最大等级"
  modifier_state_building_vsf_物流机器人平台_max_level_add_desc:0 "对$building_vsf_物流机器人平台$建筑最大等级的增益或惩罚。"
+
+ modifier_building_group_bg_vsf_全VSF工厂_employee_mult:0 "全VSF建筑就业者"
+ modifier_building_group_bg_vsf_全VSF工厂_employee_mult_desc:0 "对全VSF建筑建筑就业者数量的增益或惩罚。"

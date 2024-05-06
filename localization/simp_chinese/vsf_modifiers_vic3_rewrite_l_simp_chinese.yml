@@ -11,3 +11,5 @@
  modifier_goods_output_lead_mult_desc: "对建筑产出的@lead!铅数量的增益或惩罚"
  modifier_goods_output_gold_mult: "@gold!黄金产出"
  modifier_goods_output_gold_mult_desc: "对建筑产出的@gold!黄金数量的增益或惩罚"
+ modifier_goods_output_steel_mult: "@steel!钢铁产出"
+ modifier_goods_output_steel_mult_desc: "对建筑产出的@steel!钢铁数量的增益或惩罚"

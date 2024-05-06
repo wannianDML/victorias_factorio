@@ -142,9 +142,9 @@ pm_vsf_不使用机器
 
 pmg_vsf_机器人包生产组 = {
     production_methods = {
-pm_机器人包一型
-pm_机器人包二型
-pm_机器人包三型
+pm_vsf_机器人包一型
+pm_vsf_机器人包二型
+pm_vsf_机器人包三型
 pm_vsf_停止运行
 }
     texture = "gfx/interface/icons/generic_icons/vsf_mixed_icon_base.dds"
@@ -152,7 +152,7 @@ pm_vsf_停止运行
 
 pmg_vsf_物流机器人部署 = {
     production_methods = {
-pm_部署物流机器人
+pm_vsf_部署物流机器人
 pm_vsf_停止运行
 }
     texture = "gfx/interface/icons/generic_icons/vsf_mixed_icon_base.dds"
@@ -160,7 +160,7 @@ pm_vsf_停止运行
 
 pmg_vsf_建设机器人部署 = {
     production_methods = {
-pm_部署建设机器人
+pm_vsf_部署建设机器人
 pm_vsf_停止运行
 }
     texture = "gfx/interface/icons/generic_icons/vsf_mixed_icon_base.dds"
@@ -168,17 +168,17 @@ pm_vsf_停止运行
 
 pmg_vsf_物流总线运力分配 = {
     production_methods = {
-pm_无服务
-pm_传送带客运服务
+pm_vsf_无服务
+pm_vsf_传送带客运服务
 }
     texture = "gfx/interface/icons/generic_icons/vsf_mixed_icon_base.dds"
 }
 
 pmg_vsf_采矿包生产组 = {
     production_methods = {
-pm_采矿包一型
-pm_采矿包二型
-pm_采矿包三型
+pm_vsf_采矿包一型
+pm_vsf_采矿包二型
+pm_vsf_采矿包三型
 pm_vsf_停止运行
 }
     texture = "gfx/interface/icons/generic_icons/vsf_mixed_icon_base.dds"
@@ -186,9 +186,9 @@ pm_vsf_停止运行
 
 pmg_vsf_炼油包生产组 = {
     production_methods = {
-pm_炼油包一型
-pm_炼油包二型
-pm_炼油包三型
+pm_vsf_炼油包一型
+pm_vsf_炼油包二型
+pm_vsf_炼油包三型
 pm_vsf_停止运行
 }
     texture = "gfx/interface/icons/generic_icons/vsf_mixed_icon_base.dds"
@@ -196,9 +196,9 @@ pm_vsf_停止运行
 
 pmg_vsf_蒸汽发电包生产组 = {
     production_methods = {
-pm_蒸汽发电包一型
-pm_蒸汽发电包二型
-pm_蒸汽发电包三型
+pm_vsf_蒸汽发电包一型
+pm_vsf_蒸汽发电包二型
+pm_vsf_蒸汽发电包三型
 pm_vsf_停止运行
 }
     texture = "gfx/interface/icons/generic_icons/vsf_mixed_icon_base.dds"
@@ -206,9 +206,9 @@ pm_vsf_停止运行
 
 pmg_vsf_太阳发电包生产组 = {
     production_methods = {
-pm_太阳发电包一型
-pm_太阳发电包二型
-pm_太阳发电包三型
+pm_vsf_太阳发电包一型
+pm_vsf_太阳发电包二型
+pm_vsf_太阳发电包三型
 pm_vsf_停止运行
 }
     texture = "gfx/interface/icons/generic_icons/vsf_mixed_icon_base.dds"
@@ -216,7 +216,7 @@ pm_vsf_停止运行
 
 pmg_vsf_铁矿自动化 = {
     production_methods = {
-pm_自动化铁矿采掘
+pm_vsf_自动化铁矿采掘
 pm_vsf_停止运行
 }
     texture = "gfx/interface/icons/generic_icons/vsf_mixed_icon_base.dds"
@@ -224,7 +224,7 @@ pm_vsf_停止运行
 
 pmg_vsf_煤矿自动化 = {
     production_methods = {
-pm_自动化煤矿采掘
+pm_vsf_自动化煤矿采掘
 pm_vsf_停止运行
 }
     texture = "gfx/interface/icons/generic_icons/vsf_mixed_icon_base.dds"
@@ -232,7 +232,7 @@ pm_vsf_停止运行
 
 pmg_vsf_硫矿自动化 = {
     production_methods = {
-pm_自动化硫矿采掘
+pm_vsf_自动化硫矿采掘
 pm_vsf_停止运行
 }
     texture = "gfx/interface/icons/generic_icons/vsf_mixed_icon_base.dds"
@@ -240,7 +240,7 @@ pm_vsf_停止运行
 
 pmg_vsf_炼油自动化 = {
     production_methods = {
-pm_自动化炼油
+pm_vsf_自动化炼油
 pm_vsf_停止运行
 }
     texture = "gfx/interface/icons/generic_icons/vsf_mixed_icon_base.dds"
@@ -248,7 +248,7 @@ pm_vsf_停止运行
 
 pmg_vsf_蒸汽发电阵列 = {
     production_methods = {
-pm_蒸汽发电
+pm_vsf_蒸汽发电
 pm_vsf_停止运行
 }
     texture = "gfx/interface/icons/generic_icons/vsf_mixed_icon_base.dds"
@@ -256,7 +256,7 @@ pm_vsf_停止运行
 
 pmg_vsf_太阳发电阵列 = {
     production_methods = {
-pm_太阳发电
+pm_vsf_太阳发电
 pm_vsf_停止运行
 }
     texture = "gfx/interface/icons/generic_icons/vsf_mixed_icon_base.dds"

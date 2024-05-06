@@ -11,6 +11,17 @@
 	}
 }
 
+decisions_vsf_mod菜单 = {
+	possible = {
+		is_player = yes
+	}
+	when_taken = {
+		trigger_event = vsf_mod菜单.1
+	}
+}
+
+
+
 # BUG 为什么这个决议会导致全部代码的崩溃？？？？？？？？？
 # decisions_vsf_技术传播 = { 
 # #TODO 细化

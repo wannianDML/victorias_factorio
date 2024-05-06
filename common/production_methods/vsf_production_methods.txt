@@ -31,7 +31,7 @@ pm_vsf_todo = {
 }
 
 pm_vsf_红瓶一型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_红瓶一型.dds"
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型生产.dds"
 
     country_modifiers = {
     }
@@ -63,7 +63,7 @@ tech_vsf_一型自动化
 }
 
 pm_vsf_红瓶二型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_红瓶二型.dds"
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_二型生产.dds"
 
     country_modifiers = {
     }
@@ -95,7 +95,7 @@ tech_vsf_二型自动化
 }
 
 pm_vsf_红瓶三型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_红瓶三型.dds"
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_三型生产.dds"
 
     country_modifiers = {
     }
@@ -127,7 +127,7 @@ tech_vsf_三型自动化
 }
 
 pm_vsf_绿瓶一型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_绿瓶一型.dds"
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型生产.dds"
 
     country_modifiers = {
     }
@@ -159,7 +159,7 @@ tech_vsf_一型自动化
 }
 
 pm_vsf_绿瓶二型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_绿瓶二型.dds"
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_二型生产.dds"
 
     country_modifiers = {
     }
@@ -191,7 +191,7 @@ tech_vsf_二型自动化
 }
 
 pm_vsf_绿瓶三型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_绿瓶三型.dds"
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_三型生产.dds"
 
     country_modifiers = {
     }
@@ -223,7 +223,7 @@ tech_vsf_三型自动化
 }
 
 pm_vsf_蓝瓶一型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_蓝瓶一型.dds"
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型生产.dds"
 
     country_modifiers = {
     }
@@ -259,7 +259,7 @@ tech_vsf_一型自动化
 }
 
 pm_vsf_蓝瓶二型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_蓝瓶二型.dds"
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_二型生产.dds"
 
     country_modifiers = {
     }
@@ -295,7 +295,7 @@ tech_vsf_二型自动化
 }
 
 pm_vsf_蓝瓶三型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_蓝瓶三型.dds"
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_三型生产.dds"
 
     country_modifiers = {
     }
@@ -331,7 +331,7 @@ tech_vsf_三型自动化
 }
 
 pm_vsf_紫瓶一型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_紫瓶一型.dds"
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型生产.dds"
 
     country_modifiers = {
     }
@@ -366,7 +366,7 @@ tech_vsf_一型自动化
 }
 
 pm_vsf_紫瓶二型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_紫瓶二型.dds"
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_二型生产.dds"
 
     country_modifiers = {
     }
@@ -401,7 +401,7 @@ tech_vsf_二型自动化
 }
 
 pm_vsf_紫瓶三型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_紫瓶三型.dds"
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_三型生产.dds"
 
     country_modifiers = {
     }
@@ -436,7 +436,7 @@ tech_vsf_三型自动化
 }
 
 pm_vsf_金瓶一型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_金瓶一型.dds"
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型生产.dds"
 
     country_modifiers = {
     }
@@ -472,7 +472,7 @@ tech_vsf_一型自动化
 }
 
 pm_vsf_金瓶二型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_金瓶二型.dds"
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_二型生产.dds"
 
     country_modifiers = {
     }
@@ -508,7 +508,7 @@ tech_vsf_二型自动化
 }
 
 pm_vsf_金瓶三型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_金瓶三型.dds"
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_三型生产.dds"
 
     country_modifiers = {
     }
@@ -551,7 +551,7 @@ pm_vsf_基础物流总线 = {
 
     state_modifiers = {
         workforce_scaled = {
-state_infrastructure_add = 150
+state_infrastructure_add = 300
 }
     }
     building_modifiers = {
@@ -578,7 +578,7 @@ pm_vsf_高速物流总线 = {
 
     state_modifiers = {
         workforce_scaled = {
-state_infrastructure_add = 300
+state_infrastructure_add = 600
 }
     }
     building_modifiers = {
@@ -605,7 +605,7 @@ pm_vsf_极速物流总线 = {
 
     state_modifiers = {
         workforce_scaled = {
-state_infrastructure_add = 450
+state_infrastructure_add = 900
 }
     }
     building_modifiers = {
@@ -625,7 +625,7 @@ tech_vsf_急速物流学
 }
 
 pm_vsf_一层物流总线 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一层物流总线.dds"
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_罗马数字一.dds"
 
     country_modifiers = {
     }
@@ -645,7 +645,7 @@ tech_vsf_基础物流学
 }
 
 pm_vsf_二层物流总线 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_二层物流总线.dds"
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_罗马数字二.dds"
 
     country_modifiers = {
     }
@@ -668,7 +668,7 @@ tech_vsf_堆叠的传送带和垂直物流
 }
 
 pm_vsf_三层物流总线 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_三层物流总线.dds"
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_罗马数字三.dds"
 
     country_modifiers = {
     }
@@ -691,7 +691,7 @@ tech_vsf_堆叠的传送带和垂直物流
 }
 
 pm_vsf_四层物流总线 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_四层物流总线.dds"
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_罗马数字四.dds"
 
     country_modifiers = {
     }
@@ -714,7 +714,7 @@ tech_vsf_堆叠的传送带和垂直物流
 }
 
 pm_vsf_五层物流总线 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_五层物流总线.dds"
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_罗马数字五.dds"
 
     country_modifiers = {
     }
@@ -741,14 +741,14 @@ pm_vsf_红瓶科研 = {
 
     country_modifiers = {
         workforce_scaled = {
-country_weekly_innovation_add = 6
-country_weekly_innovation_max_add = 1.2
+country_weekly_innovation_add = 12
+country_weekly_innovation_max_add = 2.4
 }
     }
 
     state_modifiers = {
         workforce_scaled = {
-state_infrastructure_add = -300
+state_infrastructure_add = -30
 }
     }
     building_modifiers = {
@@ -772,14 +772,14 @@ pm_vsf_绿瓶科研 = {
 
     country_modifiers = {
         workforce_scaled = {
-country_weekly_innovation_add = 12
-country_weekly_innovation_max_add = 4.8
+country_weekly_innovation_add = 24
+country_weekly_innovation_max_add = 9.6
 }
     }
 
     state_modifiers = {
         workforce_scaled = {
-state_infrastructure_add = -600
+state_infrastructure_add = -60
 }
     }
     building_modifiers = {
@@ -804,14 +804,14 @@ pm_vsf_蓝瓶科研 = {
 
     country_modifiers = {
         workforce_scaled = {
-country_weekly_innovation_add = 24
-country_weekly_innovation_max_add = 14.4
+country_weekly_innovation_add = 48
+country_weekly_innovation_max_add = 28.8
 }
     }
 
     state_modifiers = {
         workforce_scaled = {
-state_infrastructure_add = -900
+state_infrastructure_add = -90
 }
     }
     building_modifiers = {
@@ -837,14 +837,14 @@ pm_vsf_紫瓶科研 = {
 
     country_modifiers = {
         workforce_scaled = {
-country_weekly_innovation_add = 48
-country_weekly_innovation_max_add = 38.4
+country_weekly_innovation_add = 96
+country_weekly_innovation_max_add = 76.8
 }
     }
 
     state_modifiers = {
         workforce_scaled = {
-state_infrastructure_add = -1200
+state_infrastructure_add = -120
 }
     }
     building_modifiers = {
@@ -871,14 +871,14 @@ pm_vsf_金瓶科研 = {
 
     country_modifiers = {
         workforce_scaled = {
-country_weekly_innovation_add = 96
-country_weekly_innovation_max_add = 96
+country_weekly_innovation_add = 192
+country_weekly_innovation_max_add = 192
 }
     }
 
     state_modifiers = {
         workforce_scaled = {
-state_infrastructure_add = -1500
+state_infrastructure_add = -150
 }
     }
     building_modifiers = {
@@ -902,7 +902,7 @@ tech_vsf_效能科技包
 }
 
 pm_vsf_物流包一型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_物流包一型.dds"
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型生产.dds"
 
     country_modifiers = {
     }
@@ -931,7 +931,7 @@ tech_vsf_基础物流学
 }
 
 pm_vsf_物流包二型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_物流包二型.dds"
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_二型生产.dds"
 
     country_modifiers = {
     }
@@ -960,7 +960,7 @@ tech_vsf_高速物流学
 }
 
 pm_vsf_物流包三型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_物流包三型.dds"
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_三型生产.dds"
 
     country_modifiers = {
     }
@@ -991,7 +991,7 @@ tech_vsf_急速物流学
 }
 
 pm_vsf_生产包一型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_生产包一型.dds"
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型生产.dds"
 
     country_modifiers = {
     }
@@ -1020,7 +1020,7 @@ tech_vsf_一型自动化
 }
 
 pm_vsf_生产包二型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_生产包二型.dds"
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_二型生产.dds"
 
     country_modifiers = {
     }
@@ -1050,7 +1050,7 @@ tech_vsf_二型自动化
 }
 
 pm_vsf_生产包三型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_生产包三型.dds"
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_三型生产.dds"
 
     country_modifiers = {
     }
@@ -1082,7 +1082,7 @@ tech_vsf_三型自动化
 }
 
 pm_vsf_物流包一型组装机一型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_物流包一型组装机一型.dds"
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型生产.dds"
 
     country_modifiers = {
     }
@@ -1115,7 +1115,7 @@ pm_vsf_物流包一型
 }
 
 pm_vsf_物流包一型组装机二型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_物流包一型组装机二型.dds"
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_二型生产.dds"
 
     country_modifiers = {
     }
@@ -1129,12 +1129,14 @@ state_infrastructure_add = -2.3
         workforce_scaled = {
             goods_input_goods_vsf_二型生产包_add = 46.0
 
-            building_throughput_add = 0.5
-goods_input_electricity_add = 9.50666666666667
+            goods_input_electricity_add = 9.50666666666667
 
         }
         level_scaled = {
 building_employment_machinists_add = 2500
+}
+        unscaled = {
+building_throughput_add = 0.5
 }
     }
 
@@ -1149,7 +1151,7 @@ pm_vsf_物流包一型
 }
 
 pm_vsf_物流包一型组装机三型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_物流包一型组装机三型.dds"
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_三型生产.dds"
 
     country_modifiers = {
     }
@@ -1163,12 +1165,14 @@ state_infrastructure_add = -2.3
         workforce_scaled = {
             goods_input_goods_vsf_三型生产包_add = 46.0
 
-            building_throughput_add = 1.5
-goods_input_electricity_add = 14.2784
+            goods_input_electricity_add = 14.2784
 
         }
         level_scaled = {
 building_employment_engineers_add = 2500
+}
+        unscaled = {
+building_throughput_add = 1.5
 }
     }
 
@@ -1183,7 +1187,7 @@ pm_vsf_物流包一型
 }
 
 pm_vsf_物流包二型组装机一型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_物流包二型组装机一型.dds"
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型生产.dds"
 
     country_modifiers = {
     }
@@ -1216,7 +1220,7 @@ pm_vsf_物流包二型
 }
 
 pm_vsf_物流包二型组装机二型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_物流包二型组装机二型.dds"
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_二型生产.dds"
 
     country_modifiers = {
     }
@@ -1230,12 +1234,14 @@ state_infrastructure_add = -10
         workforce_scaled = {
             goods_input_goods_vsf_二型生产包_add = 200.0
 
-            building_throughput_add = 0.5
-goods_input_electricity_add = 41.3333333333333
+            goods_input_electricity_add = 41.3333333333333
 
         }
         level_scaled = {
 building_employment_machinists_add = 2500
+}
+        unscaled = {
+building_throughput_add = 0.5
 }
     }
 
@@ -1250,7 +1256,7 @@ pm_vsf_物流包二型
 }
 
 pm_vsf_物流包二型组装机三型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_物流包二型组装机三型.dds"
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_三型生产.dds"
 
     country_modifiers = {
     }
@@ -1264,12 +1270,14 @@ state_infrastructure_add = -10
         workforce_scaled = {
             goods_input_goods_vsf_三型生产包_add = 200.0
 
-            building_throughput_add = 1.5
-goods_input_electricity_add = 62.08
+            goods_input_electricity_add = 62.08
 
         }
         level_scaled = {
 building_employment_engineers_add = 2500
+}
+        unscaled = {
+building_throughput_add = 1.5
 }
     }
 
@@ -1284,7 +1292,7 @@ pm_vsf_物流包二型
 }
 
 pm_vsf_物流包三型组装机一型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_物流包三型组装机一型.dds"
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型生产.dds"
 
     country_modifiers = {
     }
@@ -1317,7 +1325,7 @@ pm_vsf_物流包三型
 }
 
 pm_vsf_物流包三型组装机二型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_物流包三型组装机二型.dds"
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_二型生产.dds"
 
     country_modifiers = {
     }
@@ -1331,12 +1339,14 @@ state_infrastructure_add = -37.55
         workforce_scaled = {
             goods_input_goods_vsf_二型生产包_add = 751.0
 
-            building_throughput_add = 0.5
-goods_input_electricity_add = 155.206666666667
+            goods_input_electricity_add = 155.206666666667
 
         }
         level_scaled = {
 building_employment_machinists_add = 2500
+}
+        unscaled = {
+building_throughput_add = 0.5
 }
     }
 
@@ -1351,7 +1361,7 @@ pm_vsf_物流包三型
 }
 
 pm_vsf_物流包三型组装机三型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_物流包三型组装机三型.dds"
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_三型生产.dds"
 
     country_modifiers = {
     }
@@ -1365,12 +1375,14 @@ state_infrastructure_add = -37.55
         workforce_scaled = {
             goods_input_goods_vsf_三型生产包_add = 751.0
 
-            building_throughput_add = 1.5
-goods_input_electricity_add = 233.1104
+            goods_input_electricity_add = 233.1104
 
         }
         level_scaled = {
 building_employment_engineers_add = 2500
+}
+        unscaled = {
+building_throughput_add = 1.5
 }
     }
 
@@ -1385,7 +1397,7 @@ pm_vsf_物流包三型
 }
 
 pm_vsf_生产包一型组装机一型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_生产包一型组装机一型.dds"
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型生产.dds"
 
     country_modifiers = {
     }
@@ -1418,7 +1430,7 @@ pm_vsf_生产包一型
 }
 
 pm_vsf_生产包二型组装机一型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_生产包二型组装机一型.dds"
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型生产.dds"
 
     country_modifiers = {
     }
@@ -1432,12 +1444,14 @@ state_infrastructure_add = -1.65
         workforce_scaled = {
             goods_input_goods_vsf_二型生产包_add = 33.0
 
-            building_throughput_add = 0.5
-goods_input_electricity_add = 6.82
+            goods_input_electricity_add = 6.82
 
         }
         level_scaled = {
 building_employment_machinists_add = 2500
+}
+        unscaled = {
+building_throughput_add = 0.5
 }
     }
 
@@ -1452,7 +1466,7 @@ pm_vsf_生产包一型
 }
 
 pm_vsf_生产包三型组装机一型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_生产包三型组装机一型.dds"
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型生产.dds"
 
     country_modifiers = {
     }
@@ -1466,12 +1480,14 @@ state_infrastructure_add = -1.65
         workforce_scaled = {
             goods_input_goods_vsf_三型生产包_add = 33.0
 
-            building_throughput_add = 1.5
-goods_input_electricity_add = 10.2432
+            goods_input_electricity_add = 10.2432
 
         }
         level_scaled = {
 building_employment_engineers_add = 2500
+}
+        unscaled = {
+building_throughput_add = 1.5
 }
     }
 
@@ -1486,7 +1502,7 @@ pm_vsf_生产包一型
 }
 
 pm_vsf_生产包一型组装机二型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_生产包一型组装机二型.dds"
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_二型生产.dds"
 
     country_modifiers = {
     }
@@ -1519,7 +1535,7 @@ pm_vsf_生产包二型
 }
 
 pm_vsf_生产包二型组装机二型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_生产包二型组装机二型.dds"
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_二型生产.dds"
 
     country_modifiers = {
     }
@@ -1533,12 +1549,14 @@ state_infrastructure_add = -5.05
         workforce_scaled = {
             goods_input_goods_vsf_二型生产包_add = 101.0
 
-            building_throughput_add = 0.5
-goods_input_electricity_add = 20.8733333333333
+            goods_input_electricity_add = 20.8733333333333
 
         }
         level_scaled = {
 building_employment_machinists_add = 2500
+}
+        unscaled = {
+building_throughput_add = 0.5
 }
     }
 
@@ -1553,7 +1571,7 @@ pm_vsf_生产包二型
 }
 
 pm_vsf_生产包三型组装机二型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_生产包三型组装机二型.dds"
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_二型生产.dds"
 
     country_modifiers = {
     }
@@ -1567,12 +1585,14 @@ state_infrastructure_add = -5.05
         workforce_scaled = {
             goods_input_goods_vsf_三型生产包_add = 101.0
 
-            building_throughput_add = 1.5
-goods_input_electricity_add = 31.3504
+            goods_input_electricity_add = 31.3504
 
         }
         level_scaled = {
 building_employment_engineers_add = 2500
+}
+        unscaled = {
+building_throughput_add = 1.5
 }
     }
 
@@ -1587,7 +1607,7 @@ pm_vsf_生产包二型
 }
 
 pm_vsf_生产包一型组装机三型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_生产包一型组装机三型.dds"
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_三型生产.dds"
 
     country_modifiers = {
     }
@@ -1620,7 +1640,7 @@ pm_vsf_生产包三型
 }
 
 pm_vsf_生产包二型组装机三型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_生产包二型组装机三型.dds"
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_三型生产.dds"
 
     country_modifiers = {
     }
@@ -1634,12 +1654,14 @@ state_infrastructure_add = -38.15
         workforce_scaled = {
             goods_input_goods_vsf_二型生产包_add = 763.0
 
-            building_throughput_add = 0.5
-goods_input_electricity_add = 157.686666666667
+            goods_input_electricity_add = 157.686666666667
 
         }
         level_scaled = {
 building_employment_machinists_add = 2500
+}
+        unscaled = {
+building_throughput_add = 0.5
 }
     }
 
@@ -1654,7 +1676,7 @@ pm_vsf_生产包三型
 }
 
 pm_vsf_生产包三型组装机三型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_生产包三型组装机三型.dds"
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_三型生产.dds"
 
     country_modifiers = {
     }
@@ -1668,12 +1690,14 @@ state_infrastructure_add = -38.15
         workforce_scaled = {
             goods_input_goods_vsf_三型生产包_add = 763.0
 
-            building_throughput_add = 1.5
-goods_input_electricity_add = 236.8352
+            goods_input_electricity_add = 236.8352
 
         }
         level_scaled = {
 building_employment_engineers_add = 2500
+}
+        unscaled = {
+building_throughput_add = 1.5
 }
     }
 
@@ -1698,9 +1722,10 @@ pm_vsf_不使用机器 = {
     building_modifiers = {
         workforce_scaled = {
 
-            building_throughput_add = -1
-
         }
+        unscaled = {
+building_throughput_add = -1
+}
     }
 
 }
@@ -1727,8 +1752,8 @@ building_employment_bureaucrats_add = 500
 
 }
 
-pm_机器人包一型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_机器人包一型.dds"
+pm_vsf_机器人包一型 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型生产.dds"
 
     country_modifiers = {
     }
@@ -1763,8 +1788,8 @@ tech_vsf_一型自动化
 
 }
 
-pm_机器人包二型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_机器人包二型.dds"
+pm_vsf_机器人包二型 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_二型生产.dds"
 
     country_modifiers = {
     }
@@ -1799,8 +1824,8 @@ tech_vsf_二型自动化
 
 }
 
-pm_机器人包三型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_机器人包三型.dds"
+pm_vsf_机器人包三型 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_三型生产.dds"
 
     country_modifiers = {
     }
@@ -1835,8 +1860,8 @@ tech_vsf_三型自动化
 
 }
 
-pm_部署物流机器人 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_部署物流机器人.dds"
+pm_vsf_部署物流机器人 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_运行.dds"
 
     country_modifiers = {
     }
@@ -1863,8 +1888,8 @@ tech_vsf_物流机器人
 
 }
 
-pm_部署建设机器人 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_部署建设机器人.dds"
+pm_vsf_部署建设机器人 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_运行.dds"
 
     country_modifiers = {
         workforce_scaled = {
@@ -1894,8 +1919,8 @@ tech_vsf_建设机器人
 
 }
 
-pm_传送带客运服务 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_传送带客运服务.dds"
+pm_vsf_传送带客运服务 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_运行.dds"
 
     country_modifiers = {
     }
@@ -1907,7 +1932,8 @@ state_infrastructure_add = -15
     }
     building_modifiers = {
         workforce_scaled = {
-            goods_input_transportation_add = 30.0
+
+            goods_output_transportation_add = 30.0
 
         }
     }
@@ -1918,8 +1944,8 @@ tech_vsf_传送带载客改装
 
 }
 
-pm_采矿包一型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_采矿包一型.dds"
+pm_vsf_采矿包一型 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型生产.dds"
 
     country_modifiers = {
     }
@@ -1950,8 +1976,8 @@ tech_vsf_一型自动化
 
 }
 
-pm_采矿包二型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_采矿包二型.dds"
+pm_vsf_采矿包二型 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_二型生产.dds"
 
     country_modifiers = {
     }
@@ -1982,8 +2008,8 @@ tech_vsf_二型自动化
 
 }
 
-pm_采矿包三型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_采矿包三型.dds"
+pm_vsf_采矿包三型 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_三型生产.dds"
 
     country_modifiers = {
     }
@@ -2014,8 +2040,8 @@ tech_vsf_三型自动化
 
 }
 
-pm_炼油包一型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_炼油包一型.dds"
+pm_vsf_炼油包一型 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型生产.dds"
 
     country_modifiers = {
     }
@@ -2047,8 +2073,8 @@ tech_vsf_一型自动化
 
 }
 
-pm_炼油包二型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_炼油包二型.dds"
+pm_vsf_炼油包二型 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_二型生产.dds"
 
     country_modifiers = {
     }
@@ -2080,8 +2106,8 @@ tech_vsf_二型自动化
 
 }
 
-pm_炼油包三型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_炼油包三型.dds"
+pm_vsf_炼油包三型 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_三型生产.dds"
 
     country_modifiers = {
     }
@@ -2113,8 +2139,8 @@ tech_vsf_三型自动化
 
 }
 
-pm_蒸汽发电包一型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_蒸汽发电包一型.dds"
+pm_vsf_蒸汽发电包一型 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型生产.dds"
 
     country_modifiers = {
     }
@@ -2145,8 +2171,8 @@ tech_vsf_一型自动化
 
 }
 
-pm_蒸汽发电包二型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_蒸汽发电包二型.dds"
+pm_vsf_蒸汽发电包二型 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_二型生产.dds"
 
     country_modifiers = {
     }
@@ -2177,8 +2203,8 @@ tech_vsf_二型自动化
 
 }
 
-pm_蒸汽发电包三型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_蒸汽发电包三型.dds"
+pm_vsf_蒸汽发电包三型 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_三型生产.dds"
 
     country_modifiers = {
     }
@@ -2209,8 +2235,8 @@ tech_vsf_三型自动化
 
 }
 
-pm_太阳发电包一型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_太阳发电包一型.dds"
+pm_vsf_太阳发电包一型 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型生产.dds"
 
     country_modifiers = {
     }
@@ -2243,8 +2269,8 @@ tech_vsf_一型自动化
 
 }
 
-pm_太阳发电包二型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_太阳发电包二型.dds"
+pm_vsf_太阳发电包二型 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_二型生产.dds"
 
     country_modifiers = {
     }
@@ -2277,8 +2303,8 @@ tech_vsf_二型自动化
 
 }
 
-pm_太阳发电包三型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_太阳发电包三型.dds"
+pm_vsf_太阳发电包三型 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_三型生产.dds"
 
     country_modifiers = {
     }
@@ -2311,8 +2337,8 @@ tech_vsf_三型自动化
 
 }
 
-pm_自动化铁矿采掘 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_自动化铁矿采掘.dds"
+pm_vsf_自动化铁矿采掘 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_运行.dds"
 
     country_modifiers = {
     }
@@ -2342,8 +2368,8 @@ tech_vsf_自动化采矿
 
 }
 
-pm_自动化煤矿采掘 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_自动化煤矿采掘.dds"
+pm_vsf_自动化煤矿采掘 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_运行.dds"
 
     country_modifiers = {
     }
@@ -2373,8 +2399,8 @@ tech_vsf_自动化采矿
 
 }
 
-pm_自动化硫矿采掘 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_自动化硫矿采掘.dds"
+pm_vsf_自动化硫矿采掘 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_运行.dds"
 
     country_modifiers = {
     }
@@ -2404,8 +2430,8 @@ tech_vsf_自动化采矿
 
 }
 
-pm_自动化炼油 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_自动化炼油.dds"
+pm_vsf_自动化炼油 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_运行.dds"
 
     country_modifiers = {
     }
@@ -2435,8 +2461,8 @@ tech_vsf_基础原油处理
 
 }
 
-pm_蒸汽发电 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_蒸汽发电.dds"
+pm_vsf_蒸汽发电 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_运行.dds"
 
     country_modifiers = {
     }
@@ -2465,8 +2491,8 @@ tech_vsf_蒸汽发电
 
 }
 
-pm_太阳发电 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_太阳发电.dds"
+pm_vsf_太阳发电 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_运行.dds"
 
     country_modifiers = {
     }
@@ -2494,8 +2520,8 @@ tech_vsf_太阳能与蓄电池
 
 }
 
-pm_无服务 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_无服务.dds"
+pm_vsf_无服务 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_停止运行.dds"
 
     country_modifiers = {
     }

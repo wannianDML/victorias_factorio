@@ -34,3 +34,19 @@ modifier_vsf_Factorio世界融合完成 = {
 	goods_input_goods_vsf_采矿包_mult = -0.1
 	goods_input_goods_vsf_机器人包_mult = -0.1
 }
+
+modifier_vsf_建筑免维护 = {
+	icon = gfx/interface/icons/event_icons/icon_vsf_异星工厂logo.dds
+
+	goods_input_goods_vsf_基础物流包_mult = -1
+	goods_input_goods_vsf_高速物流包_mult = -1
+	goods_input_goods_vsf_极速物流包_mult = -1
+	goods_input_goods_vsf_一型生产包_mult = -1
+	goods_input_goods_vsf_二型生产包_mult = -1
+	goods_input_goods_vsf_三型生产包_mult = -1
+	goods_input_goods_vsf_蒸汽发电包_mult = -1
+	goods_input_goods_vsf_太阳发电包_mult = -1
+	goods_input_goods_vsf_炼油包_mult = -1
+	goods_input_goods_vsf_采矿包_mult = -1
+	goods_input_goods_vsf_机器人包_mult = -1
+}

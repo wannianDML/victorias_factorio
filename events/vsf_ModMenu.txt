@@ -1,0 +1,80 @@
+﻿namespace = vsf_mod菜单
+
+vsf_mod菜单.1 = {
+	type = country_event
+	placement = root
+	title = "VSF·MOD控制面板"
+	desc = vsf_mod菜单.1.desc
+	flavor = vsf_mod菜单.1.flavor
+
+	duration = 0
+
+	event_image = {
+		video = "unspecific_gears_pistons"
+	}
+
+	icon = "gfx/interface/icons/event_icons/icon_vsf_异星工厂logo.dds"
+
+	trigger = {
+		is_player = yes
+	}
+
+	option = {
+		name = "关于商品投入。"
+
+		trigger_event = vsf_mod菜单.11
+	}
+
+	option = {
+		name = "关于基础设施使用。"
+
+		custom_tooltip = {
+			text = "？当时是怎么想的？好像是为了表现出Factorio带子的运力，这么蠢的东西下个版本改。移除或者改成消耗“运力（商品）”。"
+		}
+
+		trigger_event = vsf_mod菜单.1
+	}
+
+	option = {
+		name = "关闭菜单。"
+		default_option = yes
+	}
+}
+
+vsf_mod菜单.11  = {
+	type = country_event
+	placement = root
+	title = "关于商品投入"
+	desc = vsf_mod菜单.11.desc
+	flavor = vsf_mod菜单.11.flavor
+	duration = 0
+
+	event_image = {
+		video = "unspecific_gears_pistons"
+	}
+
+	icon = "gfx/interface/icons/event_icons/icon_vsf_异星工厂logo.dds"
+
+	trigger = {
+		is_player = yes
+	}
+
+	option = {
+		name = "好蠢的设计，关了它。"
+
+		custom_tooltip = {
+			text = "就是啊。"
+		}
+
+		add_modifier = {
+			name = modifier_vsf_建筑免维护
+		}
+	}
+
+	option = {
+		name = "返回上一级。"
+		default_option = yes
+
+		trigger_event = vsf_mod菜单.1
+	}
+}

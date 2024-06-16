@@ -9,7 +9,10 @@
 	}
 
 	complete = {
-		always = no
+		custom_tooltip = {
+			text = "静待时间流动。"
+			always = no
+		}
 	}
 
 	on_complete = {
@@ -17,7 +20,10 @@
 	}
 
 	fail = {
-		always = no
+		custom_tooltip = {
+			text = "大概不会失败。"
+			always = no
+		}
 	}
 
 	on_fail = {

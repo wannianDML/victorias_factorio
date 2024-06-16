@@ -1,0 +1,11 @@
+﻿lawgroup_vsf_异工厂管理法 = {
+    law_group_category = economy
+
+    progressive_movement_chance = 1
+    regressive_movement_chance = 0.25
+
+    enable = {
+has_technology_researched = tech_vsf_机自科技包
+}
+}
+

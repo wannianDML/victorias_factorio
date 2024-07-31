@@ -25,15 +25,15 @@ vsf_mod菜单.1 = {
 		trigger_event = vsf_mod菜单.11
 	}
 
-	option = {
-		name = "关于基础设施使用。"
+	# option = {
+	# 	name = "关于基础设施使用。"
 
-		custom_tooltip = {
-			text = "？当时是怎么想的？好像是为了表现出Factorio带子的运力，这么蠢的东西下个版本改。移除或者改成消耗“运力（商品）”。"
-		}
+	# 	custom_tooltip = {
+	# 		text = "？当时是怎么想的？好像是为了表现出Factorio带子的运力，这么蠢的东西下个版本改。移除或者改成消耗“运力（商品）”。"
+	# 	}
 
-		trigger_event = vsf_mod菜单.1
-	}
+	# 	trigger_event = vsf_mod菜单.1
+	# }
 
 	option = {
 		name = "关闭菜单。"
@@ -66,7 +66,18 @@ vsf_mod菜单.11  = {
 			text = "就是啊。"
 		}
 
+		custom_tooltip = {
+			text = "抱歉啦，这个版本因为bug并没有减少商品投入……给你增加产出吧。"
+		}
 		add_modifier = {
+			name = modifier_vsf_建筑免维护
+		}
+	}
+
+	option = {
+		name = "移除修正"
+
+		remove_modifier = {
 			name = modifier_vsf_建筑免维护
 		}
 	}

@@ -174,3 +174,14 @@ goods_vsf_机器人包 = {
 
 }
 
+goods_vsf_插件包 = {
+    texture = "gfx/interface/icons/goods_icons/goods_vsf_插件包.dds"
+    cost = 75.32
+    category = industrial
+
+    prestige_factor = 16
+    traded_quantity = 50
+    convoy_cost_multiplier = 2
+
+}
+

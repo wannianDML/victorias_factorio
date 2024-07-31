@@ -83,7 +83,6 @@ tech_vsf_堆叠的传送带和垂直物流 = {
     category = production
 
     unlocking_technologies = {
-tech_vsf_机自科技包
 tech_vsf_立体的世界
 }
 
@@ -95,17 +94,18 @@ tech_vsf_易维护改装 = {
     category = production
 
     modifier = {
-goods_input_goods_vsf_基础物流包_mult = -0.05
-goods_input_goods_vsf_高速物流包_mult = -0.05
-goods_input_goods_vsf_极速物流包_mult = -0.05
-goods_input_goods_vsf_一型生产包_mult = -0.05
-goods_input_goods_vsf_二型生产包_mult = -0.05
-goods_input_goods_vsf_三型生产包_mult = -0.05
-goods_input_goods_vsf_蒸汽发电包_mult = -0.05
-goods_input_goods_vsf_太阳发电包_mult = -0.05
-goods_input_goods_vsf_炼油包_mult = -0.05
-goods_input_goods_vsf_采矿包_mult = -0.05
-goods_input_goods_vsf_机器人包_mult = -0.05
+goods_output_goods_vsf_基础物流包_mult = 0.05
+goods_output_goods_vsf_高速物流包_mult = 0.05
+goods_output_goods_vsf_极速物流包_mult = 0.05
+goods_output_goods_vsf_一型生产包_mult = 0.05
+goods_output_goods_vsf_二型生产包_mult = 0.05
+goods_output_goods_vsf_三型生产包_mult = 0.05
+goods_output_goods_vsf_蒸汽发电包_mult = 0.05
+goods_output_goods_vsf_太阳发电包_mult = 0.05
+goods_output_goods_vsf_炼油包_mult = 0.05
+goods_output_goods_vsf_采矿包_mult = 0.05
+goods_output_goods_vsf_机器人包_mult = 0.05
+goods_output_goods_vsf_插件包_mult = 0.05
 }
 
     unlocking_technologies = {
@@ -125,7 +125,7 @@ building_production_mult = 0.01
 }
 
     unlocking_technologies = {
-tech_vsf_物流科技包
+tech_vsf_信号网络
 }
 
 }
@@ -141,7 +141,8 @@ building_production_mult = 0.01
 }
 
     unlocking_technologies = {
-tech_vsf_化工科技包
+tech_vsf_一型产能插件
+tech_vsf_电能冶炼技术
 }
 
 }
@@ -152,14 +153,14 @@ tech_vsf_急速物流学 = {
     category = production
 
     unlocking_technologies = {
-tech_vsf_生产科技包
 tech_vsf_高速物流学
+tech_vsf_生产科技包
 }
 
 }
 
 tech_vsf_效能科技包 = {
-    era = era_5
+    era = era_4
     texture = "gfx/interface/icons/invention_icons/tech_vsf_效能科技包.dds"
     category = production
 
@@ -169,7 +170,8 @@ building_production_mult = 0.01
 }
 
     unlocking_technologies = {
-tech_vsf_生产科技包
+tech_vsf_机器人技术
+tech_vsf_轻质框架
 }
 
 }
@@ -205,6 +207,7 @@ tech_vsf_三型自动化 = {
     unlocking_technologies = {
 tech_vsf_急速物流学
 tech_vsf_二型自动化
+tech_vsf_一型速度插件
 }
 
 }
@@ -313,10 +316,7 @@ tech_vsf_作业机器人搬运量一 = {
     category = production
 
     modifier = {
-goods_input_goods_vsf_基础物流包_mult = -0.05
-goods_input_goods_vsf_高速物流包_mult = -0.05
-goods_input_goods_vsf_极速物流包_mult = -0.05
-goods_input_goods_vsf_机器人包_mult = -0.05
+goods_output_goods_vsf_机器人包_mult = 0.1
 }
 
     unlocking_technologies = {
@@ -331,10 +331,7 @@ tech_vsf_作业机器人移动速度一 = {
     category = production
 
     modifier = {
-goods_input_goods_vsf_基础物流包_mult = -0.05
-goods_input_goods_vsf_高速物流包_mult = -0.05
-goods_input_goods_vsf_极速物流包_mult = -0.05
-goods_input_goods_vsf_机器人包_mult = -0.05
+goods_output_goods_vsf_机器人包_mult = 0.1
 }
 
     unlocking_technologies = {
@@ -344,18 +341,17 @@ tech_vsf_机器人技术
 }
 
 tech_vsf_机器人物流系统 = {
-    era = era_5
+    era = era_4
     texture = "gfx/interface/icons/invention_icons/tech_vsf_机器人物流系统.dds"
     category = production
 
     modifier = {
 state_building_vsf_物流机器人平台_max_level_add = 4
-goods_input_goods_vsf_机器人包_mult = -0.05
+goods_output_goods_vsf_机器人包_mult = 0.05
 }
 
     unlocking_technologies = {
-tech_vsf_生产科技包
-tech_vsf_机器人技术
+tech_vsf_效能科技包
 }
 
 }
@@ -438,7 +434,7 @@ tech_vsf_基础原油处理 = {
     category = production
 
     unlocking_technologies = {
-tech_vsf_物流科技包
+tech_vsf_二型自动化
 tech_vsf_自动化采矿
 }
 
@@ -476,6 +472,11 @@ tech_vsf_太阳能与蓄电池 = {
     texture = "gfx/interface/icons/invention_icons/tech_vsf_太阳能与蓄电池.dds"
     category = production
 
+    modifier = {
+goods_output_electricity_mult = 0.05
+goods_output_electricity_add = 5
+}
+
     unlocking_technologies = {
 tech_vsf_物流科技包
 tech_vsf_蒸汽发电
@@ -511,22 +512,22 @@ tech_vsf_信号网络 = {
     category = production
 
     modifier = {
-goods_input_goods_vsf_基础物流包_mult = -0.1
-goods_input_goods_vsf_高速物流包_mult = -0.1
-goods_input_goods_vsf_极速物流包_mult = -0.1
-goods_input_goods_vsf_一型生产包_mult = -0.1
-goods_input_goods_vsf_二型生产包_mult = -0.1
-goods_input_goods_vsf_三型生产包_mult = -0.1
-goods_input_goods_vsf_蒸汽发电包_mult = -0.1
-goods_input_goods_vsf_太阳发电包_mult = -0.1
-goods_input_goods_vsf_炼油包_mult = -0.1
-goods_input_goods_vsf_采矿包_mult = -0.1
-goods_input_goods_vsf_机器人包_mult = -0.1
-building_throughput_add = 0.05
+goods_output_goods_vsf_基础物流包_mult = 0.1
+goods_output_goods_vsf_高速物流包_mult = 0.1
+goods_output_goods_vsf_极速物流包_mult = 0.1
+goods_output_goods_vsf_一型生产包_mult = 0.1
+goods_output_goods_vsf_二型生产包_mult = 0.1
+goods_output_goods_vsf_三型生产包_mult = 0.1
+goods_output_goods_vsf_蒸汽发电包_mult = 0.1
+goods_output_goods_vsf_太阳发电包_mult = 0.1
+goods_output_goods_vsf_炼油包_mult = 0.1
+goods_output_goods_vsf_采矿包_mult = 0.1
+goods_output_goods_vsf_机器人包_mult = 0.1
+goods_output_goods_vsf_插件包_mult = 0.1
 }
 
     unlocking_technologies = {
-tech_vsf_物流科技包
+tech_vsf_基础原油处理
 }
 
 }
@@ -577,7 +578,7 @@ tech_vsf_采矿产能一
 }
 
 tech_vsf_采矿产能三 = {
-    era = era_5
+    era = era_4
     texture = "gfx/interface/icons/invention_icons/tech_vsf_采矿产能.dds"
     category = production
 
@@ -593,6 +594,7 @@ goods_output_gold_mult = 0.05
 }
 
     unlocking_technologies = {
+tech_vsf_生产科技包
 tech_vsf_效能科技包
 tech_vsf_采矿产能二
 }
@@ -622,11 +624,11 @@ tech_vsf_研究中心研发速度一 = {
 
     modifier = {
 building_vsf_科研中心_throughput_add = 0.2
-goods_input_goods_vsf_机自科技包_mult = -0.17
-goods_input_goods_vsf_物流科技包_mult = -0.17
-goods_input_goods_vsf_化工科技包_mult = -0.17
-goods_input_goods_vsf_生产科技包_mult = -0.17
-goods_input_goods_vsf_效能科技包_mult = -0.17
+goods_output_goods_vsf_机自科技包_mult = 0.2
+goods_output_goods_vsf_物流科技包_mult = 0.2
+goods_output_goods_vsf_化工科技包_mult = 0.2
+goods_output_goods_vsf_生产科技包_mult = 0.2
+goods_output_goods_vsf_效能科技包_mult = 0.2
 }
 
     unlocking_technologies = {
@@ -642,11 +644,11 @@ tech_vsf_研究中心研发速度二 = {
 
     modifier = {
 building_vsf_科研中心_throughput_add = 0.3
-goods_input_goods_vsf_机自科技包_mult = -0.16
-goods_input_goods_vsf_物流科技包_mult = -0.16
-goods_input_goods_vsf_化工科技包_mult = -0.16
-goods_input_goods_vsf_生产科技包_mult = -0.16
-goods_input_goods_vsf_效能科技包_mult = -0.16
+goods_output_goods_vsf_机自科技包_mult = 0.3
+goods_output_goods_vsf_物流科技包_mult = 0.3
+goods_output_goods_vsf_化工科技包_mult = 0.3
+goods_output_goods_vsf_生产科技包_mult = 0.3
+goods_output_goods_vsf_效能科技包_mult = 0.3
 }
 
     unlocking_technologies = {
@@ -662,11 +664,11 @@ tech_vsf_研究中心研发速度三 = {
 
     modifier = {
 building_vsf_科研中心_throughput_add = 0.4
-goods_input_goods_vsf_机自科技包_mult = -0.14
-goods_input_goods_vsf_物流科技包_mult = -0.14
-goods_input_goods_vsf_化工科技包_mult = -0.14
-goods_input_goods_vsf_生产科技包_mult = -0.14
-goods_input_goods_vsf_效能科技包_mult = -0.14
+goods_output_goods_vsf_机自科技包_mult = 0.4
+goods_output_goods_vsf_物流科技包_mult = 0.4
+goods_output_goods_vsf_化工科技包_mult = 0.4
+goods_output_goods_vsf_生产科技包_mult = 0.4
+goods_output_goods_vsf_效能科技包_mult = 0.4
 }
 
     unlocking_technologies = {
@@ -683,11 +685,11 @@ tech_vsf_研究中心研发速度四 = {
 
     modifier = {
 building_vsf_科研中心_throughput_add = 0.5
-goods_input_goods_vsf_机自科技包_mult = -0.11
-goods_input_goods_vsf_物流科技包_mult = -0.11
-goods_input_goods_vsf_化工科技包_mult = -0.11
-goods_input_goods_vsf_生产科技包_mult = -0.11
-goods_input_goods_vsf_效能科技包_mult = -0.11
+goods_output_goods_vsf_机自科技包_mult = 0.5
+goods_output_goods_vsf_物流科技包_mult = 0.5
+goods_output_goods_vsf_化工科技包_mult = 0.5
+goods_output_goods_vsf_生产科技包_mult = 0.5
+goods_output_goods_vsf_效能科技包_mult = 0.5
 }
 
     unlocking_technologies = {
@@ -703,11 +705,11 @@ tech_vsf_研究中心研发速度五 = {
 
     modifier = {
 building_vsf_科研中心_throughput_add = 0.5
-goods_input_goods_vsf_机自科技包_mult = -0.07
-goods_input_goods_vsf_物流科技包_mult = -0.07
-goods_input_goods_vsf_化工科技包_mult = -0.07
-goods_input_goods_vsf_生产科技包_mult = -0.07
-goods_input_goods_vsf_效能科技包_mult = -0.07
+goods_output_goods_vsf_机自科技包_mult = 0.5
+goods_output_goods_vsf_物流科技包_mult = 0.5
+goods_output_goods_vsf_化工科技包_mult = 0.5
+goods_output_goods_vsf_生产科技包_mult = 0.5
+goods_output_goods_vsf_效能科技包_mult = 0.5
 }
 
     unlocking_technologies = {
@@ -718,20 +720,21 @@ tech_vsf_研究中心研发速度四
 }
 
 tech_vsf_研究中心研发速度六 = {
-    era = era_5
+    era = era_4
     texture = "gfx/interface/icons/invention_icons/tech_vsf_研究中心研发速度.dds"
     category = production
 
     modifier = {
 building_vsf_科研中心_throughput_add = 0.6
-goods_input_goods_vsf_机自科技包_mult = -0.06
-goods_input_goods_vsf_物流科技包_mult = -0.06
-goods_input_goods_vsf_化工科技包_mult = -0.06
-goods_input_goods_vsf_生产科技包_mult = -0.06
-goods_input_goods_vsf_效能科技包_mult = -0.06
+goods_output_goods_vsf_机自科技包_mult = 0.6
+goods_output_goods_vsf_物流科技包_mult = 0.6
+goods_output_goods_vsf_化工科技包_mult = 0.6
+goods_output_goods_vsf_生产科技包_mult = 0.6
+goods_output_goods_vsf_效能科技包_mult = 0.6
 }
 
     unlocking_technologies = {
+tech_vsf_生产科技包
 tech_vsf_效能科技包
 tech_vsf_研究中心研发速度五
 }
@@ -744,18 +747,374 @@ tech_vsf_轻质框架 = {
     category = production
 
     modifier = {
-goods_input_goods_vsf_一型生产包_mult = -0.1
-goods_input_goods_vsf_二型生产包_mult = -0.1
-goods_input_goods_vsf_三型生产包_mult = -0.1
-goods_output_goods_vsf_一型生产包_mult = 0.1
-goods_output_goods_vsf_二型生产包_mult = 0.1
-goods_output_goods_vsf_三型生产包_mult = 0.1
+goods_output_goods_vsf_基础物流包_mult = 0.05
+goods_output_goods_vsf_高速物流包_mult = 0.05
+goods_output_goods_vsf_极速物流包_mult = 0.05
+goods_output_goods_vsf_一型生产包_mult = 0.05
+goods_output_goods_vsf_二型生产包_mult = 0.05
+goods_output_goods_vsf_三型生产包_mult = 0.05
+goods_output_goods_vsf_蒸汽发电包_mult = 0.05
+goods_output_goods_vsf_太阳发电包_mult = 0.05
+goods_output_goods_vsf_炼油包_mult = 0.05
+goods_output_goods_vsf_采矿包_mult = 0.05
+goods_output_goods_vsf_机器人包_mult = 0.05
+goods_output_goods_vsf_插件包_mult = 0.05
 }
 
     unlocking_technologies = {
 tech_vsf_化工科技包
 tech_vsf_基础原油处理
 }
+
+}
+
+tech_vsf_轻型护甲 = {
+    era = era_1
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_轻型护甲.dds"
+    category = production
+
+    modifier = {
+building_working_conditions_mult = -0.05
+country_max_weekly_construction_progress_add = 5
+building_throughput_add = 0.02
+}
+
+    unlocking_technologies = {
+tech_vsf_机自科技包
+}
+
+}
+
+tech_vsf_重型护甲 = {
+    era = era_1
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_重型护甲.dds"
+    category = production
+
+    modifier = {
+building_working_conditions_mult = -0.15
+country_max_weekly_construction_progress_add = 5
+building_throughput_add = 0.02
+}
+
+    unlocking_technologies = {
+tech_vsf_轻型护甲
+}
+
+}
+
+tech_vsf_模块装甲 = {
+    era = era_2
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_模块装甲.dds"
+    category = production
+
+    modifier = {
+state_infrastructure_from_population_max_add = 10
+state_infrastructure_from_population_add = 0.5
+country_max_weekly_construction_progress_add = 10
+building_throughput_add = 0.01
+}
+
+    unlocking_technologies = {
+tech_vsf_易维护改装
+tech_vsf_信号网络
+tech_vsf_重型护甲
+}
+
+}
+
+tech_vsf_能量装甲 = {
+    era = era_3
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_能量装甲.dds"
+    category = production
+
+    modifier = {
+country_aristocrats_pol_str_mult = 0.4
+country_capitalists_pol_str_mult = 0.4
+country_academics_pol_str_mult = 0.2
+country_clergymen_pol_str_mult = 0.2
+country_engineers_pol_str_mult = 0.2
+country_officers_pol_str_mult = 0.2
+}
+
+    unlocking_technologies = {
+tech_vsf_高等原油处理
+tech_vsf_模块装甲
+}
+
+}
+
+tech_vsf_二型能量装甲 = {
+    era = era_4
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_二型能量装甲.dds"
+    category = production
+
+    modifier = {
+country_aristocrats_pol_str_mult = 0.45
+country_capitalists_pol_str_mult = 0.45
+country_academics_pol_str_mult = 0.15
+country_clergymen_pol_str_mult = 0.15
+country_engineers_pol_str_mult = 0.15
+country_officers_pol_str_mult = 0.15
+}
+
+    unlocking_technologies = {
+tech_vsf_效能科技包
+tech_vsf_能量装甲
+tech_vsf_二型速度插件
+tech_vsf_二型节能插件
+}
+
+}
+
+tech_vsf_插件 = {
+    era = era_2
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_插件.dds"
+    category = production
+
+    unlocking_technologies = {
+tech_vsf_信号网络
+}
+
+}
+
+tech_vsf_一型速度插件 = {
+    era = era_2
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_一型速度插件.dds"
+    category = production
+
+    unlocking_technologies = {
+tech_vsf_插件
+}
+
+}
+
+tech_vsf_一型产能插件 = {
+    era = era_2
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_一型产能插件.dds"
+    category = production
+
+    unlocking_technologies = {
+tech_vsf_插件
+}
+
+}
+
+tech_vsf_一型节能插件 = {
+    era = era_2
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_一型节能插件.dds"
+    category = production
+
+    unlocking_technologies = {
+tech_vsf_插件
+}
+
+}
+
+tech_vsf_二型速度插件 = {
+    era = era_3
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_二型速度插件.dds"
+    category = production
+
+    unlocking_technologies = {
+tech_vsf_化工科技包
+tech_vsf_一型速度插件
+}
+
+}
+
+tech_vsf_二型产能插件 = {
+    era = era_3
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_二型产能插件.dds"
+    category = production
+
+    unlocking_technologies = {
+tech_vsf_化工科技包
+tech_vsf_一型产能插件
+}
+
+}
+
+tech_vsf_二型节能插件 = {
+    era = era_3
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_二型节能插件.dds"
+    category = production
+
+    unlocking_technologies = {
+tech_vsf_化工科技包
+tech_vsf_一型节能插件
+}
+
+}
+
+tech_vsf_三型速度插件 = {
+    era = era_4
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_三型速度插件.dds"
+    category = production
+
+    unlocking_technologies = {
+tech_vsf_生产科技包
+tech_vsf_二型速度插件
+}
+
+}
+
+tech_vsf_三型产能插件 = {
+    era = era_4
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_三型产能插件.dds"
+    category = production
+
+    unlocking_technologies = {
+tech_vsf_生产科技包
+tech_vsf_二型产能插件
+}
+
+}
+
+tech_vsf_三型节能插件 = {
+    era = era_4
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_三型节能插件.dds"
+    category = production
+
+    unlocking_technologies = {
+tech_vsf_生产科技包
+tech_vsf_二型节能插件
+}
+
+}
+
+tech_vsf_插件效果分享 = {
+    era = era_4
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_插件效果分享.dds"
+    category = production
+
+    unlocking_technologies = {
+tech_vsf_生产科技包
+}
+
+}
+
+tech_vsf_电能冶炼技术 = {
+    era = era_3
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_电能冶炼技术.dds"
+    category = production
+
+    modifier = {
+goods_output_iron_mult = 0.2
+goods_output_steel_mult = 0.2
+}
+
+    unlocking_technologies = {
+tech_vsf_化工科技包
+tech_vsf_高等冶炼技术
+}
+
+}
+
+tech_vsf_太阳能与蓄电池模块 = {
+    era = era_2
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_太阳能与蓄电池模块.dds"
+    category = production
+
+    modifier = {
+goods_output_electricity_mult = 0.05
+goods_output_electricity_add = 5
+}
+
+    unlocking_technologies = {
+tech_vsf_太阳能与蓄电池
+tech_vsf_模块装甲
+}
+
+}
+
+tech_vsf_夜视模块 = {
+    era = era_2
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_夜视模块.dds"
+    category = production
+
+    modifier = {
+state_infrastructure_from_population_max_add = 20
+state_infrastructure_from_population_add = 1
+country_max_weekly_construction_progress_add = 15
+building_throughput_add = 0.05
+building_economy_of_scale_level_cap_add = 5
+state_turmoil_effects_mult = -0.15
+}
+
+    unlocking_technologies = {
+tech_vsf_太阳能与蓄电池模块
+}
+
+}
+
+tech_vsf_机器人指令模块 = {
+    era = era_3
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_机器人指令模块.dds"
+    category = production
+
+    modifier = {
+country_max_weekly_construction_progress_add = 25
+}
+
+    unlocking_technologies = {
+tech_vsf_太阳能与蓄电池模块
+tech_vsf_物流机器人
+tech_vsf_建设机器人
+}
+
+}
+
+tech_vsf_外骨骼模块 = {
+    era = era_3
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_外骨骼模块.dds"
+    category = production
+
+    modifier = {
+state_infrastructure_from_population_max_add = 20
+state_infrastructure_from_population_add = 1
+country_max_weekly_construction_progress_add = 15
+building_throughput_add = 0.05
+}
+
+    unlocking_technologies = {
+tech_vsf_模块装甲
+tech_vsf_太阳能与蓄电池模块
+}
+
+}
+
+tech_vsf_区域工业整合 = {
+    era = era_1
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_区域工业整合.dds"
+    category = production
+
+}
+
+tech_vsf_一键研究 = {
+    era = era_1
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_一键研究.dds"
+    category = production
+
+}
+
+tech_vsf_二键研究 = {
+    era = era_2
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_一键研究.dds"
+    category = production
+
+}
+
+tech_vsf_三键研究 = {
+    era = era_3
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_一键研究.dds"
+    category = production
+
+}
+
+tech_vsf_四键研究 = {
+    era = era_4
+    texture = "gfx/interface/icons/invention_icons/tech_vsf_一键研究.dds"
+    category = production
 
 }
 

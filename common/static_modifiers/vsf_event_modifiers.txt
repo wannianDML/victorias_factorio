@@ -1,0 +1,56 @@
+﻿modifier_vsf_飞船飞啊飞啊飞 = {
+	icon = gfx/interface/icons/event_icons/icon_vsf_异星工厂logo.dds
+
+	country_authority_add = 200
+	country_bureaucracy_add = 200
+	country_influence_add = 200 
+	country_legitimacy_base_add = 10
+	country_tax_income_add = 1000
+}
+
+modifier_vsf_坠毁纪念馆 = {
+	icon = gfx/interface/icons/event_icons/icon_vsf_异星工厂logo.dds
+
+	country_authority_add = 100
+	country_bureaucracy_add = 100
+	country_influence_add = 100 
+	country_legitimacy_base_add = 5
+	country_tax_income_add = 500
+}
+
+modifier_vsf_Factorio世界融合完成 = {
+	icon = gfx/interface/icons/event_icons/icon_vsf_异星工厂logo.dds
+	
+	country_max_weekly_construction_progress_add = 20
+	goods_output_goods_vsf_基础物流包_mult = 0.1
+	goods_output_goods_vsf_高速物流包_mult = 0.1
+	goods_output_goods_vsf_极速物流包_mult = 0.1
+	goods_output_goods_vsf_一型生产包_mult = 0.1
+	goods_output_goods_vsf_二型生产包_mult = 0.1
+	goods_output_goods_vsf_三型生产包_mult = 0.1
+	goods_output_goods_vsf_蒸汽发电包_mult = 0.1
+	goods_output_goods_vsf_太阳发电包_mult = 0.1
+	goods_output_goods_vsf_炼油包_mult = 0.1
+	goods_output_goods_vsf_采矿包_mult = 0.1
+	goods_output_goods_vsf_机器人包_mult = 0.1
+	goods_output_goods_vsf_插件包_mult = 0.1
+	country_tech_group_research_speed_mult = 0.5
+	country_ahead_of_time_research_penalty_mult = -1
+}
+
+modifier_vsf_建筑免维护 = {
+	icon = gfx/interface/icons/event_icons/icon_vsf_异星工厂logo.dds
+
+	goods_output_goods_vsf_基础物流包_mult = 1
+	goods_output_goods_vsf_高速物流包_mult = 1
+	goods_output_goods_vsf_极速物流包_mult = 1
+	goods_output_goods_vsf_一型生产包_mult = 1
+	goods_output_goods_vsf_二型生产包_mult = 1
+	goods_output_goods_vsf_三型生产包_mult = 1
+	goods_output_goods_vsf_蒸汽发电包_mult = 1
+	goods_output_goods_vsf_太阳发电包_mult = 1
+	goods_output_goods_vsf_炼油包_mult = 1
+	goods_output_goods_vsf_采矿包_mult = 1
+	goods_output_goods_vsf_机器人包_mult = 1
+	goods_output_goods_vsf_插件包_mult = 1
+}

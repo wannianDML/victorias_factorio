@@ -7,9 +7,7 @@ pm_vsf_政府运营
 
 pmg_vsf_红瓶生产组 = {
     production_methods = {
-pm_vsf_红瓶一型
-pm_vsf_红瓶二型
-pm_vsf_红瓶三型
+pm_vsf_红瓶生产
 pm_vsf_停止运行
 }
     texture = "gfx/interface/icons/generic_icons/vsf_mixed_icon_base.dds"
@@ -17,9 +15,7 @@ pm_vsf_停止运行
 
 pmg_vsf_绿瓶生产组 = {
     production_methods = {
-pm_vsf_绿瓶一型
-pm_vsf_绿瓶二型
-pm_vsf_绿瓶三型
+pm_vsf_绿瓶生产
 pm_vsf_停止运行
 }
     texture = "gfx/interface/icons/generic_icons/vsf_mixed_icon_base.dds"
@@ -27,9 +23,7 @@ pm_vsf_停止运行
 
 pmg_vsf_蓝瓶生产组 = {
     production_methods = {
-pm_vsf_蓝瓶一型
-pm_vsf_蓝瓶二型
-pm_vsf_蓝瓶三型
+pm_vsf_蓝瓶生产
 pm_vsf_停止运行
 }
     texture = "gfx/interface/icons/generic_icons/vsf_mixed_icon_base.dds"
@@ -37,9 +31,7 @@ pm_vsf_停止运行
 
 pmg_vsf_紫瓶生产组 = {
     production_methods = {
-pm_vsf_紫瓶一型
-pm_vsf_紫瓶二型
-pm_vsf_紫瓶三型
+pm_vsf_紫瓶生产
 pm_vsf_停止运行
 }
     texture = "gfx/interface/icons/generic_icons/vsf_mixed_icon_base.dds"
@@ -47,9 +39,7 @@ pm_vsf_停止运行
 
 pmg_vsf_金瓶生产组 = {
     production_methods = {
-pm_vsf_金瓶一型
-pm_vsf_金瓶二型
-pm_vsf_金瓶三型
+pm_vsf_金瓶生产
 pm_vsf_停止运行
 }
     texture = "gfx/interface/icons/generic_icons/vsf_mixed_icon_base.dds"
@@ -98,17 +88,11 @@ pm_vsf_停止运行
     texture = "gfx/interface/icons/generic_icons/vsf_mixed_icon_base.dds"
 }
 
-pmg_vsf_物流包机器选择 = {
+pmg_vsf_机器选择 = {
     production_methods = {
-pm_vsf_物流包一型组装机一型
-pm_vsf_物流包一型组装机二型
-pm_vsf_物流包一型组装机三型
-pm_vsf_物流包二型组装机一型
-pm_vsf_物流包二型组装机二型
-pm_vsf_物流包二型组装机三型
-pm_vsf_物流包三型组装机一型
-pm_vsf_物流包三型组装机二型
-pm_vsf_物流包三型组装机三型
+pm_vsf_组装机一型
+pm_vsf_组装机二型
+pm_vsf_组装机三型
 pm_vsf_不使用机器
 }
     texture = "gfx/interface/icons/generic_icons/vsf_mixed_icon_base.dds"
@@ -126,15 +110,9 @@ pm_vsf_停止运行
 
 pmg_vsf_生产包机器选择 = {
     production_methods = {
-pm_vsf_生产包一型组装机一型
-pm_vsf_生产包二型组装机一型
-pm_vsf_生产包三型组装机一型
-pm_vsf_生产包一型组装机二型
-pm_vsf_生产包二型组装机二型
-pm_vsf_生产包三型组装机二型
-pm_vsf_生产包一型组装机三型
-pm_vsf_生产包二型组装机三型
-pm_vsf_生产包三型组装机三型
+pm_vsf_组装机一型
+pm_vsf_组装机二型
+pm_vsf_组装机三型
 pm_vsf_不使用机器
 }
     texture = "gfx/interface/icons/generic_icons/vsf_mixed_icon_base.dds"
@@ -142,9 +120,7 @@ pm_vsf_不使用机器
 
 pmg_vsf_机器人包生产组 = {
     production_methods = {
-pm_vsf_机器人包一型
-pm_vsf_机器人包二型
-pm_vsf_机器人包三型
+pm_vsf_机器人包生产
 pm_vsf_停止运行
 }
     texture = "gfx/interface/icons/generic_icons/vsf_mixed_icon_base.dds"
@@ -176,9 +152,7 @@ pm_vsf_传送带客运服务
 
 pmg_vsf_采矿包生产组 = {
     production_methods = {
-pm_vsf_采矿包一型
-pm_vsf_采矿包二型
-pm_vsf_采矿包三型
+pm_vsf_采矿包生产
 pm_vsf_停止运行
 }
     texture = "gfx/interface/icons/generic_icons/vsf_mixed_icon_base.dds"
@@ -186,9 +160,7 @@ pm_vsf_停止运行
 
 pmg_vsf_炼油包生产组 = {
     production_methods = {
-pm_vsf_炼油包一型
-pm_vsf_炼油包二型
-pm_vsf_炼油包三型
+pm_vsf_炼油包生产
 pm_vsf_停止运行
 }
     texture = "gfx/interface/icons/generic_icons/vsf_mixed_icon_base.dds"
@@ -196,9 +168,7 @@ pm_vsf_停止运行
 
 pmg_vsf_蒸汽发电包生产组 = {
     production_methods = {
-pm_vsf_蒸汽发电包一型
-pm_vsf_蒸汽发电包二型
-pm_vsf_蒸汽发电包三型
+pm_vsf_蒸汽发电包生产
 pm_vsf_停止运行
 }
     texture = "gfx/interface/icons/generic_icons/vsf_mixed_icon_base.dds"
@@ -206,9 +176,7 @@ pm_vsf_停止运行
 
 pmg_vsf_太阳发电包生产组 = {
     production_methods = {
-pm_vsf_太阳发电包一型
-pm_vsf_太阳发电包二型
-pm_vsf_太阳发电包三型
+pm_vsf_太阳发电包生产
 pm_vsf_停止运行
 }
     texture = "gfx/interface/icons/generic_icons/vsf_mixed_icon_base.dds"
@@ -257,6 +225,175 @@ pm_vsf_停止运行
 pmg_vsf_太阳发电阵列 = {
     production_methods = {
 pm_vsf_太阳发电
+pm_vsf_停止运行
+}
+    texture = "gfx/interface/icons/generic_icons/vsf_mixed_icon_base.dds"
+}
+
+pmg_vsf_建筑插件槽一 = {
+    production_methods = {
+pm_vsf_无插件_槽一
+pm_vsf_一型速度插件_槽一
+pm_vsf_一型产能插件_槽一
+pm_vsf_一型节能插件_槽一
+pm_vsf_二型速度插件_槽一
+pm_vsf_二型产能插件_槽一
+pm_vsf_二型节能插件_槽一
+pm_vsf_三型速度插件_槽一
+pm_vsf_三型产能插件_槽一
+pm_vsf_三型节能插件_槽一
+}
+    texture = "gfx/interface/icons/generic_icons/vsf_mixed_icon_base.dds"
+}
+
+pmg_vsf_建筑插件槽二 = {
+    production_methods = {
+pm_vsf_无插件_槽二
+pm_vsf_一型速度插件_槽二
+pm_vsf_一型产能插件_槽二
+pm_vsf_一型节能插件_槽二
+pm_vsf_二型速度插件_槽二
+pm_vsf_二型产能插件_槽二
+pm_vsf_二型节能插件_槽二
+pm_vsf_三型速度插件_槽二
+pm_vsf_三型产能插件_槽二
+pm_vsf_三型节能插件_槽二
+}
+    texture = "gfx/interface/icons/generic_icons/vsf_mixed_icon_base.dds"
+}
+
+pmg_vsf_建筑插件槽三 = {
+    production_methods = {
+pm_vsf_无插件_槽三
+pm_vsf_一型速度插件_槽三
+pm_vsf_一型产能插件_槽三
+pm_vsf_一型节能插件_槽三
+pm_vsf_二型速度插件_槽三
+pm_vsf_二型产能插件_槽三
+pm_vsf_二型节能插件_槽三
+pm_vsf_三型速度插件_槽三
+pm_vsf_三型产能插件_槽三
+pm_vsf_三型节能插件_槽三
+}
+    texture = "gfx/interface/icons/generic_icons/vsf_mixed_icon_base.dds"
+}
+
+pmg_vsf_建筑插件槽四 = {
+    production_methods = {
+pm_vsf_无插件_槽四
+pm_vsf_一型速度插件_槽四
+pm_vsf_一型产能插件_槽四
+pm_vsf_一型节能插件_槽四
+pm_vsf_二型速度插件_槽四
+pm_vsf_二型产能插件_槽四
+pm_vsf_二型节能插件_槽四
+pm_vsf_三型速度插件_槽四
+pm_vsf_三型产能插件_槽四
+pm_vsf_三型节能插件_槽四
+}
+    texture = "gfx/interface/icons/generic_icons/vsf_mixed_icon_base.dds"
+}
+
+pmg_vsf_共享插件槽一 = {
+    production_methods = {
+pm_vsf_无插件_槽一
+pm_vsf_一型速度插件_共享槽一
+pm_vsf_一型节能插件_共享槽一
+pm_vsf_二型速度插件_共享槽一
+pm_vsf_二型节能插件_共享槽一
+pm_vsf_三型速度插件_共享槽一
+pm_vsf_三型节能插件_共享槽一
+}
+    texture = "gfx/interface/icons/generic_icons/vsf_mixed_icon_base.dds"
+}
+
+pmg_vsf_共享插件槽二 = {
+    production_methods = {
+pm_vsf_无插件_槽二
+pm_vsf_一型速度插件_共享槽二
+pm_vsf_一型节能插件_共享槽二
+pm_vsf_二型速度插件_共享槽二
+pm_vsf_二型节能插件_共享槽二
+pm_vsf_三型速度插件_共享槽二
+pm_vsf_三型节能插件_共享槽二
+}
+    texture = "gfx/interface/icons/generic_icons/vsf_mixed_icon_base.dds"
+}
+
+pmg_vsf_无条件插件槽一 = {
+    production_methods = {
+pm_vsf_无插件_槽一
+pm_vsf_一型速度插件_无条件槽一
+pm_vsf_一型产能插件_无条件槽一
+pm_vsf_一型节能插件_无条件槽一
+pm_vsf_二型速度插件_无条件槽一
+pm_vsf_二型产能插件_无条件槽一
+pm_vsf_二型节能插件_无条件槽一
+pm_vsf_三型速度插件_无条件槽一
+pm_vsf_三型产能插件_无条件槽一
+pm_vsf_三型节能插件_无条件槽一
+}
+    texture = "gfx/interface/icons/generic_icons/vsf_mixed_icon_base.dds"
+}
+
+pmg_vsf_无条件插件槽二 = {
+    production_methods = {
+pm_vsf_无插件_槽二
+pm_vsf_一型速度插件_无条件槽二
+pm_vsf_一型产能插件_无条件槽二
+pm_vsf_一型节能插件_无条件槽二
+pm_vsf_二型速度插件_无条件槽二
+pm_vsf_二型产能插件_无条件槽二
+pm_vsf_二型节能插件_无条件槽二
+pm_vsf_三型速度插件_无条件槽二
+pm_vsf_三型产能插件_无条件槽二
+pm_vsf_三型节能插件_无条件槽二
+}
+    texture = "gfx/interface/icons/generic_icons/vsf_mixed_icon_base.dds"
+}
+
+pmg_vsf_无条件插件槽三 = {
+    production_methods = {
+pm_vsf_无插件_槽三
+pm_vsf_一型速度插件_无条件槽三
+pm_vsf_一型产能插件_无条件槽三
+pm_vsf_一型节能插件_无条件槽三
+pm_vsf_二型速度插件_无条件槽三
+pm_vsf_二型产能插件_无条件槽三
+pm_vsf_二型节能插件_无条件槽三
+pm_vsf_三型速度插件_无条件槽三
+pm_vsf_三型产能插件_无条件槽三
+pm_vsf_三型节能插件_无条件槽三
+}
+    texture = "gfx/interface/icons/generic_icons/vsf_mixed_icon_base.dds"
+}
+
+pmg_vsf_无条件插件槽四 = {
+    production_methods = {
+pm_vsf_无插件_槽四
+pm_vsf_一型速度插件_无条件槽四
+pm_vsf_一型产能插件_无条件槽四
+pm_vsf_一型节能插件_无条件槽四
+pm_vsf_二型速度插件_无条件槽四
+pm_vsf_二型产能插件_无条件槽四
+pm_vsf_二型节能插件_无条件槽四
+pm_vsf_三型速度插件_无条件槽四
+pm_vsf_三型产能插件_无条件槽四
+pm_vsf_三型节能插件_无条件槽四
+}
+    texture = "gfx/interface/icons/generic_icons/vsf_mixed_icon_base.dds"
+}
+
+pmg_vsf_插件效果分享 = {
+    production_methods = {
+pm_vsf_插件效果分享
+}
+    texture = "gfx/interface/icons/generic_icons/vsf_mixed_icon_base.dds"
+}
+
+pmg_vsf_插件包生产组 = {
+    production_methods = {
+pm_vsf_插件包生产
 pm_vsf_停止运行
 }
     texture = "gfx/interface/icons/generic_icons/vsf_mixed_icon_base.dds"

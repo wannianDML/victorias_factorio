@@ -30,35 +30,23 @@ pm_vsf_todo = {
 
 }
 
-pm_vsf_红瓶一型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型生产.dds"
+pm_vsf_红瓶生产 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_红瓶剪影.dds"
 
     country_modifiers = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -9.55
-}
     }
     building_modifiers = {
         workforce_scaled = {
             goods_input_iron_add = 180.0
-            goods_input_goods_vsf_一型生产包_add = 11.0
+            goods_input_transportation_add = 9
 
             goods_output_goods_vsf_机自科技包_add = 6000.0
 
-            goods_input_electricity_add = 1.705
-
         }
-        level_scaled = {
-building_employment_laborers_add = 5000
-}
     }
-
-    unlocking_technologies = {
-tech_vsf_一型自动化
-}
 
 }
 
@@ -69,18 +57,15 @@ pm_vsf_红瓶二型 = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -14.05
-}
     }
     building_modifiers = {
         workforce_scaled = {
             goods_input_iron_add = 270.0
-            goods_input_goods_vsf_二型生产包_add = 11.0
+            goods_input_goods_vsf_二型生产包_add = 0.0
+            goods_input_electricity_add = 0
+goods_input_transportation_add = 13.5
 
             goods_output_goods_vsf_机自科技包_add = 9000.0
-
-            goods_input_electricity_add = 2.27333333333333
 
         }
         level_scaled = {
@@ -101,18 +86,15 @@ pm_vsf_红瓶三型 = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -23.05
-}
     }
     building_modifiers = {
         workforce_scaled = {
             goods_input_iron_add = 450.0
-            goods_input_goods_vsf_三型生产包_add = 11.0
+            goods_input_goods_vsf_三型生产包_add = 0.0
+            goods_input_electricity_add = 0
+goods_input_transportation_add = 22.5
 
             goods_output_goods_vsf_机自科技包_add = 15000.0
-
-            goods_input_electricity_add = 3.4144
 
         }
         level_scaled = {
@@ -126,35 +108,23 @@ tech_vsf_三型自动化
 
 }
 
-pm_vsf_绿瓶一型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型生产.dds"
+pm_vsf_绿瓶生产 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_绿瓶剪影.dds"
 
     country_modifiers = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -21.95
-}
     }
     building_modifiers = {
         workforce_scaled = {
             goods_input_iron_add = 420.0
-            goods_input_goods_vsf_一型生产包_add = 19.0
+            goods_input_transportation_add = 21
 
             goods_output_goods_vsf_物流科技包_add = 6000.0
 
-            goods_input_electricity_add = 2.945
-
         }
-        level_scaled = {
-building_employment_laborers_add = 5000
-}
     }
-
-    unlocking_technologies = {
-tech_vsf_一型自动化
-}
 
 }
 
@@ -165,18 +135,15 @@ pm_vsf_绿瓶二型 = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -32.45
-}
     }
     building_modifiers = {
         workforce_scaled = {
             goods_input_iron_add = 630.0
-            goods_input_goods_vsf_二型生产包_add = 19.0
+            goods_input_goods_vsf_二型生产包_add = 0.0
+            goods_input_electricity_add = 0
+goods_input_transportation_add = 31.5
 
             goods_output_goods_vsf_物流科技包_add = 9000.0
-
-            goods_input_electricity_add = 3.92666666666667
 
         }
         level_scaled = {
@@ -197,18 +164,15 @@ pm_vsf_绿瓶三型 = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -53.45
-}
     }
     building_modifiers = {
         workforce_scaled = {
             goods_input_iron_add = 1050.0
-            goods_input_goods_vsf_三型生产包_add = 19.0
+            goods_input_goods_vsf_三型生产包_add = 0.0
+            goods_input_electricity_add = 0
+goods_input_transportation_add = 52.5
 
             goods_output_goods_vsf_物流科技包_add = 15000.0
-
-            goods_input_electricity_add = 5.8976
 
         }
         level_scaled = {
@@ -222,16 +186,13 @@ tech_vsf_三型自动化
 
 }
 
-pm_vsf_蓝瓶一型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型生产.dds"
+pm_vsf_蓝瓶生产 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_蓝瓶剪影.dds"
 
     country_modifiers = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -127.31
-}
     }
     building_modifiers = {
         workforce_scaled = {
@@ -240,21 +201,12 @@ state_infrastructure_add = -127.31
             goods_input_coal_add = 180.0
             goods_input_oil_add = 367.2
             goods_input_sulfur_add = 60.0
-            goods_input_goods_vsf_一型生产包_add = 79.0
+            goods_input_transportation_add = 123.36
 
             goods_output_goods_vsf_化工科技包_add = 12000.0
 
-            goods_input_electricity_add = 12.245
-
         }
-        level_scaled = {
-building_employment_laborers_add = 5000
-}
     }
-
-    unlocking_technologies = {
-tech_vsf_一型自动化
-}
 
 }
 
@@ -265,9 +217,6 @@ pm_vsf_蓝瓶二型 = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -188.99
-}
     }
     building_modifiers = {
         workforce_scaled = {
@@ -276,11 +225,11 @@ state_infrastructure_add = -188.99
             goods_input_coal_add = 270.0
             goods_input_oil_add = 550.8
             goods_input_sulfur_add = 90.0
-            goods_input_goods_vsf_二型生产包_add = 79.0
+            goods_input_goods_vsf_二型生产包_add = 0.0
+            goods_input_electricity_add = 0
+goods_input_transportation_add = 185.04
 
             goods_output_goods_vsf_化工科技包_add = 18000.0
-
-            goods_input_electricity_add = 16.3266666666667
 
         }
         level_scaled = {
@@ -301,9 +250,6 @@ pm_vsf_蓝瓶三型 = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -312.35
-}
     }
     building_modifiers = {
         workforce_scaled = {
@@ -312,11 +258,11 @@ state_infrastructure_add = -312.35
             goods_input_coal_add = 450.0
             goods_input_oil_add = 918.0
             goods_input_sulfur_add = 150.0
-            goods_input_goods_vsf_三型生产包_add = 79.0
+            goods_input_goods_vsf_三型生产包_add = 0.0
+            goods_input_electricity_add = 0
+goods_input_transportation_add = 308.4
 
             goods_output_goods_vsf_化工科技包_add = 30000.0
-
-            goods_input_electricity_add = 24.5216
 
         }
         level_scaled = {
@@ -330,16 +276,13 @@ tech_vsf_三型自动化
 
 }
 
-pm_vsf_紫瓶一型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型生产.dds"
+pm_vsf_紫瓶生产 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_紫瓶剪影.dds"
 
     country_modifiers = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -546.65
-}
     }
     building_modifiers = {
         workforce_scaled = {
@@ -347,21 +290,12 @@ state_infrastructure_add = -546.65
             goods_input_steel_add = 1500.0
             goods_input_coal_add = 600.0
             goods_input_oil_add = 1224.0
-            goods_input_goods_vsf_一型生产包_add = 109.0
+            goods_input_transportation_add = 541.2
 
             goods_output_goods_vsf_生产科技包_add = 18000.0
 
-            goods_input_electricity_add = 16.895
-
         }
-        level_scaled = {
-building_employment_laborers_add = 5000
-}
     }
-
-    unlocking_technologies = {
-tech_vsf_一型自动化
-}
 
 }
 
@@ -372,9 +306,6 @@ pm_vsf_紫瓶二型 = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -817.25
-}
     }
     building_modifiers = {
         workforce_scaled = {
@@ -382,11 +313,11 @@ state_infrastructure_add = -817.25
             goods_input_steel_add = 2250.0
             goods_input_coal_add = 900.0
             goods_input_oil_add = 1836.0
-            goods_input_goods_vsf_二型生产包_add = 109.0
+            goods_input_goods_vsf_二型生产包_add = 0.0
+            goods_input_electricity_add = 0
+goods_input_transportation_add = 811.8
 
             goods_output_goods_vsf_生产科技包_add = 27000.0
-
-            goods_input_electricity_add = 22.5266666666667
 
         }
         level_scaled = {
@@ -407,9 +338,6 @@ pm_vsf_紫瓶三型 = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -1358.45
-}
     }
     building_modifiers = {
         workforce_scaled = {
@@ -417,11 +345,11 @@ state_infrastructure_add = -1358.45
             goods_input_steel_add = 3750.0
             goods_input_coal_add = 1500.0
             goods_input_oil_add = 3060.0
-            goods_input_goods_vsf_三型生产包_add = 109.0
+            goods_input_goods_vsf_三型生产包_add = 0.0
+            goods_input_electricity_add = 0
+goods_input_transportation_add = 1353
 
             goods_output_goods_vsf_生产科技包_add = 45000.0
-
-            goods_input_electricity_add = 33.8336
 
         }
         level_scaled = {
@@ -435,16 +363,13 @@ tech_vsf_三型自动化
 
 }
 
-pm_vsf_金瓶一型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型生产.dds"
+pm_vsf_金瓶生产 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_金瓶剪影.dds"
 
     country_modifiers = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -797.03
-}
     }
     building_modifiers = {
         workforce_scaled = {
@@ -453,21 +378,12 @@ state_infrastructure_add = -797.03
             goods_input_coal_add = 690.0
             goods_input_oil_add = 1767.6
             goods_input_sulfur_add = 300.0
-            goods_input_goods_vsf_一型生产包_add = 163.0
+            goods_input_transportation_add = 788.88
 
             goods_output_goods_vsf_效能科技包_add = 18000.0
 
-            goods_input_electricity_add = 25.265
-
         }
-        level_scaled = {
-building_employment_laborers_add = 5000
-}
     }
-
-    unlocking_technologies = {
-tech_vsf_一型自动化
-}
 
 }
 
@@ -478,9 +394,6 @@ pm_vsf_金瓶二型 = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -1191.47
-}
     }
     building_modifiers = {
         workforce_scaled = {
@@ -489,11 +402,11 @@ state_infrastructure_add = -1191.47
             goods_input_coal_add = 1035.0
             goods_input_oil_add = 2651.4
             goods_input_sulfur_add = 450.0
-            goods_input_goods_vsf_二型生产包_add = 163.0
+            goods_input_goods_vsf_二型生产包_add = 0.0
+            goods_input_electricity_add = 0
+goods_input_transportation_add = 1183.32
 
             goods_output_goods_vsf_效能科技包_add = 27000.0
-
-            goods_input_electricity_add = 33.6866666666667
 
         }
         level_scaled = {
@@ -514,9 +427,6 @@ pm_vsf_金瓶三型 = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -1980.35
-}
     }
     building_modifiers = {
         workforce_scaled = {
@@ -525,11 +435,11 @@ state_infrastructure_add = -1980.35
             goods_input_coal_add = 1725.0
             goods_input_oil_add = 4419.0
             goods_input_sulfur_add = 750.0
-            goods_input_goods_vsf_三型生产包_add = 163.0
+            goods_input_goods_vsf_三型生产包_add = 0.0
+            goods_input_electricity_add = 0
+goods_input_transportation_add = 1972.2
 
             goods_output_goods_vsf_效能科技包_add = 45000.0
-
-            goods_input_electricity_add = 50.5952
 
         }
         level_scaled = {
@@ -551,22 +461,20 @@ pm_vsf_基础物流总线 = {
 
     state_modifiers = {
         workforce_scaled = {
-state_infrastructure_add = 300
+state_infrastructure_add = 15
 }
     }
     building_modifiers = {
         workforce_scaled = {
             goods_input_goods_vsf_基础物流包_add = 100.0
 
+            goods_output_transportation_add = 300.0
+
         }
         level_scaled = {
 building_employment_laborers_add = 5000
 }
     }
-
-    unlocking_technologies = {
-tech_vsf_基础物流学
-}
 
 }
 
@@ -578,12 +486,14 @@ pm_vsf_高速物流总线 = {
 
     state_modifiers = {
         workforce_scaled = {
-state_infrastructure_add = 600
+state_infrastructure_add = 30
 }
     }
     building_modifiers = {
         workforce_scaled = {
             goods_input_goods_vsf_高速物流包_add = 100.0
+
+            goods_output_transportation_add = 600.0
 
         }
         level_scaled = {
@@ -605,12 +515,14 @@ pm_vsf_极速物流总线 = {
 
     state_modifiers = {
         workforce_scaled = {
-state_infrastructure_add = 900
+state_infrastructure_add = 45
 }
     }
     building_modifiers = {
         workforce_scaled = {
             goods_input_goods_vsf_极速物流包_add = 100.0
+
+            goods_output_transportation_add = 900.0
 
         }
         level_scaled = {
@@ -637,10 +549,6 @@ pm_vsf_一层物流总线 = {
 
         }
     }
-
-    unlocking_technologies = {
-tech_vsf_基础物流学
-}
 
 }
 
@@ -747,23 +655,17 @@ country_weekly_innovation_max_add = 2.4
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -30
-}
     }
     building_modifiers = {
         workforce_scaled = {
             goods_input_goods_vsf_机自科技包_add = 6000.0
+            goods_input_transportation_add = 30
 
         }
         level_scaled = {
 building_employment_academics_add = 600
 }
     }
-
-    unlocking_technologies = {
-tech_vsf_机自科技包
-}
 
 }
 
@@ -778,14 +680,12 @@ country_weekly_innovation_max_add = 9.6
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -60
-}
     }
     building_modifiers = {
         workforce_scaled = {
             goods_input_goods_vsf_机自科技包_add = 6000.0
             goods_input_goods_vsf_物流科技包_add = 6000.0
+            goods_input_transportation_add = 60
 
         }
         level_scaled = {
@@ -810,15 +710,13 @@ country_weekly_innovation_max_add = 28.8
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -90
-}
     }
     building_modifiers = {
         workforce_scaled = {
             goods_input_goods_vsf_机自科技包_add = 6000.0
             goods_input_goods_vsf_物流科技包_add = 6000.0
             goods_input_goods_vsf_化工科技包_add = 6000.0
+            goods_input_transportation_add = 90
 
         }
         level_scaled = {
@@ -843,9 +741,6 @@ country_weekly_innovation_max_add = 76.8
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -120
-}
     }
     building_modifiers = {
         workforce_scaled = {
@@ -853,6 +748,7 @@ state_infrastructure_add = -120
             goods_input_goods_vsf_物流科技包_add = 6000.0
             goods_input_goods_vsf_化工科技包_add = 6000.0
             goods_input_goods_vsf_生产科技包_add = 6000.0
+            goods_input_transportation_add = 120
 
         }
         level_scaled = {
@@ -877,9 +773,6 @@ country_weekly_innovation_max_add = 192
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -150
-}
     }
     building_modifiers = {
         workforce_scaled = {
@@ -888,6 +781,7 @@ state_infrastructure_add = -150
             goods_input_goods_vsf_化工科技包_add = 6000.0
             goods_input_goods_vsf_生产科技包_add = 6000.0
             goods_input_goods_vsf_效能科技包_add = 6000.0
+            goods_input_transportation_add = 150
 
         }
         level_scaled = {
@@ -902,19 +796,17 @@ tech_vsf_效能科技包
 }
 
 pm_vsf_物流包一型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型生产.dds"
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_基础物流总线.dds"
 
     country_modifiers = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -3.35
-}
     }
     building_modifiers = {
         workforce_scaled = {
             goods_input_iron_add = 67.0
+            goods_input_transportation_add = 3.35
 
             goods_output_goods_vsf_基础物流包_add = 100.0
 
@@ -924,26 +816,20 @@ building_employment_laborers_add = 2500
 }
     }
 
-    unlocking_technologies = {
-tech_vsf_基础物流学
-}
-
 }
 
 pm_vsf_物流包二型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_二型生产.dds"
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_高速物流总线.dds"
 
     country_modifiers = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -15.275
-}
     }
     building_modifiers = {
         workforce_scaled = {
             goods_input_iron_add = 305.5
+            goods_input_transportation_add = 15.28
 
             goods_output_goods_vsf_高速物流包_add = 100.0
 
@@ -960,21 +846,19 @@ tech_vsf_高速物流学
 }
 
 pm_vsf_物流包三型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_三型生产.dds"
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_极速物流总线.dds"
 
     country_modifiers = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -51.824
-}
     }
     building_modifiers = {
         workforce_scaled = {
             goods_input_iron_add = 904.0
             goods_input_coal_add = 12.0
             goods_input_oil_add = 120.48
+            goods_input_transportation_add = 51.82
 
             goods_output_goods_vsf_极速物流包_add = 100.0
 
@@ -997,13 +881,11 @@ pm_vsf_生产包一型 = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -2.6
-}
     }
     building_modifiers = {
         workforce_scaled = {
             goods_input_iron_add = 52.0
+            goods_input_transportation_add = 2.6
 
             goods_output_goods_vsf_一型生产包_add = 100.0
 
@@ -1012,10 +894,6 @@ state_infrastructure_add = -2.6
 building_employment_laborers_add = 2500
 }
     }
-
-    unlocking_technologies = {
-tech_vsf_一型自动化
-}
 
 }
 
@@ -1026,14 +904,12 @@ pm_vsf_生产包二型 = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -7.625
-}
     }
     building_modifiers = {
         workforce_scaled = {
             goods_input_iron_add = 150.5
             goods_input_steel_add = 2.0
+            goods_input_transportation_add = 7.63
 
             goods_output_goods_vsf_二型生产包_add = 100.0
 
@@ -1056,9 +932,6 @@ pm_vsf_生产包三型 = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -30.865
-}
     }
     building_modifiers = {
         workforce_scaled = {
@@ -1066,6 +939,7 @@ state_infrastructure_add = -30.865
             goods_input_coal_add = 20.0
             goods_input_oil_add = 88.8
             goods_input_steel_add = 4.0
+            goods_input_transportation_add = 30.87
 
             goods_output_goods_vsf_三型生产包_add = 100.0
 
@@ -1081,22 +955,19 @@ tech_vsf_三型自动化
 
 }
 
-pm_vsf_物流包一型组装机一型 = {
+pm_vsf_组装机一型 = {
     texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型生产.dds"
 
     country_modifiers = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -2.3
-}
     }
     building_modifiers = {
         workforce_scaled = {
-            goods_input_goods_vsf_一型生产包_add = 46.0
-
-            goods_input_electricity_add = 7.13
+            goods_input_goods_vsf_一型生产包_add = 25.0
+            goods_input_electricity_add = 3.88
+goods_input_transportation_add = 1.25
 
         }
         level_scaled = {
@@ -1108,28 +979,21 @@ building_employment_laborers_add = 2500
 tech_vsf_一型自动化
 }
 
-    unlocking_production_methods = {
-pm_vsf_物流包一型
 }
 
-}
-
-pm_vsf_物流包一型组装机二型 = {
+pm_vsf_组装机二型 = {
     texture = "gfx/interface/icons/production_method_icons/pm_vsf_二型生产.dds"
 
     country_modifiers = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -2.3
-}
     }
     building_modifiers = {
         workforce_scaled = {
-            goods_input_goods_vsf_二型生产包_add = 46.0
-
-            goods_input_electricity_add = 9.50666666666667
+            goods_input_goods_vsf_二型生产包_add = 25.0
+            goods_input_electricity_add = 5.17
+goods_input_transportation_add = 1.25
 
         }
         level_scaled = {
@@ -1144,28 +1008,21 @@ building_throughput_add = 0.5
 tech_vsf_二型自动化
 }
 
-    unlocking_production_methods = {
-pm_vsf_物流包一型
 }
 
-}
-
-pm_vsf_物流包一型组装机三型 = {
+pm_vsf_组装机三型 = {
     texture = "gfx/interface/icons/production_method_icons/pm_vsf_三型生产.dds"
 
     country_modifiers = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -2.3
-}
     }
     building_modifiers = {
         workforce_scaled = {
-            goods_input_goods_vsf_三型生产包_add = 46.0
-
-            goods_input_electricity_add = 14.2784
+            goods_input_goods_vsf_三型生产包_add = 25.0
+            goods_input_electricity_add = 7.76
+goods_input_transportation_add = 1.25
 
         }
         level_scaled = {
@@ -1180,10 +1037,6 @@ building_throughput_add = 1.5
 tech_vsf_三型自动化
 }
 
-    unlocking_production_methods = {
-pm_vsf_物流包一型
-}
-
 }
 
 pm_vsf_物流包二型组装机一型 = {
@@ -1193,15 +1046,12 @@ pm_vsf_物流包二型组装机一型 = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -10
-}
     }
     building_modifiers = {
         workforce_scaled = {
             goods_input_goods_vsf_一型生产包_add = 200.0
-
             goods_input_electricity_add = 31
+goods_input_transportation_add = 10
 
         }
         level_scaled = {
@@ -1226,15 +1076,12 @@ pm_vsf_物流包二型组装机二型 = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -10
-}
     }
     building_modifiers = {
         workforce_scaled = {
             goods_input_goods_vsf_二型生产包_add = 200.0
-
-            goods_input_electricity_add = 41.3333333333333
+            goods_input_electricity_add = 41.33
+goods_input_transportation_add = 10
 
         }
         level_scaled = {
@@ -1262,15 +1109,12 @@ pm_vsf_物流包二型组装机三型 = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -10
-}
     }
     building_modifiers = {
         workforce_scaled = {
             goods_input_goods_vsf_三型生产包_add = 200.0
-
             goods_input_electricity_add = 62.08
+goods_input_transportation_add = 10
 
         }
         level_scaled = {
@@ -1298,15 +1142,12 @@ pm_vsf_物流包三型组装机一型 = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -37.55
-}
     }
     building_modifiers = {
         workforce_scaled = {
             goods_input_goods_vsf_一型生产包_add = 751.0
-
-            goods_input_electricity_add = 116.405
+            goods_input_electricity_add = 116.41
+goods_input_transportation_add = 37.55
 
         }
         level_scaled = {
@@ -1331,15 +1172,12 @@ pm_vsf_物流包三型组装机二型 = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -37.55
-}
     }
     building_modifiers = {
         workforce_scaled = {
             goods_input_goods_vsf_二型生产包_add = 751.0
-
-            goods_input_electricity_add = 155.206666666667
+            goods_input_electricity_add = 155.21
+goods_input_transportation_add = 37.55
 
         }
         level_scaled = {
@@ -1367,15 +1205,12 @@ pm_vsf_物流包三型组装机三型 = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -37.55
-}
     }
     building_modifiers = {
         workforce_scaled = {
             goods_input_goods_vsf_三型生产包_add = 751.0
-
-            goods_input_electricity_add = 233.1104
+            goods_input_electricity_add = 233.11
+goods_input_transportation_add = 37.55
 
         }
         level_scaled = {
@@ -1403,15 +1238,12 @@ pm_vsf_生产包一型组装机一型 = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -1.65
-}
     }
     building_modifiers = {
         workforce_scaled = {
             goods_input_goods_vsf_一型生产包_add = 33.0
-
-            goods_input_electricity_add = 5.115
+            goods_input_electricity_add = 5.12
+goods_input_transportation_add = 1.65
 
         }
         level_scaled = {
@@ -1436,15 +1268,12 @@ pm_vsf_生产包二型组装机一型 = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -1.65
-}
     }
     building_modifiers = {
         workforce_scaled = {
             goods_input_goods_vsf_二型生产包_add = 33.0
-
             goods_input_electricity_add = 6.82
+goods_input_transportation_add = 1.65
 
         }
         level_scaled = {
@@ -1472,15 +1301,12 @@ pm_vsf_生产包三型组装机一型 = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -1.65
-}
     }
     building_modifiers = {
         workforce_scaled = {
             goods_input_goods_vsf_三型生产包_add = 33.0
-
-            goods_input_electricity_add = 10.2432
+            goods_input_electricity_add = 10.24
+goods_input_transportation_add = 1.65
 
         }
         level_scaled = {
@@ -1508,15 +1334,12 @@ pm_vsf_生产包一型组装机二型 = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -5.05
-}
     }
     building_modifiers = {
         workforce_scaled = {
             goods_input_goods_vsf_一型生产包_add = 101.0
-
-            goods_input_electricity_add = 15.655
+            goods_input_electricity_add = 15.66
+goods_input_transportation_add = 5.05
 
         }
         level_scaled = {
@@ -1541,15 +1364,12 @@ pm_vsf_生产包二型组装机二型 = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -5.05
-}
     }
     building_modifiers = {
         workforce_scaled = {
             goods_input_goods_vsf_二型生产包_add = 101.0
-
-            goods_input_electricity_add = 20.8733333333333
+            goods_input_electricity_add = 20.87
+goods_input_transportation_add = 5.05
 
         }
         level_scaled = {
@@ -1577,15 +1397,12 @@ pm_vsf_生产包三型组装机二型 = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -5.05
-}
     }
     building_modifiers = {
         workforce_scaled = {
             goods_input_goods_vsf_三型生产包_add = 101.0
-
-            goods_input_electricity_add = 31.3504
+            goods_input_electricity_add = 31.35
+goods_input_transportation_add = 5.05
 
         }
         level_scaled = {
@@ -1613,15 +1430,12 @@ pm_vsf_生产包一型组装机三型 = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -38.15
-}
     }
     building_modifiers = {
         workforce_scaled = {
             goods_input_goods_vsf_一型生产包_add = 763.0
-
-            goods_input_electricity_add = 118.265
+            goods_input_electricity_add = 118.27
+goods_input_transportation_add = 38.15
 
         }
         level_scaled = {
@@ -1646,15 +1460,12 @@ pm_vsf_生产包二型组装机三型 = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -38.15
-}
     }
     building_modifiers = {
         workforce_scaled = {
             goods_input_goods_vsf_二型生产包_add = 763.0
-
-            goods_input_electricity_add = 157.686666666667
+            goods_input_electricity_add = 157.69
+goods_input_transportation_add = 38.15
 
         }
         level_scaled = {
@@ -1682,15 +1493,12 @@ pm_vsf_生产包三型组装机三型 = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -38.15
-}
     }
     building_modifiers = {
         workforce_scaled = {
             goods_input_goods_vsf_三型生产包_add = 763.0
-
-            goods_input_electricity_add = 236.8352
+            goods_input_electricity_add = 236.84
+goods_input_transportation_add = 38.15
 
         }
         level_scaled = {
@@ -1742,26 +1550,17 @@ pm_vsf_政府运营 = {
         workforce_scaled = {
 
         }
-        level_scaled = {
-building_employment_bureaucrats_add = 500
-}
-        unscaled = {
-			building_government_shares_add = 1
-		}
     }
 
 }
 
-pm_vsf_机器人包一型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型生产.dds"
+pm_vsf_机器人包生产 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_机器人包剪影.dds"
 
     country_modifiers = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -881.79
-}
     }
     building_modifiers = {
         workforce_scaled = {
@@ -1770,21 +1569,12 @@ state_infrastructure_add = -881.79
             goods_input_sulfur_add = 400.0
             goods_input_coal_add = 145.0
             goods_input_oil_add = 295.8
-            goods_input_goods_vsf_一型生产包_add = 13065.0
+            goods_input_transportation_add = 228.54
 
             goods_output_goods_vsf_机器人包_add = 100.0
 
-            goods_input_electricity_add = 2025.075
-
         }
-        level_scaled = {
-building_employment_laborers_add = 5000
-}
     }
-
-    unlocking_technologies = {
-tech_vsf_一型自动化
-}
 
 }
 
@@ -1795,9 +1585,6 @@ pm_vsf_机器人包二型 = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -996.06
-}
     }
     building_modifiers = {
         workforce_scaled = {
@@ -1806,11 +1593,11 @@ state_infrastructure_add = -996.06
             goods_input_sulfur_add = 600.0
             goods_input_coal_add = 217.5
             goods_input_oil_add = 443.7
-            goods_input_goods_vsf_二型生产包_add = 13065.0
+            goods_input_goods_vsf_二型生产包_add = 0.0
+            goods_input_electricity_add = 0
+goods_input_transportation_add = 342.81
 
             goods_output_goods_vsf_机器人包_add = 150.0
-
-            goods_input_electricity_add = 2700.1
 
         }
         level_scaled = {
@@ -1831,9 +1618,6 @@ pm_vsf_机器人包三型 = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -1224.6
-}
     }
     building_modifiers = {
         workforce_scaled = {
@@ -1842,11 +1626,11 @@ state_infrastructure_add = -1224.6
             goods_input_sulfur_add = 1000.0
             goods_input_coal_add = 362.5
             goods_input_oil_add = 739.5
-            goods_input_goods_vsf_三型生产包_add = 13065.0
+            goods_input_goods_vsf_三型生产包_add = 0.0
+            goods_input_electricity_add = 0
+goods_input_transportation_add = 571.35
 
             goods_output_goods_vsf_机器人包_add = 250.0
-
-            goods_input_electricity_add = 4055.376
 
         }
         level_scaled = {
@@ -1876,15 +1660,13 @@ state_infrastructure_add = 100
         workforce_scaled = {
             goods_input_goods_vsf_机器人包_add = 100.0
 
+            goods_output_transportation_add = 2000.0
+
         }
         level_scaled = {
 building_employment_engineers_add = 2500
 }
     }
-
-    unlocking_technologies = {
-tech_vsf_物流机器人
-}
 
 }
 
@@ -1900,7 +1682,7 @@ country_construction_add = 50
 
     state_modifiers = {
         workforce_scaled = {
-state_construction_mult = 0.01
+state_construction_mult = 0.02
 }
     }
     building_modifiers = {
@@ -1912,10 +1694,6 @@ state_construction_mult = 0.01
 building_employment_engineers_add = 2500
 }
     }
-
-    unlocking_technologies = {
-tech_vsf_建设机器人
-}
 
 }
 
@@ -1933,7 +1711,7 @@ state_infrastructure_add = -15
     building_modifiers = {
         workforce_scaled = {
 
-            goods_output_transportation_add = 30.0
+            goods_output_transportation_add = 300.0
 
         }
     }
@@ -1944,35 +1722,23 @@ tech_vsf_传送带载客改装
 
 }
 
-pm_vsf_采矿包一型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型生产.dds"
+pm_vsf_采矿包生产 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_采矿包剪影.dds"
 
     country_modifiers = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -4.4
-}
     }
     building_modifiers = {
         workforce_scaled = {
             goods_input_iron_add = 55.0
-            goods_input_goods_vsf_一型生产包_add = 33.0
+            goods_input_transportation_add = 2.75
 
             goods_output_goods_vsf_采矿包_add = 100.0
 
-            goods_input_electricity_add = 5.115
-
         }
-        level_scaled = {
-building_employment_laborers_add = 5000
-}
     }
-
-    unlocking_technologies = {
-tech_vsf_一型自动化
-}
 
 }
 
@@ -1983,18 +1749,15 @@ pm_vsf_采矿包二型 = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -5.775
-}
     }
     building_modifiers = {
         workforce_scaled = {
             goods_input_iron_add = 82.5
             goods_input_goods_vsf_二型生产包_add = 33.0
+            goods_input_electricity_add = 6.82
+goods_input_transportation_add = 5.78
 
             goods_output_goods_vsf_采矿包_add = 150.0
-
-            goods_input_electricity_add = 6.82
 
         }
         level_scaled = {
@@ -2015,18 +1778,15 @@ pm_vsf_采矿包三型 = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -8.525
-}
     }
     building_modifiers = {
         workforce_scaled = {
             goods_input_iron_add = 137.5
             goods_input_goods_vsf_三型生产包_add = 33.0
+            goods_input_electricity_add = 10.24
+goods_input_transportation_add = 8.53
 
             goods_output_goods_vsf_采矿包_add = 250.0
-
-            goods_input_electricity_add = 10.2432
 
         }
         level_scaled = {
@@ -2040,36 +1800,24 @@ tech_vsf_三型自动化
 
 }
 
-pm_vsf_炼油包一型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型生产.dds"
+pm_vsf_炼油包生产 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_炼油包剪影.dds"
 
     country_modifiers = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -11.3
-}
     }
     building_modifiers = {
         workforce_scaled = {
             goods_input_iron_add = 110.0
             goods_input_steel_add = 10.0
-            goods_input_goods_vsf_一型生产包_add = 106.0
+            goods_input_transportation_add = 6
 
             goods_output_goods_vsf_炼油包_add = 100.0
 
-            goods_input_electricity_add = 16.43
-
         }
-        level_scaled = {
-building_employment_laborers_add = 5000
-}
     }
-
-    unlocking_technologies = {
-tech_vsf_一型自动化
-}
 
 }
 
@@ -2080,19 +1828,16 @@ pm_vsf_炼油包二型 = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -14.3
-}
     }
     building_modifiers = {
         workforce_scaled = {
             goods_input_iron_add = 165.0
             goods_input_steel_add = 15.0
             goods_input_goods_vsf_二型生产包_add = 106.0
+            goods_input_electricity_add = 21.91
+goods_input_transportation_add = 14.3
 
             goods_output_goods_vsf_炼油包_add = 150.0
-
-            goods_input_electricity_add = 21.9066666666667
 
         }
         level_scaled = {
@@ -2113,19 +1858,16 @@ pm_vsf_炼油包三型 = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -20.3
-}
     }
     building_modifiers = {
         workforce_scaled = {
             goods_input_iron_add = 275.0
             goods_input_steel_add = 25.0
             goods_input_goods_vsf_三型生产包_add = 106.0
+            goods_input_electricity_add = 32.9
+goods_input_transportation_add = 20.3
 
             goods_output_goods_vsf_炼油包_add = 250.0
-
-            goods_input_electricity_add = 32.9024
 
         }
         level_scaled = {
@@ -2139,35 +1881,23 @@ tech_vsf_三型自动化
 
 }
 
-pm_vsf_蒸汽发电包一型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型生产.dds"
+pm_vsf_蒸汽发电包生产 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_蒸汽发电包剪影.dds"
 
     country_modifiers = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -5.25
-}
     }
     building_modifiers = {
         workforce_scaled = {
             goods_input_iron_add = 71.0
-            goods_input_goods_vsf_一型生产包_add = 34.0
+            goods_input_transportation_add = 3.55
 
             goods_output_goods_vsf_蒸汽发电包_add = 100.0
 
-            goods_input_electricity_add = 5.27
-
         }
-        level_scaled = {
-building_employment_laborers_add = 5000
-}
     }
-
-    unlocking_technologies = {
-tech_vsf_一型自动化
-}
 
 }
 
@@ -2178,18 +1908,15 @@ pm_vsf_蒸汽发电包二型 = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -7.025
-}
     }
     building_modifiers = {
         workforce_scaled = {
             goods_input_iron_add = 106.5
             goods_input_goods_vsf_二型生产包_add = 34.0
+            goods_input_electricity_add = 7.03
+goods_input_transportation_add = 7.03
 
             goods_output_goods_vsf_蒸汽发电包_add = 150.0
-
-            goods_input_electricity_add = 7.02666666666667
 
         }
         level_scaled = {
@@ -2210,18 +1937,15 @@ pm_vsf_蒸汽发电包三型 = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -10.575
-}
     }
     building_modifiers = {
         workforce_scaled = {
             goods_input_iron_add = 177.5
             goods_input_goods_vsf_三型生产包_add = 34.0
+            goods_input_electricity_add = 10.55
+goods_input_transportation_add = 10.58
 
             goods_output_goods_vsf_蒸汽发电包_add = 250.0
-
-            goods_input_electricity_add = 10.5536
 
         }
         level_scaled = {
@@ -2235,37 +1959,25 @@ tech_vsf_三型自动化
 
 }
 
-pm_vsf_太阳发电包一型 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型生产.dds"
+pm_vsf_太阳发电包生产 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_太阳发电包剪影.dds"
 
     country_modifiers = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -81.85
-}
     }
     building_modifiers = {
         workforce_scaled = {
             goods_input_iron_add = 1242.0
             goods_input_steel_add = 105.0
             goods_input_sulfur_add = 250.0
-            goods_input_goods_vsf_一型生产包_add = 40.0
+            goods_input_transportation_add = 79.85
 
             goods_output_goods_vsf_太阳发电包_add = 100.0
 
-            goods_input_electricity_add = 6.2
-
         }
-        level_scaled = {
-building_employment_laborers_add = 5000
-}
     }
-
-    unlocking_technologies = {
-tech_vsf_一型自动化
-}
 
 }
 
@@ -2276,9 +1988,6 @@ pm_vsf_太阳发电包二型 = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -121.775
-}
     }
     building_modifiers = {
         workforce_scaled = {
@@ -2286,10 +1995,10 @@ state_infrastructure_add = -121.775
             goods_input_steel_add = 157.5
             goods_input_sulfur_add = 375.0
             goods_input_goods_vsf_二型生产包_add = 40.0
+            goods_input_electricity_add = 8.27
+goods_input_transportation_add = 121.78
 
             goods_output_goods_vsf_太阳发电包_add = 150.0
-
-            goods_input_electricity_add = 8.26666666666667
 
         }
         level_scaled = {
@@ -2310,9 +2019,6 @@ pm_vsf_太阳发电包三型 = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -201.625
-}
     }
     building_modifiers = {
         workforce_scaled = {
@@ -2320,10 +2026,10 @@ state_infrastructure_add = -201.625
             goods_input_steel_add = 262.5
             goods_input_sulfur_add = 625.0
             goods_input_goods_vsf_三型生产包_add = 40.0
+            goods_input_electricity_add = 12.42
+goods_input_transportation_add = 201.63
 
             goods_output_goods_vsf_太阳发电包_add = 250.0
-
-            goods_input_electricity_add = 12.416
 
         }
         level_scaled = {
@@ -2344,27 +2050,20 @@ pm_vsf_自动化铁矿采掘 = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -2.5
-}
     }
     building_modifiers = {
         workforce_scaled = {
             goods_input_goods_vsf_采矿包_add = 50.0
+            goods_input_electricity_add = 4.5
+goods_input_transportation_add = 2.5
 
             goods_output_iron_add = 50.0
-
-            goods_input_electricity_add = 4.5
 
         }
         level_scaled = {
 building_employment_engineers_add = 500
 }
     }
-
-    unlocking_technologies = {
-tech_vsf_自动化采矿
-}
 
 }
 
@@ -2375,27 +2074,20 @@ pm_vsf_自动化煤矿采掘 = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -2.5
-}
     }
     building_modifiers = {
         workforce_scaled = {
             goods_input_goods_vsf_采矿包_add = 50.0
+            goods_input_electricity_add = 4.5
+goods_input_transportation_add = 2.5
 
             goods_output_coal_add = 50.0
-
-            goods_input_electricity_add = 4.5
 
         }
         level_scaled = {
 building_employment_engineers_add = 500
 }
     }
-
-    unlocking_technologies = {
-tech_vsf_自动化采矿
-}
 
 }
 
@@ -2406,27 +2098,20 @@ pm_vsf_自动化硫矿采掘 = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -2.5
-}
     }
     building_modifiers = {
         workforce_scaled = {
             goods_input_goods_vsf_采矿包_add = 50.0
+            goods_input_electricity_add = 4.5
+goods_input_transportation_add = 2.5
 
             goods_output_sulfur_add = 50.0
-
-            goods_input_electricity_add = 4.5
 
         }
         level_scaled = {
 building_employment_engineers_add = 500
 }
     }
-
-    unlocking_technologies = {
-tech_vsf_自动化采矿
-}
 
 }
 
@@ -2437,27 +2122,20 @@ pm_vsf_自动化炼油 = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -5
-}
     }
     building_modifiers = {
         workforce_scaled = {
             goods_input_goods_vsf_炼油包_add = 100.0
+            goods_input_electricity_add = 9
+goods_input_transportation_add = 5
 
             goods_output_oil_add = 200.0
-
-            goods_input_electricity_add = 9
 
         }
         level_scaled = {
 building_employment_engineers_add = 500
 }
     }
-
-    unlocking_technologies = {
-tech_vsf_基础原油处理
-}
 
 }
 
@@ -2468,14 +2146,12 @@ pm_vsf_蒸汽发电 = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -7.25
-}
     }
     building_modifiers = {
         workforce_scaled = {
             goods_input_goods_vsf_蒸汽发电包_add = 100.0
             goods_input_coal_add = 45.0
+            goods_input_transportation_add = 7.25
 
             goods_output_electricity_add = 180.0
 
@@ -2484,10 +2160,6 @@ state_infrastructure_add = -7.25
 building_employment_engineers_add = 500
 }
     }
-
-    unlocking_technologies = {
-tech_vsf_蒸汽发电
-}
 
 }
 
@@ -2498,13 +2170,11 @@ pm_vsf_太阳发电 = {
     }
 
     state_modifiers = {
-        workforce_scaled = {
-state_infrastructure_add = -5
-}
     }
     building_modifiers = {
         workforce_scaled = {
             goods_input_goods_vsf_太阳发电包_add = 100.0
+            goods_input_transportation_add = 5
 
             goods_output_electricity_add = 100.0
 
@@ -2514,14 +2184,2729 @@ building_employment_engineers_add = 500
 }
     }
 
-    unlocking_technologies = {
-tech_vsf_太阳能与蓄电池
-}
-
 }
 
 pm_vsf_无服务 = {
     texture = "gfx/interface/icons/production_method_icons/pm_vsf_停止运行.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+
+        }
+    }
+
+}
+
+pm_vsf_无插件_槽一 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_无插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+
+        }
+    }
+
+}
+
+pm_vsf_一型速度插件_槽一 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型速度插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 10.0
+            goods_input_transportation_add = 0.5
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = 0.5
+building_throughput_add = 0.2
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_一型速度插件
+}
+
+    unlocking_production_methods = {
+pm_vsf_组装机二型
+}
+
+}
+
+pm_vsf_一型产能插件_槽一 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型产能插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 10.0
+            goods_input_transportation_add = 0.5
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = 0.4
+building_throughput_add = -0.05
+building_goods_input_mult = -0.04
+state_pollution_generation_add = 5
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_一型产能插件
+}
+
+    unlocking_production_methods = {
+pm_vsf_组装机二型
+}
+
+}
+
+pm_vsf_一型节能插件_槽一 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型节能插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 10.0
+            goods_input_transportation_add = 0.5
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = -0.3
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_一型节能插件
+}
+
+    unlocking_production_methods = {
+pm_vsf_组装机二型
+}
+
+}
+
+pm_vsf_二型速度插件_槽一 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_二型速度插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 40.0
+            goods_input_transportation_add = 2
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = 0.6
+building_throughput_add = 0.3
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_二型速度插件
+}
+
+    unlocking_production_methods = {
+pm_vsf_组装机二型
+}
+
+}
+
+pm_vsf_二型产能插件_槽一 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_二型产能插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 40.0
+            goods_input_transportation_add = 2
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = 0.6
+building_throughput_add = -0.1
+building_goods_input_mult = -0.06
+state_pollution_generation_add = 7
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_二型产能插件
+}
+
+    unlocking_production_methods = {
+pm_vsf_组装机二型
+}
+
+}
+
+pm_vsf_二型节能插件_槽一 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_二型节能插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 40.0
+            goods_input_transportation_add = 2
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = -0.4
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_二型节能插件
+}
+
+    unlocking_production_methods = {
+pm_vsf_组装机二型
+}
+
+}
+
+pm_vsf_三型速度插件_槽一 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_三型速度插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 200.0
+            goods_input_transportation_add = 10
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = 0.7
+building_throughput_add = 0.5
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_三型速度插件
+}
+
+    unlocking_production_methods = {
+pm_vsf_组装机二型
+}
+
+}
+
+pm_vsf_三型产能插件_槽一 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_三型产能插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 200.0
+            goods_input_transportation_add = 10
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = 0.8
+building_throughput_add = -0.15
+building_goods_input_mult = -0.1
+state_pollution_generation_add = 1
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_三型产能插件
+}
+
+    unlocking_production_methods = {
+pm_vsf_组装机二型
+}
+
+}
+
+pm_vsf_三型节能插件_槽一 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_三型节能插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 200.0
+            goods_input_transportation_add = 10
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = -0.5
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_三型节能插件
+}
+
+    unlocking_production_methods = {
+pm_vsf_组装机二型
+}
+
+}
+
+pm_vsf_一型速度插件_槽二 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型速度插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 10.0
+            goods_input_transportation_add = 0.5
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = 0.5
+building_throughput_add = 0.2
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_一型速度插件
+}
+
+    unlocking_production_methods = {
+pm_vsf_组装机二型
+}
+
+}
+
+pm_vsf_一型产能插件_槽二 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型产能插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 10.0
+            goods_input_transportation_add = 0.5
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = 0.4
+building_throughput_add = -0.05
+building_goods_input_mult = -0.04
+state_pollution_generation_add = 5
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_一型产能插件
+}
+
+    unlocking_production_methods = {
+pm_vsf_组装机二型
+}
+
+}
+
+pm_vsf_一型节能插件_槽二 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型节能插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 10.0
+            goods_input_transportation_add = 0.5
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = -0.3
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_一型节能插件
+}
+
+    unlocking_production_methods = {
+pm_vsf_组装机二型
+}
+
+}
+
+pm_vsf_二型速度插件_槽二 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_二型速度插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 40.0
+            goods_input_transportation_add = 2
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = 0.6
+building_throughput_add = 0.3
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_二型速度插件
+}
+
+    unlocking_production_methods = {
+pm_vsf_组装机二型
+}
+
+}
+
+pm_vsf_二型产能插件_槽二 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_二型产能插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 40.0
+            goods_input_transportation_add = 2
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = 0.6
+building_throughput_add = -0.1
+building_goods_input_mult = -0.06
+state_pollution_generation_add = 7
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_二型产能插件
+}
+
+    unlocking_production_methods = {
+pm_vsf_组装机二型
+}
+
+}
+
+pm_vsf_二型节能插件_槽二 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_二型节能插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 40.0
+            goods_input_transportation_add = 2
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = -0.4
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_二型节能插件
+}
+
+    unlocking_production_methods = {
+pm_vsf_组装机二型
+}
+
+}
+
+pm_vsf_三型速度插件_槽二 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_三型速度插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 200.0
+            goods_input_transportation_add = 10
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = 0.7
+building_throughput_add = 0.5
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_三型速度插件
+}
+
+    unlocking_production_methods = {
+pm_vsf_组装机二型
+}
+
+}
+
+pm_vsf_三型产能插件_槽二 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_三型产能插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 200.0
+            goods_input_transportation_add = 10
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = 0.8
+building_throughput_add = -0.15
+building_goods_input_mult = -0.1
+state_pollution_generation_add = 1
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_三型产能插件
+}
+
+    unlocking_production_methods = {
+pm_vsf_组装机二型
+}
+
+}
+
+pm_vsf_三型节能插件_槽二 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_三型节能插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 200.0
+            goods_input_transportation_add = 10
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = -0.5
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_三型节能插件
+}
+
+    unlocking_production_methods = {
+pm_vsf_组装机二型
+}
+
+}
+
+pm_vsf_一型速度插件_槽三 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型速度插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 10.0
+            goods_input_transportation_add = 0.5
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = 0.5
+building_throughput_add = 0.2
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_一型速度插件
+}
+
+    unlocking_production_methods = {
+pm_vsf_组装机三型
+}
+
+}
+
+pm_vsf_一型产能插件_槽三 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型产能插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 10.0
+            goods_input_transportation_add = 0.5
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = 0.4
+building_throughput_add = -0.05
+building_goods_input_mult = -0.04
+state_pollution_generation_add = 5
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_一型产能插件
+}
+
+    unlocking_production_methods = {
+pm_vsf_组装机三型
+}
+
+}
+
+pm_vsf_一型节能插件_槽三 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型节能插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 10.0
+            goods_input_transportation_add = 0.5
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = -0.3
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_一型节能插件
+}
+
+    unlocking_production_methods = {
+pm_vsf_组装机三型
+}
+
+}
+
+pm_vsf_二型速度插件_槽三 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_二型速度插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 40.0
+            goods_input_transportation_add = 2
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = 0.6
+building_throughput_add = 0.3
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_二型速度插件
+}
+
+    unlocking_production_methods = {
+pm_vsf_组装机三型
+}
+
+}
+
+pm_vsf_二型产能插件_槽三 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_二型产能插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 40.0
+            goods_input_transportation_add = 2
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = 0.6
+building_throughput_add = -0.1
+building_goods_input_mult = -0.06
+state_pollution_generation_add = 7
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_二型产能插件
+}
+
+    unlocking_production_methods = {
+pm_vsf_组装机三型
+}
+
+}
+
+pm_vsf_二型节能插件_槽三 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_二型节能插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 40.0
+            goods_input_transportation_add = 2
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = -0.4
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_二型节能插件
+}
+
+    unlocking_production_methods = {
+pm_vsf_组装机三型
+}
+
+}
+
+pm_vsf_三型速度插件_槽三 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_三型速度插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 200.0
+            goods_input_transportation_add = 10
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = 0.7
+building_throughput_add = 0.5
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_三型速度插件
+}
+
+    unlocking_production_methods = {
+pm_vsf_组装机三型
+}
+
+}
+
+pm_vsf_三型产能插件_槽三 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_三型产能插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 200.0
+            goods_input_transportation_add = 10
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = 0.8
+building_throughput_add = -0.15
+building_goods_input_mult = -0.1
+state_pollution_generation_add = 1
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_三型产能插件
+}
+
+    unlocking_production_methods = {
+pm_vsf_组装机三型
+}
+
+}
+
+pm_vsf_三型节能插件_槽三 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_三型节能插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 200.0
+            goods_input_transportation_add = 10
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = -0.5
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_三型节能插件
+}
+
+    unlocking_production_methods = {
+pm_vsf_组装机三型
+}
+
+}
+
+pm_vsf_一型速度插件_槽四 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型速度插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 10.0
+            goods_input_transportation_add = 0.5
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = 0.5
+building_throughput_add = 0.2
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_一型速度插件
+}
+
+    unlocking_production_methods = {
+pm_vsf_组装机三型
+}
+
+}
+
+pm_vsf_一型产能插件_槽四 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型产能插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 10.0
+            goods_input_transportation_add = 0.5
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = 0.4
+building_throughput_add = -0.05
+building_goods_input_mult = -0.04
+state_pollution_generation_add = 5
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_一型产能插件
+}
+
+    unlocking_production_methods = {
+pm_vsf_组装机三型
+}
+
+}
+
+pm_vsf_一型节能插件_槽四 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型节能插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 10.0
+            goods_input_transportation_add = 0.5
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = -0.3
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_一型节能插件
+}
+
+    unlocking_production_methods = {
+pm_vsf_组装机三型
+}
+
+}
+
+pm_vsf_二型速度插件_槽四 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_二型速度插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 40.0
+            goods_input_transportation_add = 2
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = 0.6
+building_throughput_add = 0.3
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_二型速度插件
+}
+
+    unlocking_production_methods = {
+pm_vsf_组装机三型
+}
+
+}
+
+pm_vsf_二型产能插件_槽四 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_二型产能插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 40.0
+            goods_input_transportation_add = 2
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = 0.6
+building_throughput_add = -0.1
+building_goods_input_mult = -0.06
+state_pollution_generation_add = 7
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_二型产能插件
+}
+
+    unlocking_production_methods = {
+pm_vsf_组装机三型
+}
+
+}
+
+pm_vsf_二型节能插件_槽四 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_二型节能插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 40.0
+            goods_input_transportation_add = 2
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = -0.4
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_二型节能插件
+}
+
+    unlocking_production_methods = {
+pm_vsf_组装机三型
+}
+
+}
+
+pm_vsf_三型速度插件_槽四 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_三型速度插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 200.0
+            goods_input_transportation_add = 10
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = 0.7
+building_throughput_add = 0.5
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_三型速度插件
+}
+
+    unlocking_production_methods = {
+pm_vsf_组装机三型
+}
+
+}
+
+pm_vsf_三型产能插件_槽四 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_三型产能插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 200.0
+            goods_input_transportation_add = 10
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = 0.8
+building_throughput_add = -0.15
+building_goods_input_mult = -0.1
+state_pollution_generation_add = 1
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_三型产能插件
+}
+
+    unlocking_production_methods = {
+pm_vsf_组装机三型
+}
+
+}
+
+pm_vsf_三型节能插件_槽四 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_三型节能插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 200.0
+            goods_input_transportation_add = 10
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = -0.5
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_三型节能插件
+}
+
+    unlocking_production_methods = {
+pm_vsf_组装机三型
+}
+
+}
+
+pm_vsf_一型速度插件_共享槽一 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型速度插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+        workforce_scaled = {
+goods_input_electricity_mult = 0.5
+building_throughput_add = 0.2
+}
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 10.0
+            goods_input_transportation_add = 0.5
+
+            building_throughput_add = -0.2
+other_building_throughput_add = 0.2
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_一型速度插件
+}
+
+}
+
+pm_vsf_一型节能插件_共享槽一 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型产能插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+        workforce_scaled = {
+goods_input_electricity_mult = -0.3
+}
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 10.0
+            goods_input_transportation_add = 0.5
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_一型节能插件
+}
+
+}
+
+pm_vsf_二型速度插件_共享槽一 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_二型速度插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+        workforce_scaled = {
+goods_input_electricity_mult = 0.6
+building_throughput_add = 0.3
+}
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 40.0
+            goods_input_transportation_add = 2
+
+            building_throughput_add = -0.3
+other_building_throughput_add = 0.3
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_二型速度插件
+}
+
+}
+
+pm_vsf_二型节能插件_共享槽一 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_二型产能插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+        workforce_scaled = {
+goods_input_electricity_mult = -0.4
+}
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 40.0
+            goods_input_transportation_add = 2
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_二型节能插件
+}
+
+}
+
+pm_vsf_三型速度插件_共享槽一 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_三型速度插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+        workforce_scaled = {
+goods_input_electricity_mult = 0.7
+building_throughput_add = 0.5
+}
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 200.0
+            goods_input_transportation_add = 10
+
+            building_throughput_add = -0.5
+other_building_throughput_add = 0.5
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_三型速度插件
+}
+
+}
+
+pm_vsf_三型节能插件_共享槽一 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_三型产能插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+        workforce_scaled = {
+goods_input_electricity_mult = -0.5
+}
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 200.0
+            goods_input_transportation_add = 10
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_三型节能插件
+}
+
+}
+
+pm_vsf_一型速度插件_共享槽二 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型速度插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+        workforce_scaled = {
+goods_input_electricity_mult = 0.5
+building_throughput_add = 0.2
+}
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 10.0
+            goods_input_transportation_add = 0.5
+
+            building_throughput_add = -0.2
+other_building_throughput_add = 0.2
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_一型速度插件
+}
+
+}
+
+pm_vsf_一型节能插件_共享槽二 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型产能插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+        workforce_scaled = {
+goods_input_electricity_mult = -0.3
+}
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 10.0
+            goods_input_transportation_add = 0.5
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_一型节能插件
+}
+
+}
+
+pm_vsf_二型速度插件_共享槽二 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_二型速度插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+        workforce_scaled = {
+goods_input_electricity_mult = 0.6
+building_throughput_add = 0.3
+}
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 40.0
+            goods_input_transportation_add = 2
+
+            building_throughput_add = -0.3
+other_building_throughput_add = 0.3
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_二型速度插件
+}
+
+}
+
+pm_vsf_二型节能插件_共享槽二 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_二型产能插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+        workforce_scaled = {
+goods_input_electricity_mult = -0.4
+}
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 40.0
+            goods_input_transportation_add = 2
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_二型节能插件
+}
+
+}
+
+pm_vsf_三型速度插件_共享槽二 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_三型速度插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+        workforce_scaled = {
+goods_input_electricity_mult = 0.7
+building_throughput_add = 0.5
+}
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 200.0
+            goods_input_transportation_add = 10
+
+            building_throughput_add = -0.5
+other_building_throughput_add = 0.5
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_三型速度插件
+}
+
+}
+
+pm_vsf_三型节能插件_共享槽二 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_三型产能插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+        workforce_scaled = {
+goods_input_electricity_mult = -0.5
+}
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 200.0
+            goods_input_transportation_add = 10
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_三型节能插件
+}
+
+}
+
+pm_vsf_一型速度插件_无条件槽一 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型速度插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 10.0
+            goods_input_transportation_add = 0.5
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = 0.5
+building_throughput_add = 0.2
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_一型速度插件
+}
+
+}
+
+pm_vsf_一型产能插件_无条件槽一 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型产能插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 10.0
+            goods_input_transportation_add = 0.5
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = 0.4
+building_throughput_add = -0.05
+building_goods_input_mult = -0.04
+state_pollution_generation_add = 5
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_一型产能插件
+}
+
+}
+
+pm_vsf_一型节能插件_无条件槽一 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型节能插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 10.0
+            goods_input_transportation_add = 0.5
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = -0.3
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_一型节能插件
+}
+
+}
+
+pm_vsf_二型速度插件_无条件槽一 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_二型速度插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 40.0
+            goods_input_transportation_add = 2
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = 0.6
+building_throughput_add = 0.3
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_二型速度插件
+}
+
+}
+
+pm_vsf_二型产能插件_无条件槽一 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_二型产能插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 40.0
+            goods_input_transportation_add = 2
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = 0.6
+building_throughput_add = -0.1
+building_goods_input_mult = -0.06
+state_pollution_generation_add = 7
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_二型产能插件
+}
+
+}
+
+pm_vsf_二型节能插件_无条件槽一 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_二型节能插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 40.0
+            goods_input_transportation_add = 2
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = -0.4
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_二型节能插件
+}
+
+}
+
+pm_vsf_三型速度插件_无条件槽一 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_三型速度插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 200.0
+            goods_input_transportation_add = 10
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = 0.7
+building_throughput_add = 0.5
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_三型速度插件
+}
+
+}
+
+pm_vsf_三型产能插件_无条件槽一 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_三型产能插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 200.0
+            goods_input_transportation_add = 10
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = 0.8
+building_throughput_add = -0.15
+building_goods_input_mult = -0.1
+state_pollution_generation_add = 1
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_三型产能插件
+}
+
+}
+
+pm_vsf_三型节能插件_无条件槽一 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_三型节能插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 200.0
+            goods_input_transportation_add = 10
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = -0.5
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_三型节能插件
+}
+
+}
+
+pm_vsf_一型速度插件_无条件槽二 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型速度插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 10.0
+            goods_input_transportation_add = 0.5
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = 0.5
+building_throughput_add = 0.2
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_一型速度插件
+}
+
+}
+
+pm_vsf_一型产能插件_无条件槽二 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型产能插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 10.0
+            goods_input_transportation_add = 0.5
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = 0.4
+building_throughput_add = -0.05
+building_goods_input_mult = -0.04
+state_pollution_generation_add = 5
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_一型产能插件
+}
+
+}
+
+pm_vsf_一型节能插件_无条件槽二 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型节能插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 10.0
+            goods_input_transportation_add = 0.5
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = -0.3
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_一型节能插件
+}
+
+}
+
+pm_vsf_二型速度插件_无条件槽二 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_二型速度插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 40.0
+            goods_input_transportation_add = 2
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = 0.6
+building_throughput_add = 0.3
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_二型速度插件
+}
+
+}
+
+pm_vsf_二型产能插件_无条件槽二 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_二型产能插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 40.0
+            goods_input_transportation_add = 2
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = 0.6
+building_throughput_add = -0.1
+building_goods_input_mult = -0.06
+state_pollution_generation_add = 7
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_二型产能插件
+}
+
+}
+
+pm_vsf_二型节能插件_无条件槽二 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_二型节能插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 40.0
+            goods_input_transportation_add = 2
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = -0.4
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_二型节能插件
+}
+
+}
+
+pm_vsf_三型速度插件_无条件槽二 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_三型速度插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 200.0
+            goods_input_transportation_add = 10
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = 0.7
+building_throughput_add = 0.5
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_三型速度插件
+}
+
+}
+
+pm_vsf_三型产能插件_无条件槽二 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_三型产能插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 200.0
+            goods_input_transportation_add = 10
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = 0.8
+building_throughput_add = -0.15
+building_goods_input_mult = -0.1
+state_pollution_generation_add = 1
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_三型产能插件
+}
+
+}
+
+pm_vsf_三型节能插件_无条件槽二 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_三型节能插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 200.0
+            goods_input_transportation_add = 10
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = -0.5
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_三型节能插件
+}
+
+}
+
+pm_vsf_一型速度插件_无条件槽三 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型速度插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 10.0
+            goods_input_transportation_add = 0.5
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = 0.5
+building_throughput_add = 0.2
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_一型速度插件
+}
+
+}
+
+pm_vsf_一型产能插件_无条件槽三 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型产能插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 10.0
+            goods_input_transportation_add = 0.5
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = 0.4
+building_throughput_add = -0.05
+building_goods_input_mult = -0.04
+state_pollution_generation_add = 5
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_一型产能插件
+}
+
+}
+
+pm_vsf_一型节能插件_无条件槽三 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型节能插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 10.0
+            goods_input_transportation_add = 0.5
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = -0.3
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_一型节能插件
+}
+
+}
+
+pm_vsf_二型速度插件_无条件槽三 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_二型速度插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 40.0
+            goods_input_transportation_add = 2
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = 0.6
+building_throughput_add = 0.3
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_二型速度插件
+}
+
+}
+
+pm_vsf_二型产能插件_无条件槽三 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_二型产能插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 40.0
+            goods_input_transportation_add = 2
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = 0.6
+building_throughput_add = -0.1
+building_goods_input_mult = -0.06
+state_pollution_generation_add = 7
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_二型产能插件
+}
+
+}
+
+pm_vsf_二型节能插件_无条件槽三 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_二型节能插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 40.0
+            goods_input_transportation_add = 2
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = -0.4
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_二型节能插件
+}
+
+}
+
+pm_vsf_三型速度插件_无条件槽三 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_三型速度插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 200.0
+            goods_input_transportation_add = 10
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = 0.7
+building_throughput_add = 0.5
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_三型速度插件
+}
+
+}
+
+pm_vsf_三型产能插件_无条件槽三 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_三型产能插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 200.0
+            goods_input_transportation_add = 10
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = 0.8
+building_throughput_add = -0.15
+building_goods_input_mult = -0.1
+state_pollution_generation_add = 1
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_三型产能插件
+}
+
+}
+
+pm_vsf_三型节能插件_无条件槽三 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_三型节能插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 200.0
+            goods_input_transportation_add = 10
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = -0.5
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_三型节能插件
+}
+
+}
+
+pm_vsf_一型速度插件_无条件槽四 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型速度插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 10.0
+            goods_input_transportation_add = 0.5
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = 0.5
+building_throughput_add = 0.2
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_一型速度插件
+}
+
+}
+
+pm_vsf_一型产能插件_无条件槽四 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型产能插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 10.0
+            goods_input_transportation_add = 0.5
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = 0.4
+building_throughput_add = -0.05
+building_goods_input_mult = -0.04
+state_pollution_generation_add = 5
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_一型产能插件
+}
+
+}
+
+pm_vsf_一型节能插件_无条件槽四 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_一型节能插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 10.0
+            goods_input_transportation_add = 0.5
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = -0.3
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_一型节能插件
+}
+
+}
+
+pm_vsf_二型速度插件_无条件槽四 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_二型速度插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 40.0
+            goods_input_transportation_add = 2
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = 0.6
+building_throughput_add = 0.3
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_二型速度插件
+}
+
+}
+
+pm_vsf_二型产能插件_无条件槽四 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_二型产能插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 40.0
+            goods_input_transportation_add = 2
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = 0.6
+building_throughput_add = -0.1
+building_goods_input_mult = -0.06
+state_pollution_generation_add = 7
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_二型产能插件
+}
+
+}
+
+pm_vsf_二型节能插件_无条件槽四 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_二型节能插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 40.0
+            goods_input_transportation_add = 2
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = -0.4
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_二型节能插件
+}
+
+}
+
+pm_vsf_三型速度插件_无条件槽四 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_三型速度插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 200.0
+            goods_input_transportation_add = 10
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = 0.7
+building_throughput_add = 0.5
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_三型速度插件
+}
+
+}
+
+pm_vsf_三型产能插件_无条件槽四 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_三型产能插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 200.0
+            goods_input_transportation_add = 10
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = 0.8
+building_throughput_add = -0.15
+building_goods_input_mult = -0.1
+state_pollution_generation_add = 1
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_三型产能插件
+}
+
+}
+
+pm_vsf_三型节能插件_无条件槽四 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_三型节能插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_goods_vsf_插件包_add = 200.0
+            goods_input_transportation_add = 10
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+goods_input_electricity_mult = -0.5
+}
+    }
+
+    unlocking_technologies = {
+tech_vsf_三型节能插件
+}
+
+}
+
+pm_vsf_插件包生产 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_插件包剪影.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_iron_add = 142.5
+            goods_input_coal_add = 15.0
+            goods_input_oil_add = 30.6
+            goods_input_transportation_add = 9.41
+
+            goods_output_goods_vsf_插件包_add = 100.0
+
+        }
+    }
+
+}
+
+pm_vsf_插件效果分享 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_插件塔剪影.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_electricity_add = 384
+
+        }
+        level_scaled = {
+building_employment_engineers_add = 250
+}
+        unscaled = {
+building_throughput_add = -1
+}
+    }
+
+}
+
+pm_vsf_无插件_槽二 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_无插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+
+        }
+    }
+
+}
+
+pm_vsf_无插件_槽三 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_无插件.dds"
+
+    country_modifiers = {
+    }
+
+    state_modifiers = {
+    }
+    building_modifiers = {
+        workforce_scaled = {
+
+        }
+    }
+
+}
+
+pm_vsf_无插件_槽四 = {
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_无插件.dds"
 
     country_modifiers = {
     }

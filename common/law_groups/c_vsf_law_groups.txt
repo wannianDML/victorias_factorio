@@ -1,11 +1,30 @@
-﻿lawgroup_vsf_异工厂管理法 = {
+﻿lawgroup_vsf_异工厂产权所有法 = {
     law_group_category = economy
+
+    base_enactment_days = 45
 
     progressive_movement_chance = 1
     regressive_movement_chance = 0.25
 
-    enable = {
-has_technology_researched = tech_vsf_机自科技包
 }
+
+lawgroup_vsf_异工厂安全保卫法 = {
+    law_group_category = power_structure
+
+    base_enactment_days = 45
+
+    progressive_movement_chance = 1
+    regressive_movement_chance = 0.25
+
+}
+
+lawgroup_vsf_异工厂劳动保障法 = {
+    law_group_category = human_rights
+
+    base_enactment_days = 45
+
+    progressive_movement_chance = 1
+    regressive_movement_chance = 0.25
+
 }
 

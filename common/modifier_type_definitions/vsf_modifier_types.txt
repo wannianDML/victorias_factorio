@@ -1,0 +1,8 @@
+﻿other_building_throughput_add = {
+	decimals = 2
+    color = good
+    percent = yes
+    game_data = {
+        ai_value=0
+    }
+}

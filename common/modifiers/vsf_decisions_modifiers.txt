@@ -1,5 +1,0 @@
-﻿# modifier_vsf_调查资金筹集中 = {
-# 	icon = gfx/interface/icons/event_icons/icon_vsf_异星工厂logo.dds
-
-# 	country_tax_income_add = -1000
-# }

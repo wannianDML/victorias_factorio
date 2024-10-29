@@ -2,6 +2,9 @@
  vsf_坠毁.1.desc:0 "天空中出现了第二轮太阳……不对，动的有点快……\n白昼客星。"
  vsf_坠毁.1.flavor:0 "稳定度-1（并没有"
 
+ vsf_mod菜单.0.desc:0 "1.并非原创：本MOD 创意/数值参考/几乎所有的材质 均来自于 Factorio 游戏本体。\n 2.二次创作：本MOD 是 victoria 3 和 factorio 的缝合作品，但并非完全致敬原作（指参杂了许多自己的“设计”）。\n"
+ vsf_mod菜单.0.flavor:0 "以及部分功能的实现参考了别的MOD。"
+
  vsf_mod菜单.1.desc:0 "暂时没有desc，以后可能有。"
  vsf_mod菜单.1.flavor:0 "暂时没有flavor，以后可能有。"
  

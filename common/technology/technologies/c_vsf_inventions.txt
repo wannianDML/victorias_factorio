@@ -6,7 +6,7 @@
 
     modifier = {
 building_throughput_add = 0.05
-building_production_mult = 0.01
+building_goods_input_mult = -0.01
 }
 
 }
@@ -56,7 +56,7 @@ tech_vsf_物流科技包 = {
 
     modifier = {
 building_throughput_add = 0.05
-building_production_mult = 0.01
+building_goods_input_mult = -0.01
 }
 
     unlocking_technologies = {
@@ -121,7 +121,7 @@ tech_vsf_化工科技包 = {
 
     modifier = {
 building_throughput_add = 0.05
-building_production_mult = 0.01
+building_goods_input_mult = -0.01
 }
 
     unlocking_technologies = {
@@ -137,7 +137,7 @@ tech_vsf_生产科技包 = {
 
     modifier = {
 building_throughput_add = 0.05
-building_production_mult = 0.01
+building_goods_input_mult = -0.01
 }
 
     unlocking_technologies = {
@@ -166,7 +166,7 @@ tech_vsf_效能科技包 = {
 
     modifier = {
 building_throughput_add = 0.05
-building_production_mult = 0.01
+building_goods_input_mult = -0.01
 }
 
     unlocking_technologies = {
@@ -828,12 +828,11 @@ tech_vsf_能量装甲 = {
     category = production
 
     modifier = {
-country_aristocrats_pol_str_mult = 0.4
-country_capitalists_pol_str_mult = 0.4
-country_academics_pol_str_mult = 0.2
-country_clergymen_pol_str_mult = 0.2
-country_engineers_pol_str_mult = 0.2
-country_officers_pol_str_mult = 0.2
+state_infrastructure_from_population_max_add = 10
+state_infrastructure_from_population_add = 0.5
+country_max_weekly_construction_progress_add = 10
+building_throughput_add = 0.01
+state_political_strength_from_wealth_mult = 0.25
 }
 
     unlocking_technologies = {
@@ -849,12 +848,11 @@ tech_vsf_二型能量装甲 = {
     category = production
 
     modifier = {
-country_aristocrats_pol_str_mult = 0.45
-country_capitalists_pol_str_mult = 0.45
-country_academics_pol_str_mult = 0.15
-country_clergymen_pol_str_mult = 0.15
-country_engineers_pol_str_mult = 0.15
-country_officers_pol_str_mult = 0.15
+state_infrastructure_from_population_max_add = 10
+state_infrastructure_from_population_add = 0.5
+country_max_weekly_construction_progress_add = 10
+building_throughput_add = 0.01
+state_political_strength_from_wealth_mult = 0.45
 }
 
     unlocking_technologies = {
@@ -1077,7 +1075,6 @@ building_throughput_add = 0.05
 }
 
     unlocking_technologies = {
-tech_vsf_模块装甲
 tech_vsf_太阳能与蓄电池模块
 }
 
@@ -1095,12 +1092,30 @@ tech_vsf_一键研究 = {
     texture = "gfx/interface/icons/invention_icons/tech_vsf_一键研究.dds"
     category = production
 
+    modifier = {
+country_max_weekly_construction_progress_add = 5
+}
+
+    unlocking_technologies = {
+tech_vsf_规模效应
+tech_vsf_维姬百科
+tech_vsf_钢斧镐
+}
+
 }
 
 tech_vsf_二键研究 = {
     era = era_2
     texture = "gfx/interface/icons/invention_icons/tech_vsf_一键研究.dds"
     category = production
+
+    modifier = {
+country_max_weekly_construction_progress_add = 5
+}
+
+    unlocking_technologies = {
+tech_vsf_一键研究
+}
 
 }
 
@@ -1109,12 +1124,28 @@ tech_vsf_三键研究 = {
     texture = "gfx/interface/icons/invention_icons/tech_vsf_一键研究.dds"
     category = production
 
+    modifier = {
+country_max_weekly_construction_progress_add = 5
+}
+
+    unlocking_technologies = {
+tech_vsf_二键研究
+}
+
 }
 
 tech_vsf_四键研究 = {
     era = era_4
     texture = "gfx/interface/icons/invention_icons/tech_vsf_一键研究.dds"
     category = production
+
+    modifier = {
+country_max_weekly_construction_progress_add = 5
+}
+
+    unlocking_technologies = {
+tech_vsf_三键研究
+}
 
 }
 

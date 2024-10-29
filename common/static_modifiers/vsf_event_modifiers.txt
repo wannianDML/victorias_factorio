@@ -54,3 +54,9 @@ modifier_vsf_建筑免维护 = {
 	goods_output_goods_vsf_机器人包_mult = 1
 	goods_output_goods_vsf_插件包_mult = 1
 }
+
+modifier_vsf_已阅读逃避责任声明 = {
+	icon = gfx/interface/icons/event_icons/icon_vsf_异星工厂logo.dds
+
+	country_tax_income_add = 500
+}

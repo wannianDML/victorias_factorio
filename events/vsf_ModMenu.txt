@@ -1,5 +1,38 @@
 ﻿namespace = vsf_mod菜单
 
+vsf_mod菜单.0 = {
+	type = country_event
+	placement = root
+	title = "VSF·逃避责任声明"
+	desc = vsf_mod菜单.0.desc
+	flavor = vsf_mod菜单.0.flavor
+
+	duration = 3
+
+	event_image = {
+		video = "unspecific_gears_pistons"
+	}
+
+	icon = "gfx/interface/icons/event_icons/icon_vsf_异星工厂logo.dds"
+
+	trigger = {
+		is_player = yes
+	}
+
+	option = {
+		name = "OK，不准针对上述内容攻击作者。"
+		default_option = yes
+	}
+
+	option = {
+		name = "读完了。本局游戏永久隐藏。"
+		
+		add_modifier = {
+			name = modifier_vsf_已阅读逃避责任声明
+		}
+	}
+}
+
 vsf_mod菜单.1 = {
 	type = country_event
 	placement = root
@@ -34,6 +67,8 @@ vsf_mod菜单.1 = {
 
 	# 	trigger_event = vsf_mod菜单.1
 	# }
+
+
 
 	option = {
 		name = "关闭菜单。"

@@ -11,6 +11,20 @@
 	}
 }
 
+decision_vsf_逃避责任声明 = {
+	is_shown = {
+		not = { has_modifier = modifier_vsf_已阅读逃避责任声明 }
+	}
+
+	possible = {
+		is_player = yes
+	}
+
+	when_taken = {
+		trigger_event = vsf_mod菜单.0
+	}
+}
+
 decisions_vsf_mod菜单 = {
 	possible = {
 		is_player = yes

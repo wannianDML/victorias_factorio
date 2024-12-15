@@ -1,0 +1,12 @@
+﻿l_english:
+ modifier_vsf_飞船飞啊飞啊飞:0 "飞船飞啊飞啊飞"
+ modifier_vsf_坠毁纪念馆:0 "坠毁纪念馆"
+ modifier_vsf_Factorio世界融合完成:0 "Factorio世界融合完成！"
+ modifier_vsf_建筑免维护:0 "建筑免维护"
+
+ # 只用此modifier 并不会产生desc所说的效果。
+ # 实际生效的是building_throughput_add。
+ # 给了 state 所有建筑 增加 吞吐量，但是生产方式又 减少 了此建筑同样数量的吞吐量，就实现了desc所说的效果。
+ # 但因为显示bug，吞吐量加减会在“字面上”抵消，添加此条modifier只是为了告诉玩家“因为bug而不显示”的效果。
+ other_building_throughput_add:0 "地区其他建筑[concept_throughput]" 
+ other_building_throughput_add_desc:0 "对地区其他建筑的投入和产出的增益或惩罚。（loc文件中有关于此效果的详细注释）" 

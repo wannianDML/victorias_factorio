@@ -7,7 +7,7 @@
 [hr][/hr]
 [h2]语言支持 Language support[/h2]
 [*] 中文 · 完全！
-[*] English · some phrases。
+[*] English · some phrases。(this mod createor don't know English,so it's hard to translate.)
 [h2]兼容性[/h2]
 [list]
 [*]只补完了原版商品的modifier_types（即商品投入、产出的加成、叠乘，原版部分商品缺失这些）。应该没什么mod会往这上面做文章，理论上兼容性[b]极佳[/b]。

@@ -1,10 +1,10 @@
 ﻿mobilization_option_group_vsf_劳保用品_护甲 = {
-    icon = "gfx/interface/icons/mobilization_option_groups/mobilization_option_group_vsf_劳保用品_护甲.dds"
+    icon = "gfx/interface/icons/mobilization_option_groups/vsf_generic_concept_icon.dds"
     weight = 1747
 }
 
 mobilization_option_group_vsf_劳保用品_装甲模块 = {
-    icon = "gfx/interface/icons/mobilization_option_groups/mobilization_option_group_vsf_劳保用品_装甲模块.dds"
+    icon = "gfx/interface/icons/mobilization_option_groups/vsf_generic_concept_icon.dds"
     weight = 1747
 }
 

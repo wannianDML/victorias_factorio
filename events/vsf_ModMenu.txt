@@ -1,13 +1,14 @@
 ﻿namespace = vsf_mod菜单
 
-vsf_mod菜单.0 = {
+vsf_mod菜单.10 = {
 	type = country_event
 	placement = root
-	title = "VSF·逃避责任声明"
-	desc = vsf_mod菜单.0.desc
-	flavor = vsf_mod菜单.0.flavor
 
-	duration = 3
+	title = "VSF·逃避责任声明"
+	desc = vsf_mod菜单.10.desc
+	flavor = vsf_mod菜单.10.flavor
+
+	duration = 0
 
 	event_image = {
 		video = "unspecific_gears_pistons"
@@ -36,6 +37,7 @@ vsf_mod菜单.0 = {
 vsf_mod菜单.1 = {
 	type = country_event
 	placement = root
+
 	title = "VSF·MOD控制面板"
 	desc = vsf_mod菜单.1.desc
 	flavor = vsf_mod菜单.1.flavor
@@ -68,7 +70,13 @@ vsf_mod菜单.1 = {
 	# 	trigger_event = vsf_mod菜单.1
 	# }
 
+	option = {
+		name = "获取基础科技。"
 
+		trigger = { not = { has_technology_researched = tech_vsf_一键研究 } }
+
+		add_technology_researched = tech_vsf_一键研究
+	}
 
 	option = {
 		name = "关闭菜单。"
@@ -79,9 +87,11 @@ vsf_mod菜单.1 = {
 vsf_mod菜单.11  = {
 	type = country_event
 	placement = root
+
 	title = "关于商品投入"
 	desc = vsf_mod菜单.11.desc
 	flavor = vsf_mod菜单.11.flavor
+
 	duration = 0
 
 	event_image = {
@@ -112,8 +122,17 @@ vsf_mod菜单.11  = {
 	option = {
 		name = "移除修正"
 
-		remove_modifier = {
-			name = modifier_vsf_建筑免维护
+		if = {
+			limit = { not = { has_modifier = modifier_vsf_建筑免维护 }}
+			
+			custom_tooltip = {
+				text = "但你并没有这个修正。"
+			}
+		}
+
+		if = {
+			limit = { has_modifier = modifier_vsf_建筑免维护 }
+			remove_modifier = modifier_vsf_建筑免维护
 		}
 	}
 

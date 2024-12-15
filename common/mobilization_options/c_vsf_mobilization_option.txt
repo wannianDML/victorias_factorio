@@ -200,17 +200,19 @@ has_mobilization_option = mobilization_option:mobilization_option_vsf_劳保用�
     upkeep_modifier = {
 goods_input_iron_add = 5
 goods_input_steel_add = 1
-goods_input_goods_vsf_机器人包_add = 0.25
+goods_input_goods_vsf_机器人包_add = 0.5
 country_max_weekly_construction_progress_add = 1
 country_construction_add = 1
 }
     upkeep_modifier_unscaled = {
-goods_input_goods_vsf_太阳发电包_mult = 0.25
+goods_input_goods_vsf_太阳发电包_mult = 0.5
 }
 
     unit_modifier = {
 unit_defense_add = 20
 unit_defense_mult = 0.25
+unit_offense_mult = 0.05
+unit_morale_loss_mult = -0.4
 }
 }
 

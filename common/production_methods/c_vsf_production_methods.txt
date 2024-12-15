@@ -2203,7 +2203,7 @@ pm_vsf_无服务 = {
 }
 
 pm_vsf_无插件_槽一 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_无插件.dds"
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_停止运行.dds"
 
     country_modifiers = {
     }
@@ -4892,7 +4892,7 @@ building_throughput_add = -1
 }
 
 pm_vsf_无插件_槽二 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_无插件.dds"
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_停止运行.dds"
 
     country_modifiers = {
     }
@@ -4908,7 +4908,7 @@ pm_vsf_无插件_槽二 = {
 }
 
 pm_vsf_无插件_槽三 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_无插件.dds"
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_停止运行.dds"
 
     country_modifiers = {
     }
@@ -4924,7 +4924,7 @@ pm_vsf_无插件_槽三 = {
 }
 
 pm_vsf_无插件_槽四 = {
-    texture = "gfx/interface/icons/production_method_icons/pm_vsf_无插件.dds"
+    texture = "gfx/interface/icons/production_method_icons/pm_vsf_停止运行.dds"
 
     country_modifiers = {
     }

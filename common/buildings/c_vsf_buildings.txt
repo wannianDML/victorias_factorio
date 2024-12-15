@@ -1,6 +1,6 @@
 ﻿building_vsf_红瓶工厂 = {
     building_group = bg_vsf_基础工厂
-    texture = "gfx/interface/icons/building_icons/building_vsf_红瓶工厂.dds"
+    icon = "gfx/interface/icons/building_icons/building_vsf_红瓶工厂.dds"
 
     unlocking_technologies = {
 tech_vsf_机自科技包
@@ -24,7 +24,7 @@ pmg_vsf_建筑插件槽四
 
 building_vsf_绿瓶工厂 = {
     building_group = bg_vsf_基础工厂
-    texture = "gfx/interface/icons/building_icons/building_vsf_绿瓶工厂.dds"
+    icon = "gfx/interface/icons/building_icons/building_vsf_绿瓶工厂.dds"
 
     unlocking_technologies = {
 tech_vsf_物流科技包
@@ -48,7 +48,7 @@ pmg_vsf_建筑插件槽四
 
 building_vsf_蓝瓶工厂 = {
     building_group = bg_vsf_进阶工厂
-    texture = "gfx/interface/icons/building_icons/building_vsf_蓝瓶工厂.dds"
+    icon = "gfx/interface/icons/building_icons/building_vsf_蓝瓶工厂.dds"
 
     unlocking_technologies = {
 tech_vsf_化工科技包
@@ -72,7 +72,7 @@ pmg_vsf_建筑插件槽四
 
 building_vsf_紫瓶工厂 = {
     building_group = bg_vsf_进阶工厂
-    texture = "gfx/interface/icons/building_icons/building_vsf_紫瓶工厂.dds"
+    icon = "gfx/interface/icons/building_icons/building_vsf_紫瓶工厂.dds"
 
     unlocking_technologies = {
 tech_vsf_生产科技包
@@ -96,7 +96,7 @@ pmg_vsf_建筑插件槽四
 
 building_vsf_金瓶工厂 = {
     building_group = bg_vsf_进阶工厂
-    texture = "gfx/interface/icons/building_icons/building_vsf_金瓶工厂.dds"
+    icon = "gfx/interface/icons/building_icons/building_vsf_金瓶工厂.dds"
 
     unlocking_technologies = {
 tech_vsf_效能科技包
@@ -120,7 +120,7 @@ pmg_vsf_建筑插件槽四
 
 building_vsf_物流总线 = {
     building_group = bg_vsf_基础工厂
-    texture = "gfx/interface/icons/building_icons/building_vsf_物流总线.dds"
+    icon = "gfx/interface/icons/building_icons/building_vsf_物流总线.dds"
 
     unlocking_technologies = {
 tech_vsf_基础物流学
@@ -141,7 +141,7 @@ pmg_vsf_物流总线运力分配
 
 building_vsf_科研中心 = {
     building_group = bg_vsf_基础工厂
-    texture = "gfx/interface/icons/building_icons/building_vsf_科研中心.dds"
+    icon = "gfx/interface/icons/building_icons/building_vsf_科研中心.dds"
 
     unlocking_technologies = {
 tech_vsf_机自科技包
@@ -162,7 +162,7 @@ pmg_vsf_无条件插件槽二
 
 building_vsf_物流超市 = {
     building_group = bg_vsf_基础工厂
-    texture = "gfx/interface/icons/building_icons/building_vsf_物流超市.dds"
+    icon = "gfx/interface/icons/building_icons/building_vsf_物流超市.dds"
 
     unlocking_technologies = {
 tech_vsf_基础物流学
@@ -186,7 +186,7 @@ pmg_vsf_建筑插件槽四
 
 building_vsf_生产超市 = {
     building_group = bg_vsf_基础工厂
-    texture = "gfx/interface/icons/building_icons/building_vsf_生产超市.dds"
+    icon = "gfx/interface/icons/building_icons/building_vsf_生产超市.dds"
 
     unlocking_technologies = {
 tech_vsf_一型自动化
@@ -210,7 +210,7 @@ pmg_vsf_建筑插件槽四
 
 building_vsf_物流机器人平台 = {
     building_group = bg_vsf_进阶工厂
-    texture = "gfx/interface/icons/building_icons/building_vsf_物流机器人平台.dds"
+    icon = "gfx/interface/icons/building_icons/building_vsf_物流机器人平台.dds"
 
     has_max_level = yes
     enable_air_connection = yes
@@ -232,7 +232,7 @@ pmg_vsf_物流机器人部署
 
 building_vsf_建设机器人平台 = {
     building_group = bg_vsf_进阶工厂
-    texture = "gfx/interface/icons/building_icons/building_vsf_建设机器人平台.dds"
+    icon = "gfx/interface/icons/building_icons/building_vsf_建设机器人平台.dds"
 
     has_max_level = yes
 
@@ -253,7 +253,7 @@ pmg_vsf_建设机器人部署
 
 building_vsf_机器人超市 = {
     building_group = bg_vsf_进阶工厂
-    texture = "gfx/interface/icons/building_icons/building_vsf_机器人超市.dds"
+    icon = "gfx/interface/icons/building_icons/building_vsf_机器人超市.dds"
 
     unlocking_technologies = {
 tech_vsf_机器人技术
@@ -277,7 +277,7 @@ pmg_vsf_建筑插件槽四
 
 building_vsf_采矿包超市 = {
     building_group = bg_vsf_基础工厂
-    texture = "gfx/interface/icons/building_icons/building_vsf_采矿包超市.dds"
+    icon = "gfx/interface/icons/building_icons/building_vsf_采矿包超市.dds"
 
     unlocking_technologies = {
 tech_vsf_自动化采矿
@@ -301,7 +301,7 @@ pmg_vsf_建筑插件槽四
 
 building_vsf_炼油包超市 = {
     building_group = bg_vsf_基础工厂
-    texture = "gfx/interface/icons/building_icons/building_vsf_炼油包超市.dds"
+    icon = "gfx/interface/icons/building_icons/building_vsf_炼油包超市.dds"
 
     unlocking_technologies = {
 tech_vsf_基础原油处理
@@ -325,7 +325,7 @@ pmg_vsf_建筑插件槽四
 
 building_vsf_蒸汽发电包超市 = {
     building_group = bg_vsf_基础工厂
-    texture = "gfx/interface/icons/building_icons/building_vsf_蒸汽发电包超市.dds"
+    icon = "gfx/interface/icons/building_icons/building_vsf_蒸汽发电包超市.dds"
 
     unlocking_technologies = {
 tech_vsf_蒸汽发电
@@ -349,7 +349,7 @@ pmg_vsf_建筑插件槽四
 
 building_vsf_太阳发电包超市 = {
     building_group = bg_vsf_基础工厂
-    texture = "gfx/interface/icons/building_icons/building_vsf_太阳发电包超市.dds"
+    icon = "gfx/interface/icons/building_icons/building_vsf_太阳发电包超市.dds"
 
     unlocking_technologies = {
 tech_vsf_太阳能与蓄电池
@@ -373,7 +373,7 @@ pmg_vsf_建筑插件槽四
 
 building_vsf_自动化炼铁厂 = {
     building_group = bg_vsf_基础工厂
-    texture = "gfx/interface/icons/building_icons/building_vsf_自动化炼铁厂.dds"
+    icon = "gfx/interface/icons/building_icons/building_vsf_自动化炼铁厂.dds"
 
     unlocking_technologies = {
 tech_vsf_自动化采矿
@@ -394,7 +394,7 @@ pmg_vsf_无条件插件槽二
 
 building_vsf_自动化采煤场 = {
     building_group = bg_vsf_基础工厂
-    texture = "gfx/interface/icons/building_icons/building_vsf_自动化采煤场.dds"
+    icon = "gfx/interface/icons/building_icons/building_vsf_自动化采煤场.dds"
 
     unlocking_technologies = {
 tech_vsf_自动化采矿
@@ -415,7 +415,7 @@ pmg_vsf_无条件插件槽二
 
 building_vsf_自动化采硫场 = {
     building_group = bg_vsf_基础工厂
-    texture = "gfx/interface/icons/building_icons/building_vsf_自动化采硫场.dds"
+    icon = "gfx/interface/icons/building_icons/building_vsf_自动化采硫场.dds"
 
     unlocking_technologies = {
 tech_vsf_自动化采矿
@@ -436,7 +436,7 @@ pmg_vsf_无条件插件槽二
 
 building_vsf_自动化炼油厂 = {
     building_group = bg_vsf_基础工厂
-    texture = "gfx/interface/icons/building_icons/building_vsf_自动化炼油厂.dds"
+    icon = "gfx/interface/icons/building_icons/building_vsf_自动化炼油厂.dds"
 
     unlocking_technologies = {
 tech_vsf_基础原油处理
@@ -458,7 +458,7 @@ pmg_vsf_无条件插件槽三
 
 building_vsf_蒸汽发电中心 = {
     building_group = bg_vsf_基础工厂
-    texture = "gfx/interface/icons/building_icons/building_vsf_蒸汽发电中心.dds"
+    icon = "gfx/interface/icons/building_icons/building_vsf_蒸汽发电中心.dds"
 
     unlocking_technologies = {
 tech_vsf_蒸汽发电
@@ -477,7 +477,7 @@ pmg_vsf_蒸汽发电阵列
 
 building_vsf_太阳发电中心 = {
     building_group = bg_vsf_基础工厂_使用土地
-    texture = "gfx/interface/icons/building_icons/building_vsf_太阳发电中心.dds"
+    icon = "gfx/interface/icons/building_icons/building_vsf_太阳发电中心.dds"
 
     unlocking_technologies = {
 tech_vsf_太阳能与蓄电池
@@ -496,7 +496,7 @@ pmg_vsf_太阳发电阵列
 
 building_vsf_插件效果分享塔 = {
     building_group = bg_vsf_进阶工厂
-    texture = "gfx/interface/icons/building_icons/building_vsf_插件效果分享塔.dds"
+    icon = "gfx/interface/icons/building_icons/building_vsf_插件效果分享塔.dds"
 
     unlocking_technologies = {
 tech_vsf_插件效果分享
@@ -517,7 +517,7 @@ pmg_vsf_共享插件槽二
 
 building_vsf_插件超市 = {
     building_group = bg_vsf_进阶工厂
-    texture = "gfx/interface/icons/building_icons/building_vsf_插件超市.dds"
+    icon = "gfx/interface/icons/building_icons/building_vsf_插件超市.dds"
 
     unlocking_technologies = {
 tech_vsf_插件

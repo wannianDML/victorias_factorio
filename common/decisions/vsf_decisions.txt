@@ -21,7 +21,7 @@ decision_vsf_逃避责任声明 = {
 	}
 
 	when_taken = {
-		trigger_event = vsf_mod菜单.0
+		trigger_event = vsf_mod菜单.10
 	}
 }
 

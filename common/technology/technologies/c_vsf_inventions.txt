@@ -1097,9 +1097,14 @@ country_max_weekly_construction_progress_add = 5
 }
 
     unlocking_technologies = {
+tech_vsf_立体的世界
 tech_vsf_规模效应
-tech_vsf_维姬百科
+tech_vsf_高速机械臂
+tech_vsf_新手教程
+tech_vsf_自动化采矿
+tech_vsf_蒸汽发电
 tech_vsf_钢斧镐
+tech_vsf_重型护甲
 }
 
 }
@@ -1114,6 +1119,17 @@ country_max_weekly_construction_progress_add = 5
 }
 
     unlocking_technologies = {
+tech_vsf_堆叠的传送带和垂直物流
+tech_vsf_机械臂搬运量加成一
+tech_vsf_传送带载客改装
+tech_vsf_维姬百科
+tech_vsf_采矿产能一
+tech_vsf_高等冶炼技术
+tech_vsf_研究中心研发速度二
+tech_vsf_一型速度插件
+tech_vsf_一型产能插件
+tech_vsf_一型节能插件
+tech_vsf_夜视模块
 tech_vsf_一键研究
 }
 
@@ -1129,6 +1145,18 @@ country_max_weekly_construction_progress_add = 5
 }
 
     unlocking_technologies = {
+tech_vsf_作业机器人搬运量一
+tech_vsf_作业机器人移动速度一
+tech_vsf_蓝图
+tech_vsf_采矿产能二
+tech_vsf_研究中心研发速度四
+tech_vsf_轻质框架
+tech_vsf_能量装甲
+tech_vsf_二型速度插件
+tech_vsf_二型产能插件
+tech_vsf_二型节能插件
+tech_vsf_电能冶炼技术
+tech_vsf_机器人指令模块
 tech_vsf_二键研究
 }
 
@@ -1144,6 +1172,15 @@ country_max_weekly_construction_progress_add = 5
 }
 
     unlocking_technologies = {
+tech_vsf_三型自动化
+tech_vsf_机器人物流系统
+tech_vsf_采矿产能三
+tech_vsf_研究中心研发速度六
+tech_vsf_二型能量装甲
+tech_vsf_三型速度插件
+tech_vsf_三型产能插件
+tech_vsf_三型节能插件
+tech_vsf_插件效果分享
 tech_vsf_三键研究
 }
 
